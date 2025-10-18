@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import BaseHead from "../../base/BaseHead.astro";
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 
@@ -15,20 +16,14 @@ export async function getStaticPaths() {
 const { slok } = Astro.props;
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
+<BaseHead>
+  <h2 transition:name={`slok-name-${slok.id}`}>
     {slok.data.slok}
-    <br />
-    <br />
-    {slok.data.raman.sc}
-    <br />
-    <br />
-    {slok.data.raman.et}
-  </body>
-</html>
+  </h2>
+  <br />
+  <br />
+  {slok.data.raman.sc}
+  <br />
+  <br />
+  {slok.data.raman.et}
+</BaseHead>
