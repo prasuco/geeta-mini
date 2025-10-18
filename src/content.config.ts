@@ -8,13 +8,15 @@ const sloks = defineCollection({
 
     loader: glob({
         pattern: '**/*/index.json', base: './src/content/slok',
-
-
     }),
     schema: z.object({
         "chapter": z.number(),
         "slok": z.union([z.string(), z.number()]),
-        "verse": z.number()
+        "verse": z.number(),
+        'raman': z.object({
+            'sc': z.string(),
+            'et': z.string()
+        })
     })
 });
 

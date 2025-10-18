@@ -12,12 +12,23 @@ export async function getStaticPaths() {
   }));
 }
 
-const { chapter, slok } = Astro.params;
+const { slok } = Astro.props;
 ---
 
-{chapter}
-{slok}
-
-<!-- <h1>Chapter {slok.data.chapter} – Slok {slok.data.slok}</h1>
-<p>Verse number: {slok.data.verse}</p>
-<pre>{JSON.stringify(slok.data, null, 2)}</pre> -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    {slok.data.slok}
+    <br />
+    <br />
+    {slok.data.raman.sc}
+    <br />
+    <br />
+    {slok.data.raman.et}
+  </body>
+</html>
