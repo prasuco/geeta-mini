@@ -1,5 +1,7 @@
 ---
+import { getCollection } from "astro:content";
 import "../styles/globals.css";
+const chapters = await getCollection("chapters");
 ---
 
 <html lang="en">
@@ -12,9 +14,19 @@ import "../styles/globals.css";
 	</head>
 	<body>
 		<div
-			class="text-3xl flex flex-col items-center justify-center min-h-screen text-center"
+			class="header text-3xl flex flex-col items-center justify-center text-center"
 		>
 			geeta-mini in astro
+		</div>
+		<div class="main m-2 gap-2">
+			{
+				chapters.map((chapter) => (
+					<a href="" class="">
+						{chapter.data.name}
+					</a>
+					<br/>
+				))
+			}
 		</div>
 	</body>
 </html>
