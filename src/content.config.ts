@@ -6,10 +6,14 @@ import { glob, file } from 'astro/loaders';
 
 const sloks = defineCollection({
 
-    loader: glob({ pattern: '**/**/index.json', base: './src/content/slok' }),
+    loader: glob({
+        pattern: '**/*/index.json', base: './src/content/slok',
+
+
+    }),
     schema: z.object({
         "chapter": z.number(),
-        "slok": z.string(),
+        "slok": z.union([z.string(), z.number()]),
         "verse": z.number()
     })
 });
@@ -17,7 +21,7 @@ const sloks = defineCollection({
 
 const chapters = defineCollection({
 
-    loader: glob({ pattern: '**/index.json', base: './src/content/chapter' }),
+    loader: glob({ pattern: '**/index.json', base: './src/content/chapter', }),
     schema: z.object({
         "chapter_number": z.number(),
         "verses_count": z.number(),

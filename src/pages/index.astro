@@ -21,7 +21,7 @@ const chapters = await getCollection("chapters");
 		<div class="main m-2 gap-2">
 			{
 				chapters.map((chapter) => (
-					<a href="" class="">
+					<a href={`/${chapter.id}`} class="">
 						{chapter.data.name}
 					</a>
 					<br/>

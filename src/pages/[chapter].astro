@@ -1,0 +1,47 @@
+---
+import { getEntries } from "astro:content";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const chapters = await getCollection("chapters");
+  
+  return chapters.map((chapter) => ({
+    params: { chapter: chapter.data.chapter_number.toString() },
+    props: { chapter },
+  }));
+}
+
+const { chapter } = Astro.props;
+const allSloks = await getCollection("sloks");
+const sloks = allSloks.filter(
+    (s) => s.data.chapter === +Astro.params.chapter,
+  );
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Chapter {chapter.data.chapter_number}</h1>
+    <h2>{chapter.data.name}</h2>
+    <p><strong>Meaning (English):</strong> {chapter.data.meaning.en}</p>
+    <p><strong>Total verses:</strong> {chapter.data.verses_count}</p>
+
+
+
+   	<div class="main m-2 gap-2">
+			{
+				sloks.map((slok) => (
+					<a href={`/${slok.data.chapter}/${slok.data.verse}`} class="">
+						{slok.data.slok}
+					</a>
+					<br/>
+				))
+			}
+		</div>
+  </body>
+</html>

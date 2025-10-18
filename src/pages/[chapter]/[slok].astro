@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+export async function getStaticPaths() {
+  const sloks = await getCollection("sloks");
+
+  return sloks.map((item) => ({
+    params: {
+      chapter: item.data.chapter.toString(),
+      slok: item.data.verse.toString(),
+    },
+    props: { slok: item },
+  }));
+}
+
+const { chapter, slok } = Astro.params;
+---
+
+{chapter}
+{slok}
+
+<!-- <h1>Chapter {slok.data.chapter} – Slok {slok.data.slok}</h1>
+<p>Verse number: {slok.data.verse}</p>
+<pre>{JSON.stringify(slok.data, null, 2)}</pre> -->
