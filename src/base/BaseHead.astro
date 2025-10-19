@@ -6,9 +6,10 @@ type Props = {
   title: string;
   description?: string;
 };
+import "@fontsource/Inter";
 
 const {
-  description = "Bhagavad Gita – Complete Chapters with Slok, Meaning & Commentary | Geeta.Prasuco.com",
+  description = "Bhagavad Gita |  Complete Chapters with Slok, Meaning & Commentary | Geeta.Prasuco.com",
   title,
 } = Astro.props;
 ---
@@ -16,6 +17,11 @@ const {
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+      * {
+        font-family: "Inter", cursive;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>

@@ -1,0 +1,24 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  data: CollectionEntry<"chapters">;
+};
+
+const { data } = Astro.props;
+---
+
+<Fragment>
+  <a
+    transition:name={`chapter-name-${data.id}`}
+    href={`/${data.id}`}
+    class="hover:bg-amber-100/60 p-2 transition-all ease-in-out duration-300"
+  >
+    <p class="text-xs italic">
+      Chapter {data.data.chapter_number}
+    </p>
+    <h2 class="font-[500]">
+      {data.data.meaning.en}
+    </h2>
+  </a>
+</Fragment>
