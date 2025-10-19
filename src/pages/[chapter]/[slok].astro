@@ -18,7 +18,7 @@ const { slok } = Astro.props;
 
 <BaseHead
   description={`Read Bhagavad Gita ${slok.data.chapter}.${slok.data.verse} in Sanskrit with English meaning. Understand the verse's message and its spiritual significance as explained by Lord Krishna.`}
-  title={`Bhagavad Gita ${slok.data.chapter}.${slok.data.verse} – Slokas with meaning`}
+  title={`Bhagavad Gita ${slok.data.chapter}.${slok.data.verse} - Slokas with meaning`}
 >
   <h2 transition:name={`slok-name-${slok.id}`}>
     {slok.data.slok}
