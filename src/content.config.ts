@@ -34,6 +34,14 @@ const chapters = defineCollection({
             'en': z.string(),
             "hi": z.string()
         })
+
+        ,
+
+        'summary': z.object({
+
+            en: z.string(),
+            hi: z.string(),
+        })
     })
 });
 

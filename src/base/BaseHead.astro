@@ -1,6 +1,16 @@
 ---
 import { ClientRouter } from "astro:transitions";
 import "../styles/globals.css";
+
+type Props = {
+  title: string;
+  description?: string;
+};
+
+const {
+  description = "Bhagavad Gita – Complete Chapters with Slok, Meaning & Commentary | Geeta.Prasuco.com",
+  title,
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -8,7 +18,9 @@ import "../styles/globals.css";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>geetaMini</title>
+    <title>{title}</title>
+
+    <meta name="description" content={description} />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <ClientRouter />

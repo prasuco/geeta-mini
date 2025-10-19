@@ -16,7 +16,10 @@ const allSloks = await getCollection("sloks");
 const sloks = allSloks.filter((s) => s.data.chapter === +Astro.params.chapter);
 ---
 
-<BaseHead>
+<BaseHead
+  description={`${chapter.data.summary.en.substring(0, 40)} |  Read all sloks of Chapter ${chapter.data.chapter_number} with meaning and explanation`}
+  title={`Bhagavad Gita Chapter ${chapter.data.chapter_number} - ${chapter.data.meaning.en} | ${chapter.data.meaning.hi} | ${chapter.data.name}  | Full Sloks with Meaning`}
+>
   <h2 transition:name={`chapter-name-${chapter.id}`}>{chapter.data.name}</h2>
   <p><strong>Meaning (English):</strong> {chapter.data.meaning.en}</p>
   <p><strong>Total verses:</strong> {chapter.data.verses_count}</p>

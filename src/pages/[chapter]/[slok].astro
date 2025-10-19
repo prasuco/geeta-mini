@@ -16,7 +16,9 @@ export async function getStaticPaths() {
 const { slok } = Astro.props;
 ---
 
-<BaseHead>
+<BaseHead
+  title={`Bhagavad Gita ${slok.data.chapter}.${slok.data.verse} – Slokas with meaning`}
+>
   <h2 transition:name={`slok-name-${slok.id}`}>
     {slok.data.slok}
   </h2>
