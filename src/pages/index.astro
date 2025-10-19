@@ -1,31 +1,33 @@
 ---
 import { getCollection } from "astro:content";
-import "../styles/globals.css";
 const chapters = await getCollection("chapters");
-import { ClientRouter } from "astro:transitions";
 import BaseHead from "../base/BaseHead.astro";
 
+const sortedChapters = chapters.sort(
+  (a, b) => a.data.chapter_number - b.data.chapter_number,
+);
 ---
 
 <BaseHead>
-	
-			<div
-				class="header text-3xl flex flex-col items-center justify-center text-center"
-			>
-				geeta-mini in astro
-			</div>
-			<div class="main m-2 gap-2">
-				{
-					chapters.map((chapter) => (
-						<a 
-						
-						transition:name={`chapter-name-${chapter.id}`}
-						href={`/${chapter.id}`} class="">
-							{chapter.data.name}
-						</a>
-						<br/>
-					))
-				}
-			</div>
-
+  <div
+    class="header text-3xl flex flex-col items-center justify-center text-center"
+  >
+    geeta-mini in astro
+  </div>
+  <div class="main m-2 gap-2">
+    {
+      sortedChapters.map((chapter) => (
+        <Fragment>
+          <a
+            transition:name={`chapter-name-${chapter.id}`}
+            href={`/${chapter.id}`}
+            class=""
+          >
+            {chapter.data.name}
+          </a>
+          <p>{chapter.data.meaning.en}</p>
+        </Fragment>
+      ))
+    }
+  </div>
 </BaseHead>

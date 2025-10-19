@@ -1,11 +1,10 @@
 ---
 import { getCollection } from "astro:content";
-import { ClientRouter } from "astro:transitions";
 import BaseHead from "../base/BaseHead.astro";
 
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
-  
+
   return chapters.map((chapter) => ({
     params: { chapter: chapter.data.chapter_number.toString() },
     props: { chapter },
@@ -14,33 +13,32 @@ export async function getStaticPaths() {
 
 const { chapter } = Astro.props;
 const allSloks = await getCollection("sloks");
-const sloks = allSloks.filter(
-    (s) => s.data.chapter === +Astro.params.chapter,
-  );
+const sloks = allSloks.filter((s) => s.data.chapter === +Astro.params.chapter);
 ---
 
 <BaseHead>
-  
-
   <h2 transition:name={`chapter-name-${chapter.id}`}>{chapter.data.name}</h2>
   <p><strong>Meaning (English):</strong> {chapter.data.meaning.en}</p>
   <p><strong>Total verses:</strong> {chapter.data.verses_count}</p>
-  
-  
-  
+
   <div class="main m-2 gap-2">
     {
       sloks.map((slok) => (
-        <a
-        
-        transition:name={`slok-name-${slok.id}`}
-        href={`/${slok.data.chapter}/${slok.data.verse}`} class="">
-						{slok.data.slok}
-					</a>
-					<br/>
-				))
-			}
-		</div>
-    
-    
-  </BaseHead>
+        <Fragment>
+          <a
+            transition:name={`slok-name-${slok.id}`}
+            href={`/${slok.data.chapter}/${slok.data.verse}`}
+            class=""
+          >
+            {slok.data.slok}
+          </a>
+          <br />
+          <p>
+            <s />
+            {slok.data.transliteration}
+          </p>
+        </Fragment>
+      ))
+    }
+  </div>
+</BaseHead>

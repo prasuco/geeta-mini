@@ -13,6 +13,7 @@ const sloks = defineCollection({
         "chapter": z.number(),
         "slok": z.union([z.string(), z.number()]),
         "verse": z.number(),
+        'transliteration': z.string(),
         'raman': z.object({
             'sc': z.string(),
             'et': z.string()

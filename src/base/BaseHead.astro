@@ -1,16 +1,17 @@
 ---
 import { ClientRouter } from "astro:transitions";
+import "../styles/globals.css";
 ---
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>geetaMini</title>
-        <ClientRouter />
-    </head>
-    <body>
-        <slot />
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>geetaMini</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
