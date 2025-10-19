@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 const chapters = await getCollection("chapters");
 import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
 
 const sortedChapters = chapters.sort(
   (a, b) => a.data.chapter_number - b.data.chapter_number,
@@ -12,25 +13,22 @@ const sortedChapters = chapters.sort(
   title="Bhagavad Gita - Complete Chapters with Slok, Meaning & Commentary | Geeta.Prasuco.com"
   description={"Read the complete Bhagavad Gita online — all 18 chapters with original Sanskrit sloks, English and Nepali meanings, and chapter summaries. Experience the wisdom of Lord Krishna’s teachings in a simple, modern way."}
 >
-  <div
-    class="header text-3xl flex flex-col items-center justify-center text-center"
-  >
-    geeta-mini in astro
-  </div>
-  <div class="main m-2 gap-2">
-    {
-      sortedChapters.map((chapter) => (
-        <Fragment>
-          <a
-            transition:name={`chapter-name-${chapter.id}`}
-            href={`/${chapter.id}`}
-            class=""
-          >
-            {chapter.data.name}
-          </a>
-          <p>{chapter.data.meaning.en}</p>
-        </Fragment>
-      ))
-    }
-  </div>
+  <MobileLayout>
+    <div class="main m-2 gap-2">
+      {
+        sortedChapters.map((chapter) => (
+          <Fragment>
+            <a
+              transition:name={`chapter-name-${chapter.id}`}
+              href={`/${chapter.id}`}
+              class=""
+            >
+              {chapter.data.name}
+            </a>
+            <p>{chapter.data.meaning.en}</p>
+          </Fragment>
+        ))
+      }
+    </div>
+  </MobileLayout>
 </BaseHead>
