@@ -24,8 +24,8 @@ const sloks = allSloks.filter((s) => s.data.chapter === +Astro.params.chapter);
 
 <MobileLayout >
 
-  <h2 transition:name={`chapter-name-${chapter.id}`}>{chapter.data.name}</h2>
-  <p><strong>Meaning (English):</strong> {chapter.data.meaning.en}</p>
+  <h2 >{chapter.data.name}</h2>
+  <p transition:name={`chapter-name-${chapter.id}`}><strong>Meaning (English):</strong> {chapter.data.meaning.en}</p>
   <p><strong>Total verses:</strong> {chapter.data.verses_count}</p>
 
   <div class="main m-2 gap-2">
