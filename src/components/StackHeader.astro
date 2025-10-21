@@ -1,0 +1,20 @@
+---
+import { MoveLeft } from "@lucide/astro";
+
+type Props = {
+  title: string;
+  href: string;
+};
+
+const { title, href } = Astro.props;
+---
+
+<div class="sticky top-0 z-20 flex items-center p-4 bg-white">
+  <a class="first" href={href}>
+    <MoveLeft />
+  </a>
+
+  <div class="title flex justify-center flex-1 font-[500] text-lg">
+    {title}
+  </div>
+</div>

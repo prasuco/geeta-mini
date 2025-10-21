@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 import BaseHead from "../base/BaseHead.astro";
 import MobileLayout from "../base/layouts/MobileLayout.astro";
 
+import StackHeader from "../components/StackHeader.astro";
+
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
 
@@ -15,38 +17,34 @@ export async function getStaticPaths() {
 const { chapter } = Astro.props;
 const allSloks = await getCollection("sloks");
 const sloks = allSloks.filter((s) => s.data.chapter === +Astro.params.chapter);
+
+const sortedSloks = sloks.sort((a, b) => a.data.verse - b.data.verse);
 ---
 
 <BaseHead
   description={`${chapter.data.summary.en.substring(0, 40)} |  Read all sloks of Chapter ${chapter.data.chapter_number} with meaning and explanation`}
   title={`Bhagavad Gita Chapter ${chapter.data.chapter_number} - ${chapter.data.meaning.en} | ${chapter.data.meaning.hi} | ${chapter.data.name}  | Full Sloks with Meaning`}
 >
-
-<MobileLayout >
-
-  <h2 >{chapter.data.name}</h2>
-  <p transition:name={`chapter-name-${chapter.id}`}><strong>Meaning (English):</strong> {chapter.data.meaning.en}</p>
-  <p><strong>Total verses:</strong> {chapter.data.verses_count}</p>
-
-  <div class="main m-2 gap-2">
-    {
-      sloks.map((slok) => (
-        <Fragment>
-          <a
-            transition:name={`slok-name-${slok.id}`}
-            href={`/${slok.data.chapter}/${slok.data.verse}`}
-            class=""
-          >
-            {slok.data.slok}
-          </a>
-          <br />
-          <p>
-
-
-          </p>
-        </Fragment>
-      ))
-    }
-  </div>
-</MobileLayout>
+  <MobileLayout showBottomBar={false}>
+    <StackHeader title={chapter.data.transliteration} href="/" />
+    <div class="main m-2 gap-2 flex flex-col">
+      {
+        sortedSloks.map((slok) => (
+          <Fragment>
+            <a
+              transition:name={`slok-name-${slok.id}`}
+              href={`/${slok.data.chapter}/${slok.data.verse}`}
+              class="hover:bg-neutral-200/60 p-2 transition-all  duration-75 ease-linear"
+            >
+              <p class="text-xs italic">Shloka: {slok.data.verse}</p>
+              <h2 class="font-[500]">
+                {slok.data.prabhu?.et.substring(0, 65)}
+                ...
+              </h2>
+            </a>
+          </Fragment>
+        ))
+      }
+    </div>
+  </MobileLayout>
 </BaseHead>

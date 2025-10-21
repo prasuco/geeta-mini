@@ -1,43 +1,44 @@
 ---
 type Props = {
   title?: string;
+  showBottomBar?: boolean;
 };
 
-import { TableOfContents, Highlighter , CircleEllipsis } from "@lucide/astro";
+import { TableOfContents, Highlighter, CircleEllipsis } from "@lucide/astro";
 
-const { title = "Chapters" } = Astro.props;
+const { title = "Chapters", showBottomBar = true } = Astro.props;
 ---
 
 <div
-  class="flex flex-col items-center min-h-screen mx-auto  max-w-lg rounded-md"
+  class="flex flex-col items-center min-h-screen mx-auto max-w-lg rounded-md"
 >
   {/* Top Section */}
-  <div class="bg-amber-50 sticky w-full text-center text-2xl font-semibold p-3  ">
-    {title}
-  </div>
 
   {/* Content Section */}
-  <main class="flex-1 w-full mx-auto mt-4 px-2 relative">
+  <main class="flex-1 w-full mx-auto  relative bg-slate-100/70">
     <slot />
   </main>
 
+  
   {/* Bottom Navigation */}
-  <footer
-    class="w-full bg-purple-600 mt-auto rounded-tl-lg rounded-tr-lg sticky bottom-0"
-  >
-    <div class="flex justify-around p-2 py-4 text-white text-sm">
-      <div class="chapters flex flex-col items-center">
-        <TableOfContents />
-        <p>Chapters</p>
-      </div>
-      <div class="Highlighter flex flex-col items-center">
-        <Highlighter />
-        <p>Highlighter</p>
-      </div>
-      <div class="more flex flex-col items-center">
-        <CircleEllipsis />
-        <p>More</p>
-      </div>
-    </div>
-  </footer>
+  {
+    showBottomBar && (
+      <footer class="w-full bg-white  mt-auto rounded-tl-lg rounded-tr-lg sticky shadow bottom-0">
+        <div class="flex justify-around p-2 py-4 text-black text-sm">
+          <div class="chapters flex flex-col items-center">
+            <TableOfContents />
+            <p>Chapters</p>
+          </div>
+          <div class="Highlighter flex flex-col items-center">
+            <Highlighter />
+            <p>Highlighter</p>
+          </div>
+          <div class="more flex flex-col items-center">
+            <CircleEllipsis />
+            <p>More</p>
+          </div>
+        </div>
+      </footer>
+    )
+  }
 </div>

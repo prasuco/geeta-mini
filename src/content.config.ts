@@ -18,6 +18,10 @@ const sloks = defineCollection({
       sc: z.string(),
       et: z.string(),
     }),
+    prabhu: z.object({
+      ec: z.string(),
+      et: z.string(),
+    }).optional(),
   }),
 });
 
