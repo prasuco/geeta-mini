@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "Hindi Translation By Swami Ramsukhdas",
+        "id": 4369,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.2।। श्रीभगवान् ने कहा -- (कुछ) कवि (पण्डित) जन काम्य कर्मों के त्याग को \"संन्यास\" समझते हैं और विचारशील जन समस्त कर्मों के फलों के त्याग को \"त्याग\" कहते हैं।।\n\n\n ",
+        "id": 4370,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "The Lord said, \"The sages hold that Sannyasa is the giving up of all works motivated by desire, and the wise declare Tyaga to be the abandonment of the fruits of all works.",
+        "id": 4371,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "The Blessed Lord said, \"The learned ones know sannyasa to be the giving up of actions done with a desire for reward. The adepts call the abandonment of the results of all works 'tyaga'.\"",
+        "id": 4372,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The Blessed Lord said, \"The sages understand sannyasa to be the renunciation of action with desire; the wise declare the abandonment of the fruits of all actions to be tyaga.\"",
+        "id": 4373,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The Bhagavat said, \"The seers understand the act of renouncing desire-motivated actions as renunciation; the experts declare the relinquishment of the fruits of all actions to be relinquishment.\"",
+        "id": 4374,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Lord Shri Krishna replied: The sages say that renunciation is forgoing an action that springs from desire, and relinquishing is the surrender of its fruit.",
+        "id": 4375,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 625,
+        "verse_id": 625
+    }
+]

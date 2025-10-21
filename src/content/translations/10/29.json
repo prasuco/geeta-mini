@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.29।। नागोंमें अनन्त (शेषनाग) और जल-जन्तुओंका अधिपति वरुण मैं हूँ। पितरोंमें अर्यमा और शासन करनेवालोंमें यमराज मैं हूँ।",
+        "id": 2801,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 401,
+        "verse_id": 401
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.29।। मैं नागों में अनन्त (शेषनाग) हूँ और जल देवताओं में वरुण हूँ; मैं पितरों में अर्यमा हँ और नियमन करने वालों में यम हूँ।।\n ",
+        "id": 2802,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 401,
+        "verse_id": 401
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of snakes, I am Ananta; of aquatic beings, I am Varuna; of manes, I am Aryama; of subduers, I am Yama.",
+        "id": 2803,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 401,
+        "verse_id": 401
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Among snakes, I am Ananta; among gods of the waters, Varuna; among the manes, Aryama; and among the maintainers of law and order, I am Yama (King of death).",
+        "id": 2804,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 401,
+        "verse_id": 401
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "I am Ananta among the Nagas; I am Varuna among water-deities; Aryaman among the Manes; I am Yama among the governors.",
+        "id": 2805,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 401,
+        "verse_id": 401
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of the snakes, I am Ananta; of the water-beings, I am Varuna; of the manes, I am Aryaman; of the controllers, I am Yama (the Death-god).",
+        "id": 2806,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 401,
+        "verse_id": 401
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am the king-python among snakes, I am the aqueous principle among those that live in water, I am the father of fathers, and among rulers I am death.",
+        "id": 2807,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 401,
+        "verse_id": 401
+    }
+]

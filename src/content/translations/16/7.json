@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।16.7।।आसुरी प्रकृतिवाले मनुष्य प्रवृत्ति और निवृत्तिको नहीं जानते और उनमें न बाह्यशुद्धि, न श्रेष्ठ आचरण तथा न सत्य-पालन ही होता है।",
+        "id": 4040,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 578,
+        "verse_id": 578
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।16.7।। आसुरी स्वभाव के लोग न प्रवृत्ति को; जानते हैं और न निवृत्ति को उनमें न शुद्धि होती है, न सदाचार और न सत्य ही होता है।।\n ",
+        "id": 4041,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 578,
+        "verse_id": 578
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "The demoniacal men neither know action nor renunciation. They have no cleanliness, nor right conduct, nor truth.",
+        "id": 4042,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 578,
+        "verse_id": 578
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Neither do the demoniacal persons understand what should be done and what should not be done; nor do they possess purity, good conduct, or truthfulness.",
+        "id": 4043,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 578,
+        "verse_id": 578
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The demoniacal do not know what to do and what to refrain from; they have neither purity, nor right conduct, nor truth.",
+        "id": 4044,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 578,
+        "verse_id": 578
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The demoniac do not know the origin and the dissolution; neither purity, nor good conduct, nor truth exists in them.",
+        "id": 4045,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 578,
+        "verse_id": 578
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The godless do not know how to act or renounce; they lack both purity and truth. They do not understand the right principles of conduct.",
+        "id": 4046,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 578,
+        "verse_id": 578
+    }
+]

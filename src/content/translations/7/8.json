@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।7.8।। हे कुन्तीनन्दन ! जलोंमें रस मैं हूँ, चन्द्रमा और सूर्यमें प्रभा (प्रकाश) मैं हूँ, सम्पूर्ण वेदोंमें प्रणव (ओंकार) मैं हूँ, आकाशमें शब्द और मनुष्योंमें पुरुषार्थ मैं हूँ। ",
+        "id": 2010,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 288,
+        "verse_id": 288
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।7.8।। हे कौन्तेय ! जल में मैं रस हूँ, चन्द्रमा और सूर्य में प्रकाश हूँ, सब वेदों में प्रणव (ँ़कार) हूँ तथा आकाश में शब्द और पुरुषों में पुरुषत्व हूँ।।\n ",
+        "id": 2011,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 288,
+        "verse_id": 288
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "I am the taste in the waters, O Arjuna! I am the light in the sun and the moon; the sacred syllable Om in all the Vedas; sound in the ether; and manhood in men, I am.",
+        "id": 2012,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 288,
+        "verse_id": 288
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O son of Kunti, I am the taste of water, I am the effulgence of the moon and the sun; the letter 'Om' in all the Vedas, the sound in space, and manhood in men.",
+        "id": 2013,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 288,
+        "verse_id": 288
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "I am the flavor in water, O Arjuna; I am the light in the moon and the sun; I am the syllable Om in all the Vedas, sound in the ether and virility in men.",
+        "id": 2014,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 288,
+        "verse_id": 288
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "O son of Kunti! I am the taste in waters, the light in the moon and sun, the best hymn (OM) in the entire Vedas, the sound that exists in the ether, and the manly vigor in men.",
+        "id": 2015,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 288,
+        "verse_id": 288
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "O Arjuna! I am the fluidity in water, the light in the sun and moon, the mystic syllable Om in the Vedic scriptures, the sound in ether, and the virility in man.",
+        "id": 2016,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 288,
+        "verse_id": 288
+    }
+]

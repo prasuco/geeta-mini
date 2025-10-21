@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।3.23 -- 3.24।।  हे पार्थ! अगर मैं किसी समय सावधान होकर कर्तव्यकर्म न करूँ तो बड़ी हानि हो जाय; क्योंकि मनुष्य सब प्रकारसे मेरे ही मार्गका अनुसरण करते हैं। यदि मैं कर्म न करूँ, तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं वर्णसंकरताको करनेवाला होऊँ तथा इस समस्त प्रजाको नष्ट करनेवाला बनूँ।",
+        "id": 988,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 142,
+        "verse_id": 142
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.23।। यदि मैं सावधान हुआ (अतन्द्रित:) कदाचित कर्म में न लगा रहूँ तो, हे पार्थ ! सब प्रकार से मनुष्य मेरे मार्ग (र्वत्म) का अनुसरण करेंगे।।\n ",
+        "id": 989,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 142,
+        "verse_id": 142
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "If I did not continue to work unweariedly, O Arjuna, people would follow my path.",
+        "id": 990,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 142,
+        "verse_id": 142
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "For, O Partha, if at any time I do not continue vigilantly in action, people will follow My path in every way.",
+        "id": 991,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 142,
+        "verse_id": 142
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "For, should I not ever engage myself in action, unwearied, people would in every way follow my path, O Arjuna.",
+        "id": 992,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 142,
+        "verse_id": 142
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "For, if I were ever not to work unwearied, all men would follow My path, O son of Prtha!",
+        "id": 993,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 142,
+        "verse_id": 142
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Were I not to act without ceasing, O prince, people would be inclined to do the same.",
+        "id": 994,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 142,
+        "verse_id": 142
+    }
+]

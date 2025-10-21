@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।7.2।। तेरे लिये मैं विज्ञानसहित ज्ञान सम्पूर्णतासे कहूँगा, जिसको जाननेके बाद फिर यहाँ कुछ भी जानना बाकी नहीं रहेगा। ",
+        "id": 1968,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 282,
+        "verse_id": 282
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।7.2।। मैं तुम्हारे लिए विज्ञान सहित इस ज्ञान को अशेष रूप से कहूँगा जिसको जानकर यहाँ (जगत् में) फिर और कुछ जानने योग्य (ज्ञातव्य) शेष नहीं रह जाता है।।",
+        "id": 1969,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 282,
+        "verse_id": 282
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "I will declare to you in full this knowledge of God, along with the knowledge that makes it distinguished, knowing which nothing else remains to be known.",
+        "id": 1970,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 282,
+        "verse_id": 282
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "I shall tell you in detail of this Knowledge, which is combined with realization, after experiencing which there remains nothing else here to be known.",
+        "id": 1971,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 282,
+        "verse_id": 282
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "I will declare to you in full this knowledge combined with realization, after knowing which nothing else remains to be known here.",
+        "id": 1972,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 282,
+        "verse_id": 282
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "I shall teach you this knowledge in full, together with action; for a person who has known this, there remains nothing else to be known in this world.",
+        "id": 1973,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 282,
+        "verse_id": 282
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I will reveal this knowledge to you and how it can be realized; once accomplished, there is nothing else worth having in this life.",
+        "id": 1974,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 282,
+        "verse_id": 282
+    }
+]

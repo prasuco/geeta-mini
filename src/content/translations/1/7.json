@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.7।। हे द्विजोत्तम! हमारे पक्ष में भी जो मुख्य हैं, उनपर भी आप ध्यान दीजिये। आपको याद दिलाने के लिये मेरी सेना के जो नायक हैं, उनको मैं कहता हूँ।\n ",
+        "id": 43,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 7,
+        "verse_id": 7
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.7।।हे द्विजोत्तम ! हमारे पक्ष में भी जो विशिष्ट योद्धागण हैं , उनको आप जान लीजिये; आपकी जानकारी के लिये अपनी सेना के नायकों के नाम मैं आपको बताता हूँ।\n\n\n ",
+        "id": 44,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 7,
+        "verse_id": 7
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Know, O best of Brahmanas, those who are important on our side—those who are the commanders of my army. I shall name them to refresh your memory.",
+        "id": 45,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 7,
+        "verse_id": 7
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "But, O best among the Brahmanas, please be appraised of those who are foremost among us, the founders of my army. I speak of them to you by way of illustration.",
+        "id": 46,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 7,
+        "verse_id": 7
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Know also, O best among the twice-born! the names of those who are the most distinguished amongst ourselves, the leaders of my army; these I name to you for your information.",
+        "id": 47,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 7,
+        "verse_id": 7
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "O best among the twice-born! Please take note of the most distinguished amongst us, who are the generals of my army and who are accepted as leaders by the heroes in my mighty army; I shall name them to you.",
+        "id": 48,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 7,
+        "verse_id": 7
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "No changes needed.",
+        "id": 49,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 7,
+        "verse_id": 7
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.31।। पवित्र करनेवालोंमें वायु और शास्त्रधारियोंमें राम मैं हूँ। जल-जन्तुओंमें मगर मैं हूँ। बहनेवाले स्त्रोतोंमें गङ्गाजी मैं हूँ।",
+        "id": 2815,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 403,
+        "verse_id": 403
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.31।। मैं पवित्र करने वालों में वायु हूँ और शस्त्रधारियों में राम हूँ; तथा मत्स्यों (जलचरों) में मैं मगरमच्छ और नदियों में मैं गंगा हूँ।।\n ",
+        "id": 2816,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 403,
+        "verse_id": 403
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of moving things, I am the wind; of those who bear weapons, I am Rama; of fishers, I am Makara; and of rivers, I am the Ganga.",
+        "id": 2817,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 403,
+        "verse_id": 403
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Of the purifiers, I am the air; among the wielders of weapons, I am Rama. Among fishes, I am the shark; among rivers, I am Ganga.",
+        "id": 2818,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 403,
+        "verse_id": 403
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Among the purifiers, I am the wind; among the warriors, I am Rama; among the fishes, I am the shark; among the streams, I am the Ganga.",
+        "id": 2819,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 403,
+        "verse_id": 403
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of the progeny of Diti, I am Prahlada; of the measuring ones, I am the shark; of rivers, I am the daughter of Jahnu—the Ganga.",
+        "id": 2820,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 403,
+        "verse_id": 403
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am the wind among purifiers, the king Rama among warriors; I am the crocodile among fishes, and I am the Ganges among rivers.",
+        "id": 2821,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 403,
+        "verse_id": 403
+    }
+]

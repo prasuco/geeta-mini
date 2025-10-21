@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.13।। उसके बाद शंख, भेरी (नगाड़े), ढोल, मृदङ्ग और नरसिंघे बाजे एक साथ बज उठे। उनका वह शब्द बड़ा भयंकर हुआ।\n ",
+        "id": 85,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 13,
+        "verse_id": 13
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.13।।तत्पश्चात् शंख, नगारे, ढोल व शृंगी आदि वाद्य एक साथ ही बज उठे, जिनका बड़ा भयंकर शब्द हुआ।\n\n\n ",
+        "id": 86,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 13,
+        "verse_id": 13
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Then suddenly conchs, kettle drums, trumpets, tabors, and blow horns blared forth, and the sound was terrific.",
+        "id": 87,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 13,
+        "verse_id": 13
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Just immediately afterward, conch shells, kettledrums, tabors, trumpets, and cow-horns blared forth, creating a tumultuous sound.",
+        "id": 88,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 13,
+        "verse_id": 13
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Then, suddenly, conches, kettledrums, tabors, drums, and cow horns blared forth from the Kaurava side, and the sound was tremendous.",
+        "id": 89,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 13,
+        "verse_id": 13
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Then, all of a sudden, the conch-shells, drums, tambourines, trumpets, and cow-horns sounded in unison; the sound was tumultuous.",
+        "id": 90,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 13,
+        "verse_id": 13
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "And immediately, all the conches, drums, trumpets, and horns blared forth in a tumultuous uproar.",
+        "id": 91,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 13,
+        "verse_id": 13
+    }
+]

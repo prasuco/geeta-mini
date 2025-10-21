@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।15.18।।मैं क्षरसे अतीत हूँ और अक्षरसे भी उत्तम हूँ, इसलिये लोकमें और वेदमें पुरुषोत्तम नामसे प्रसिद्ध हूँ।",
+        "id": 3977,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 569,
+        "verse_id": 569
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।15.18।। क्योंकि मैं क्षर से अतीत हूँ और अक्षर से भी उत्तम हूँ, इसलिये लोक में और वेद में भी पुरुषोत्तम के नाम से प्रसिद्ध हूँ।।\n ",
+        "id": 3978,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 569,
+        "verse_id": 569
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Because I transcend the perishable person and am also higher than the imperishable one, therefore I am referred to in the Smrti and the Veda as the Supreme Person (Purusotama).",
+        "id": 3979,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 569,
+        "verse_id": 569
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Since I am transcendental to the mutable and above even the immutable, therefore I am well known in the world and in the Vedas as the supreme Person.",
+        "id": 3980,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 569,
+        "verse_id": 569
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "As I transcend the perishable and am even higher than the imperishable, I am declared to be the highest Purusha in the world and in the Vedas.",
+        "id": 3981,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 569,
+        "verse_id": 569
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Because I have transcended both the perishable and the imperishable, I am acclaimed in the world and in the Vedas as the highest of persons.",
+        "id": 3982,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 569,
+        "verse_id": 569
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am beyond comparison with the Eternal and the non-eternal; I am known as the Supreme Personality, the Highest God, by scriptures and sages.",
+        "id": 3983,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 569,
+        "verse_id": 569
+    }
+]

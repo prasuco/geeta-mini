@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.18।। अविनाशी, अप्रमेय और नित्य रहनेवाले इस शरीरी के ये देह अन्तवाले कहे गये हैं। इसलिये हे अर्जुन! तुम युद्ध करो।\n ",
+        "id": 449,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 65,
+        "verse_id": 65
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.18।। इस नाशरहित अप्रमेय नित्य देही आत्मा के ये सब शरीर नाशवान् कहे गये हैं। इसलिये हे भारत ! तुम युद्ध करो।।\n ",
+        "id": 450,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 65,
+        "verse_id": 65
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "These bodies of the Jiva (the embodied self) are said to have an end, while the Jiva itself is eternal, indestructible, and incomprehensible. Therefore, fight, O Bharata (Arjuna).",
+        "id": 451,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 65,
+        "verse_id": 65
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "These destructible bodies are said to belong to the everlasting, indestructible, and indeterminable embodied One. Therefore, O descendant of Bharata, join the battle.",
+        "id": 452,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 65,
+        "verse_id": 65
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "These bodies of the embodied Self, which are eternal, indestructible, and immeasurable, are said to have an end. Therefore, fight, O Arjuna.",
+        "id": 453,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 65,
+        "verse_id": 65
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "These physical bodies, which have an end and suffer destruction, are declared to belong to the eternal, embodied Soul, which is indestructible and incomprehensible. Therefore, fight, O descendant of Bharata!",
+        "id": 454,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 65,
+        "verse_id": 65
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The material bodies that this Eternal, Indestructible, and Immeasurable Spirit inhabits are all finite; therefore, fight, O valiant man!",
+        "id": 455,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 65,
+        "verse_id": 65
+    }
+]

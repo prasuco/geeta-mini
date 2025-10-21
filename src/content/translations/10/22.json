@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.22।। मैं वेदोंमें सामवेद हूँ, देवताओंमें इन्द्र हूँ, इन्द्रियोंमें मन हूँ और प्राणियोंकी चेतना हूँ।",
+        "id": 2752,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 394,
+        "verse_id": 394
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.22।। मैं वेदों में सामवेद हूँ, देवों में वासव (इन्द्र) हूँ; मैं इन्द्रियों में मन और भूतप्राणियों में चेतना (ज्ञानशक्ति) हूँ।।\n ",
+        "id": 2753,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 394,
+        "verse_id": 394
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of the Vedas, I am the Samaveda; of gods, I am Indra; of sense-organs, I am the mind; and of living beings, I am consciousness.",
+        "id": 2754,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 394,
+        "verse_id": 394
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Among the Vedas, I am the Sama-Veda; among the gods, I am Indra. Among the organs, I am the mind, and I am the intelligence in creatures.",
+        "id": 2755,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 394,
+        "verse_id": 394
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Among the Vedas, I am the Sama-Veda; among the gods, I am Vasava; among the senses, I am the mind; and among living beings, I am intelligence.",
+        "id": 2756,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 394,
+        "verse_id": 394
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of the Vedas, I am the Samaveda; of the gods, I am Vasava (Indra); of the sense-organs, I am the mind; of the beings, I am the consciousness.",
+        "id": 2757,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 394,
+        "verse_id": 394
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Of the Vedas, I am the hymns; I am the electric force in the powers of nature; of the senses, I am the mind; and I am the intelligence in all that lives.",
+        "id": 2758,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 394,
+        "verse_id": 394
+    }
+]

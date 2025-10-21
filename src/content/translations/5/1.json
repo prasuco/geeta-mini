@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।5.1।। अर्जुन बोले -- हे कृष्ण ! आप कर्मोंका स्वरूपसे त्याग करनेकी और फिर कर्मयोगकी प्रशंसा करते हैं। अतः इन दोनों साधनोंमें जो एक निश्चितरूपसे कल्याणकारक हो, उसको मेरे लिये कहिये। ",
+        "id": 1429,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 205,
+        "verse_id": 205
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।5.1।। अर्जुन ने कहा हे --  कृष्ण ! आप कर्मों के संन्यास की और फिर योग (कर्म के आचरण) की प्रशंसा करते हैं। इन दोनों में एक जो निश्चय पूर्वक श्रेयस्कर है, उसको मेरे लिए कहिये।।\n ",
+        "id": 1430,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 205,
+        "verse_id": 205
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Arjuna said, \"O Krsna, you praise the renunciation of actions, and then you also praise Karma Yoga. Please tell me with certainty which of these is the superior one, leading to the ultimate good.",
+        "id": 1431,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 205,
+        "verse_id": 205
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Arjuna said, \"O Krsna, you praise renunciation of actions and, at the same time, Karma-yoga. Please tell me for certain which one is better between these two.\"",
+        "id": 1432,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 205,
+        "verse_id": 205
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Arjuna said, \"O Krishna, you praise renunciation of actions and also yoga. Please tell me conclusively which is better of the two.\"",
+        "id": 1433,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 205,
+        "verse_id": 205
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Arjuna said, \"O Krsna, you commend both renunciation of action and the Yoga of action; which one of these two is superior?\" Please tell me that for certain.",
+        "id": 1434,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 205,
+        "verse_id": 205
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Arjuna said: My Lord! At one moment, You praise renunciation of action; at another, You praise right action. Tell me truly, I pray, which of these is more conducive to my highest welfare?",
+        "id": 1435,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 205,
+        "verse_id": 205
+    }
+]

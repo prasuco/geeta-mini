@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।17.9।।अति कड़वे, अति खट्टे, अति नमकीन, अति गरम, अति तीखे, अति रूखे और अति दाहकारक आहार अर्थात् भोजनके पदार्थ राजस मनुष्यको प्रिय होते हैं, जो कि दुःख, शोक और रोगोंको देनेवाले हैं।",
+        "id": 4222,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 604,
+        "verse_id": 604
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।17.9।। कड़वे, खट्टे, लवणयुक्त, अति उष्ण, तीक्ष्ण (तीखे, मिर्च युक्त), रूखे. दाहकारक, दु:ख, शोक और रोग उत्पन्न कारक भोज्य पदार्थ राजस पुरुष को प्रिय होते हैं।।\n ",
+        "id": 4223,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 604,
+        "verse_id": 604
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Foods that are bitter, sour, very salty, excessively heating, highly pungent, dry, and burning are all dear to Rajasika men; they cause pain, sorrow, and disease.",
+        "id": 4224,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 604,
+        "verse_id": 604
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Foods that are bitter, sour, salty, very hot, pungent, dry, and burning, producing pain, sorrow, and disease, are dear to one who has rajas.",
+        "id": 4225,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 604,
+        "verse_id": 604
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The foods that are bitter, sour, salty, overly hot, pungent, dry, and burning are liked by the Rajasic and are productive of pain, grief, and disease.",
+        "id": 4226,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 604,
+        "verse_id": 604
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The foods killed by men of the Rajas strand are those that are bitter, sour, salty, very hot, harsh, dry, and burning; and which cause pain, grief, and disease.",
+        "id": 4227,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 604,
+        "verse_id": 604
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Those in whom passion is dominant like foods that are bitter, sour, salty, overly hot, pungent, dry, and burning. These produce unhappiness, repentance, and disease.",
+        "id": 4228,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 604,
+        "verse_id": 604
+    }
+]

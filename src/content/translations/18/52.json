@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.52।।जो विशुद्ध (सात्त्विकी) बुद्धिसे युक्त, वैराग्यके आश्रित, एकान्तका सेवन करनेवाला और नियमित भोजन करनेवाला साधक धैर्यपूर्वक इन्द्रियोंका नियमन करके, शरीर-वाणी-मनको वशमें करके, शब्दादि विषयोंका त्याग करके और राग-द्वेषको छोड़कर निरन्तर ध्यानयोगके परायण हो जाता है, वह अहंकार, बल, दर्प, काम, क्रोध और परिग्रहका त्याग करके एवं निर्मम तथा शान्त होकर ब्रह्मप्राप्तिका पात्र हो जाता है।",
+        "id": 4719,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 675,
+        "verse_id": 675
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.52।। विविक्त सेवी, लघ्वाशी (मिताहारी) जिसने अपने शरीर, वाणी और मन को संयत किया है, ध्यानयोग के अभ्यास में सदैव तत्पर तथा वैराग्य पर समाश्रित।।\n ",
+        "id": 4720,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 675,
+        "verse_id": 675
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Resorting to solitude, eating sparingly, restraining speech, body, and mind, ever engaged in the yoga of meditation and taking refuge in dispassion;",
+        "id": 4721,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 675,
+        "verse_id": 675
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "One who resorts to solitude, eats sparingly, has control over their speech, body, and mind, for whom meditation and concentration are ever the highest duty, and who is possessed of dispassion;",
+        "id": 4722,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 675,
+        "verse_id": 675
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Dwelling in solitude, eating sparingly, with speech, body, and mind subdued, always engaged in meditation and concentration, and resorting to dispassion.",
+        "id": 4723,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 675,
+        "verse_id": 675
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Who enjoys solitude, eats sparingly, has controlled their speech, body, and mind; who is devoted to the practice of meditation and yoga; and who has taken refuge in perpetual desirelessness;",
+        "id": 4724,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 675,
+        "verse_id": 675
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Enjoying solitude, being abstemious, having his body, mind, and speech under perfect control, and being absorbed in meditation, he becomes free—always filled with the spirit of renunciation.",
+        "id": 4725,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 675,
+        "verse_id": 675
+    }
+]

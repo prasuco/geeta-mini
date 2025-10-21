@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.31।। हे केशव! मैं लक्षणों  - (शकुनों) को भी विपरीत देख रहा हूँ और युद्ध में स्वजनोंको मारकर श्रेय (लाभ) भी नहीं देख रहा हूँ।\n ",
+        "id": 211,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 31,
+        "verse_id": 31
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.31।।हे केशव ! मैं शकुनों को भी विपरीत ही देख रहा हूँ और युद्ध में (आहवे) अपने स्वजनों को मारकर कोई कल्याण भी नहीं देखता हूँ।\n\n\n ",
+        "id": 212,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 31,
+        "verse_id": 31
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "I see, Kṛṣṇa, inauspicious omens. I foresee no good in slaying my kinsmen in battle.",
+        "id": 213,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 31,
+        "verse_id": 31
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Besides, I do not see any good to be derived from killing my own people in battle. O Krsna, I do not hanker after victory, nor even a kingdom, nor pleasures.",
+        "id": 214,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 31,
+        "verse_id": 31
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "And I see ill omens, O Kesava. I do not see any good in slaying my kinsmen in battle.",
+        "id": 215,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 31,
+        "verse_id": 31
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "O Govinda! What use is the kingdom to us? What use are its pleasures and life even?",
+        "id": 216,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 31,
+        "verse_id": 31
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The omens are unfavorable; what good can come from the slaughter of my people on this battlefield?",
+        "id": 217,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 31,
+        "verse_id": 31
+    }
+]

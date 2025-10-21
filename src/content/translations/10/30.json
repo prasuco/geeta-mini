@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.30।। दैत्योंमें प्रह्लाद और गणना करनेवालोंमें काल मैं हूँ । पशुओंमें सिंह और पक्षियोंमें गरुड मैं हूँ।",
+        "id": 2808,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 402,
+        "verse_id": 402
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.30।। मैं दैत्यों में प्रह्लाद और गणना करने वालों में काल हूँ, मैं 'पशुओं' में सिंह (मृगेन्द्र) और पक्षियों में गरुड़ हूँ।।\n ",
+        "id": 2809,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 402,
+        "verse_id": 402
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of Daityas, I am Prahlada; of reckoners, I am Death; of beasts, I am the lion; and of birds, I am Garuda, the son of Vinata.",
+        "id": 2810,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 402,
+        "verse_id": 402
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Among demons, I am Prahlada, and among reckoners of time, I am Time. Among animals, I am the lion, and among birds, I am Garuda.",
+        "id": 2811,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 402,
+        "verse_id": 402
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "And I am Prahlada among the demons, I am Time among reckoners, I am the lion among beasts, and Vainateya (Garuda) among birds.",
+        "id": 2812,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 402,
+        "verse_id": 402
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "No translation is available for this sloka.",
+        "id": 2813,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 402,
+        "verse_id": 402
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "And I am the devotee Prahlada among the heathens; of Time I am the Eternal Present; I am the Lion among beasts and the Eagle among birds.",
+        "id": 2814,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 402,
+        "verse_id": 402
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.30।।हे पृथानन्दन ! जो बुद्धि प्रवृत्ति और निवृत्तिको, कर्तव्य और अकर्तव्यको, भय और अभयको तथा बन्धन और मोक्षको जानती है, वह बुद्धि सात्त्विकी है।",
+        "id": 4565,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 653,
+        "verse_id": 653
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.30।। हे पार्थ ! जो बुद्धि प्रवृत्ति और निवृत्ति, कार्य और अकार्य, भय और अभय तथा बन्ध और मोक्ष को तत्त्वत जानती है, वह बुद्धि सात्विकी है।।\n ",
+        "id": 4566,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 653,
+        "verse_id": 653
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "That Buddhi, O Arjuna, which knows activity and renunciation, what should be done and what should not be done, fear and fearlessness, bondage and release—that Buddhi is Sattvika.",
+        "id": 4567,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 653,
+        "verse_id": 653
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O Partha, that intellect is born of sattva which understands action and withdrawal, duty and what is not duty, the sources of fear and fearlessness, as well as bondage and freedom.",
+        "id": 4568,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 653,
+        "verse_id": 653
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The intellect which knows the path of work and renunciation, what should be done and what should not be done, fear and fearlessness, bondage and liberation—that intellect is Sattvic (pure), O Arjuna.",
+        "id": 4569,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 653,
+        "verse_id": 653
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The intellect which knows the activity and the cessation from activity, the proper and improper actions, the fear and non-fear, and the bondage and emancipation—that intellect is considered to be of the Sattva (Strand).",
+        "id": 4570,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 653,
+        "verse_id": 653
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "That intellect which understands the creation and dissolution of life, what actions should be done and what not, which discriminates between fear and fearlessness, bondage and deliverance, is Pure.",
+        "id": 4571,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 653,
+        "verse_id": 653
+    }
+]

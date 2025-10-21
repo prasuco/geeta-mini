@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।4.37।। हे अर्जुन ! जैसे प्रज्वलित अग्नि ईंधनोंको सर्वथा भस्म कर देती है, ऐसे ही ज्ञानरूपी अग्नि सम्पूर्ण कर्मोंको सर्वथा भस्म कर देती है। ",
+        "id": 1387,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 199,
+        "verse_id": 199
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।4.37।। जैसे प्रज्जवलित अग्नि ईन्धन को भस्मसात् कर देती है,  वैसे ही,  हे अर्जुन ! ज्ञानरूपी अग्नि सम्पूर्ण कर्मों को भस्मसात् कर देती है।।\n ",
+        "id": 1388,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 199,
+        "verse_id": 199
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Just as a burning fire turns fuel to ashes, O Arjuna, so does the fire of knowledge turn all karmas to ashes.",
+        "id": 1389,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 199,
+        "verse_id": 199
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O Arjuna, just as a blazing fire reduces wood to ashes, similarly the fire of Knowledge reduces all actions to ashes.",
+        "id": 1390,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 199,
+        "verse_id": 199
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "As the blazing fire reduces fuel to ashes, O Arjuna, so does the fire of knowledge reduce all actions to ash.",
+        "id": 1391,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 199,
+        "verse_id": 199
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Just as a fire that is well-inflamed reduces fuel to ashes, so too does the fire of knowledge reduce all actions to ashes.",
+        "id": 1392,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 199,
+        "verse_id": 199
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "As the kindled fire consumes the fuel, so, O Arjuna, the embers of action are burnt to ashes in the flame of wisdom.",
+        "id": 1393,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 199,
+        "verse_id": 199
+    }
+]

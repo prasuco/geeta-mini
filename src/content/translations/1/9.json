@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.9।। इनके अतिरिक्त बहुत-से शूरवीर हैं, जिन्होंने मेरे लिये अपने जीने की इच्छा का भी त्याग कर दिया है और जो अनेक प्रकार के शस्त्र-अस्त्रों को चलानेवाले हैं तथा जो सब-के-सब युद्धकला में अत्यन्त चतुर हैं।\n ",
+        "id": 57,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 9,
+        "verse_id": 9
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.9।।मेरे लिए प्राण त्याग करने के लिए तैयार, अनेक प्रकार के शस्त्रास्त्रों से सुसज्जित तथा युद्ध में कुशल और भी अनेक शूर वीर हैं।\n\n\n\n\n ",
+        "id": 58,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 9,
+        "verse_id": 9
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "And there are many other heroes who are determined to give up their lives for my sake. They are all experts in using manifold missiles and dexterous in battle.",
+        "id": 59,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 9,
+        "verse_id": 9
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "There are many heroes who have dedicated their lives to me, possessing various kinds of weapons and missiles, all of whom are skilled in battle.",
+        "id": 60,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 9,
+        "verse_id": 9
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "And also many other heroes, ready to give up their lives for my sake, armed with various weapons and missiles, all well-skilled in battle.",
+        "id": 61,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 9,
+        "verse_id": 9
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "And many other heroes, giving up their lives for my sake, fighting with various weapons, all highly skilled in different forms of warfare.",
+        "id": 62,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 9,
+        "verse_id": 9
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "And many others, all ready to die for My sake; all armed, all skilled in warfare.",
+        "id": 63,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 9,
+        "verse_id": 9
+    }
+]

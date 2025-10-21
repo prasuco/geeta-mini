@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।15.15।।मैं सम्पूर्ण प्राणियोंके हृदयमें स्थित हूँ। मेरेसे ही स्मृति, ज्ञान और अपोहन (संशय आदि दोषोंका नाश) होता है। सम्पूर्ण वेदोंके द्वारा मैं ही जाननेयोग्य हूँ। वेदोंके तत्त्वका निर्णय करनेवाला और वेदोंको जाननेवाला भी मैं ही हूँ।",
+        "id": 3956,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 566,
+        "verse_id": 566
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।15.15।। मैं ही समस्त प्राणियों के हृदय में स्थित हूँ। मुझसे ही स्मृति, ज्ञान और अपोहन (उनका अभाव) होता है। समस्त वेदों के द्वारा मैं ही वेद्य (जानने योग्य) वस्तु हूँ तथा वेदान्त का और वेदों का ज्ञाता भी मैं ही हूँ।।\n ",
+        "id": 3957,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 566,
+        "verse_id": 566
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "And I am seated in the hearts of all. From Me come memory, knowledge, and their removal too. Indeed, I alone am to be known from all the Vedas. I bring about the fruition of the Vedic rituals; I alone am the knower of the Vedas.",
+        "id": 3958,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 566,
+        "verse_id": 566
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "And I am seated in the hearts of all. From Me come memory, knowledge, and their loss. I alone am the object to be known through all the Vedas; I am also the originator of the Vedanta, and I Myself am the knower of the Vedas.",
+        "id": 3959,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 566,
+        "verse_id": 566
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "And I am seated in the hearts of all; from Me come memory and knowledge, as well as their absence. I am verily That which has to be known by all the Vedas; I am indeed the author of the Vedanta and the knower of the Vedas.",
+        "id": 3960,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 566,
+        "verse_id": 566
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "I am entered in the hearts of all; from Me come the faculties of memory, knowledge, and discernment; none but Me is to be known by means of all the Vedas, and I am alone the author of the final part of the Vedas and also the author of the Vedas themselves.",
+        "id": 3961,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 566,
+        "verse_id": 566
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am enthroned in the hearts of all; memory, wisdom, and discrimination owe their origins to Me. I am He Who is to be realized in the scriptures; I inspire their wisdom, and I know their truth.",
+        "id": 3962,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 566,
+        "verse_id": 566
+    }
+]

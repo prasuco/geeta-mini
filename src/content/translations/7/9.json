@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।7.9।। पृथ्वीमें पवित्र गन्ध मैं हूँ, और अग्निमें तेज मैं हूँ, तथा सम्पूर्ण प्राणियोंमें जीवनीशक्ति मैं हूँ और तपस्वियोंमें तपस्या मैं हूँ। ",
+        "id": 2017,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 289,
+        "verse_id": 289
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।7.9।। पृथ्वी में पवित्र गन्ध हूँ और अग्नि में तेज हूँ; सम्पूर्ण भूतों में जीवन हूँ और तपस्वियों में मैं तप हूँ।।\n ",
+        "id": 2018,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 289,
+        "verse_id": 289
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "I am the pure scent in the earth; I am the radiance in the fire; I am the life-force in all beings, and austerity in ascetics.",
+        "id": 2019,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 289,
+        "verse_id": 289
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "I am also the sweet fragrance in the earth; I am the brilliance in the fire, and the life in all beings; and I am the austerity of the ascetics.",
+        "id": 2020,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 289,
+        "verse_id": 289
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "I am the sweet fragrance in the earth and the brilliance in the fire, the life in all beings, and I am the austerity of ascetics.",
+        "id": 2021,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 289,
+        "verse_id": 289
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "I am the pure scent in the earth; I am also the radiance in the sun; I am the life in all beings and the austerity in the ascetics.",
+        "id": 2022,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 289,
+        "verse_id": 289
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am the fragrance of the earth, the brilliance of fire, the life force in all beings, and the austerity of ascetics.",
+        "id": 2023,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 289,
+        "verse_id": 289
+    }
+]

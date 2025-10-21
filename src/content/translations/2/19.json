@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.19।। जो मनुष्य इस अविनाशी शरीरीको मारनेवाला मानता है और जो मनुष्य इसको मरा मानता है, वे दोनों ही इसको नहीं जानते; क्योंकि यह न मारता है और न मारा जाता है।\n ",
+        "id": 456,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 66,
+        "verse_id": 66
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.19।। जो इस आत्मा को मारने वाला समझता है और जो इसको मरा समझता है वे दोनों ही नहीं जानते हैं,  क्योंकि यह आत्मा न मरता है और न मारा जाता है।।\n ",
+        "id": 457,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 66,
+        "verse_id": 66
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "He who considers It (the self) to be the slayer, and he who thinks of It as slain—both are ignorant. For, the self neither slays nor is being slain.",
+        "id": 458,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 66,
+        "verse_id": 66
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "He who thinks of this One as the killer, and he who thinks of this One as the one being killed, both of them do not know. This One neither kills nor is It killed.",
+        "id": 459,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 66,
+        "verse_id": 66
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "He who takes the Self to be the slayer and he who thinks it is slain, neither of them knows. It does not slay, nor is it slain.",
+        "id": 460,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 66,
+        "verse_id": 66
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Whoever views This as the slayer and whoever believes This to be the slain, both of them do not understand: This does not slay, nor is This slain.",
+        "id": 461,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 66,
+        "verse_id": 66
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "He who thinks that the Spirit kills, and he who thinks of it as killed, are both ignorant. The Spirit neither kills nor is it killed.",
+        "id": 462,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 66,
+        "verse_id": 66
+    }
+]

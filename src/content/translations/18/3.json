@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.3।।श्रीभगवान् बोले -- कई विद्वान् काम्य-कर्मोंके त्यागको संन्यास कहते हैं और कई विद्वान् सम्पूर्ण कर्मोंके फलके त्यागको त्याग कहते हैं। कई विद्वान् कहते हैं कि कर्मोंको दोषकी तरह छोड़ देना चाहिये और कई विद्वान् कहते हैं कि यज्ञ, दान और तप-रूप कर्मोंका त्याग नहीं करना चाहिये।",
+        "id": 4376,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 626,
+        "verse_id": 626
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.3।। कुछ मनीषी जन कहते हैं कि समस्त कर्म दोषयुक्त होने के कारण त्याज्य हैं; और अन्य जन कहते हैं कि यज्ञ, दान और तपरूप कर्म त्याज्य नहीं हैं।।\n ",
+        "id": 4377,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 626,
+        "verse_id": 626
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Some sages say that all actions should be abandoned as evil; others declare that works such as sacrifices, gifts, and austerities should not be abandoned.",
+        "id": 4378,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 626,
+        "verse_id": 626
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Some learned persons say that action, beset with evil as it is, should be abandoned, and others say that the practice of sacrifice, charity, and austerity should not be abandoned.",
+        "id": 4379,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 626,
+        "verse_id": 626
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Some philosophers declare that actions should be abandoned as evil; while others declare that acts of sacrifice, gift, and austerity should not be relinquished.",
+        "id": 4380,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 626,
+        "verse_id": 626
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Certain wise men declare that the harmful action should be relinquished, while others say that the actions of performing sacrifices, giving gifts, and observing austerities should not be relinquished.",
+        "id": 4381,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 626,
+        "verse_id": 626
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Some philosophers say that all action is evil and should be abandoned, whereas others maintain that acts of sacrifice, benevolence, and austerity should not be given up.",
+        "id": 4382,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 626,
+        "verse_id": 626
+    }
+]

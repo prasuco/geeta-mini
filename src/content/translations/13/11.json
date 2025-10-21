@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।13.11।।मेरेमें अनन्ययोगके द्वारा अव्यभिचारिणी भक्तिका होना, एकान्त स्थानमें रहनेका स्वभाव होना और जन-समुदायमें प्रीतिका न होना।",
+        "id": 3494,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 500,
+        "verse_id": 500
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।13.11।। अनन्ययोग के द्वारा मुझमें अव्यभिचारिणी भक्ति; एकान्त स्थान में रहने का स्वभाव और (असंस्कृत) जनों के समुदाय में अरुचि।।\n ",
+        "id": 3495,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 500,
+        "verse_id": 500
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Constantly devote yourself to Me alone, resort to solitary places, and dislike crowds.",
+        "id": 3496,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 500,
+        "verse_id": 500
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "And unwavering devotion to Me with single-minded concentration; inclination to retreat to a clean place; lack of delight in a crowd of people;",
+        "id": 3497,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 500,
+        "verse_id": 500
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Unswerving devotion to Me through the Yoga of non-separation, resorting to solitary places, and a distaste for the company of people.",
+        "id": 3498,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 500,
+        "verse_id": 500
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "And an unwavering devotion to Me, with the Yoga of non-duality; taking refuge in a solitary place; disinterest in a crowd of people;",
+        "id": 3499,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 500,
+        "verse_id": 500
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Unswerving devotion to Me, with concentration on Me and Me alone, a love for solitude, and indifference to social life;",
+        "id": 3500,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 500,
+        "verse_id": 500
+    }
+]

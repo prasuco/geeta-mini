@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.56।। दुःखोंकी प्राप्ति होनेपर जिसके मनमें उद्वेग नहीं होता और सुखोंकी प्राप्ति होनेपर जिसके मनमें स्पृहा नहीं होती तथा जो राग, भय और क्रोधसे सर्वथा रहित हो गया है, वह मननशील मनुष्य स्थिरबुद्धि कहा जाता है।\n ",
+        "id": 715,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 103,
+        "verse_id": 103
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.56।। दुख में जिसका मन उद्विग्न नहीं होता सुख में जिसकी स्पृहा निवृत्त हो गयी है? जिसके मन से राग? भय और क्रोध नष्ट हो गये हैं? वह मुनि स्थितप्रज्ञ कहलाता है।।",
+        "id": 716,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 103,
+        "verse_id": 103
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "He whose mind is not perturbed by pain, who has no longing for pleasures, who is free from desire, fear, and anger—he is called a sage of firm wisdom.",
+        "id": 717,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 103,
+        "verse_id": 103
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "That monk is called a man of steady wisdom when his mind is unperturbed even in sorrow, he is free from longing for delights, and has gone beyond attachment, fear, and anger.",
+        "id": 718,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 103,
+        "verse_id": 103
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "He whose mind is not shaken by adversity, who does not long for pleasures, and is free from attachment, fear, and anger, is called a sage of steady wisdom.",
+        "id": 719,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 103,
+        "verse_id": 103
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "He whose mind is undisturbed amidst sorrows, who is free from desire amidst pleasures, and from whom longing, fear, and wrath have departed—he is said to be a firm-minded sage.",
+        "id": 720,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 103,
+        "verse_id": 103
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The sage whose mind is unruffled in suffering, whose desire is not aroused by enjoyment, who is without attachment, anger, or fear—take him to be one who stands at a lofty level.",
+        "id": 721,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 103,
+        "verse_id": 103
+    }
+]

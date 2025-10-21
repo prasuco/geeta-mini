@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।4.7।। हे भरतवंशी अर्जुन! जब-जब धर्मकी हानि और अधर्मकी वृद्धि होती है, तब-तब ही मैं अपने-आपको साकाररूपसे प्रकट करता हूँ। ",
+        "id": 1177,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 169,
+        "verse_id": 169
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।4.7।। हे भारत ! जब-जब धर्म की हानि और अधर्म की वृद्धि होती है,  तब-तब मैं स्वयं को प्रकट करता हूँ।।\n ",
+        "id": 1178,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 169,
+        "verse_id": 169
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Whenever there is a decline of Dharma, O Arjuna, and an uprising of Adharma, then I incarnate myself.",
+        "id": 1179,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 169,
+        "verse_id": 169
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O scion of the Bharata dynasty, whenever there is a decline in virtue and an increase in vice, then I manifest Myself.",
+        "id": 1180,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 169,
+        "verse_id": 169
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Whenever there is a decline of righteousness and an increase of unrighteousness, O Arjuna, then I manifest Myself.",
+        "id": 1181,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 169,
+        "verse_id": 169
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "For, whenever there is a decay of righteousness and the rise of unrighteousness, then, O descendant of Bharata, I send forth that which the Self is unimportant.",
+        "id": 1182,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 169,
+        "verse_id": 169
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Whenever spirituality decays and materialism is rampant, then, O Arjuna, I reincarnate myself.",
+        "id": 1183,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 169,
+        "verse_id": 169
+    }
+]

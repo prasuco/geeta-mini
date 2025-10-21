@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.8।। आप (द्रोणाचार्य) और पितामह भीष्म तथा कर्ण और संग्रामविजयी कृपाचार्य तथा वैसे ही अश्वत्थामा, विकर्ण और सोमदत्त का पुत्र भूरिश्रवा।\n ",
+        "id": 50,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 8,
+        "verse_id": 8
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.8।।एक तो स्वयं आप, भीष्म, कर्ण, और युद्ध विजयी कृपाचार्य तथा अश्वत्थामा, विकर्ण और सोमदत्त का पुत्र है।\n\n\n ",
+        "id": 51,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 8,
+        "verse_id": 8
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Yourself, Bhisma, Karna, the victorious Krpa, Asvatthama, Vikarna, and Jayadratha, the son of Somadatta;",
+        "id": 52,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 8,
+        "verse_id": 8
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "(They are): Your venerable self, Bhisma, Karna, and Krpa, who is ever victorious in battle; Asvatthama, Vikarna, Saumadatti, and Jayadratha.",
+        "id": 53,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 8,
+        "verse_id": 8
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "\"Thou thyself, Bhishma, Karna, Kripa, the victorious in war, Asvatthama, Vikarna, and Bhurisrava, the son of Somadatta—all these are ready for battle.\"",
+        "id": 54,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 8,
+        "verse_id": 8
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Your good self, Bhisma, Karna, Krpa, Salya, Jayadratha, Asvatthaman, Vikarna, and Somadatta's son, the valiant ones.",
+        "id": 55,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 8,
+        "verse_id": 8
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "You come first; then Bheeshma, Karna, Kripa, great warriors; Ashwaththama, Vikarna, and the son of Somadhatta;",
+        "id": 56,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 8,
+        "verse_id": 8
+    }
+]

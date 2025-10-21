@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।17.13।।शास्त्रविधिसे हीन, अन्न-दानसे रहित, बिना मन्त्रोंके, बिना दक्षिणाके और बिना श्रद्धाके किये जानेवाले यज्ञको तामस यज्ञ कहते हैं।",
+        "id": 4250,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 608,
+        "verse_id": 608
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।17.13।। शास्त्रविधि से रहित, अन्नदान से रहित, बिना मन्त्रों, बिना दक्षिणा और बिना श्रद्धा के किये हुए यज्ञ को तामस यज्ञ कहते हैं।।\n ",
+        "id": 4251,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 608,
+        "verse_id": 608
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "That sacrifice which is devoid of authority, which uses offerings not sanctioned by the Sastras, which is performed without recitation of hymns and devoid of gifts and faith - that, they say, is marked by Tamas.",
+        "id": 4252,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 608,
+        "verse_id": 608
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "They declare that sacrifice as 'done through tamas' which is contrary to injunction, in which no food is distributed, in which no mantras are used, in which no offerings are made to priests, and which is devoid of faith.",
+        "id": 4253,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 608,
+        "verse_id": 608
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "They declare that sacrifice to be Tamasic which is contrary to the ordinances of the scriptures, in which no food is distributed, and which is devoid of mantras, gifts, and faith.",
+        "id": 4254,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 608,
+        "verse_id": 608
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "They declare that sacrifice to be of the Tamas (Strand) which is devoid of scriptural injunction, in which there is no recitation of Vedic hymns, where no food and sacrificial fee are distributed, and which is completely devoid of faith.",
+        "id": 4255,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 608,
+        "verse_id": 608
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Sacrifice that is contrary to scriptural command, that is unaccompanied by prayers or gifts of food or money, and is without faith—that is the product of ignorance.",
+        "id": 4256,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 608,
+        "verse_id": 608
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.16।। कुन्तीपुत्र राजा युधिष्ठिर ने अनन्तविजय नामक शंख बजाया तथा नकुल और सहदेव ने सुघोष और मणिपुष्पक नामक शंख बजाये।\n ",
+        "id": 106,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 16,
+        "verse_id": 16
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.16।।कुन्तीपुत्र राजा युधिष्ठिर ने अनन्त विजय नामक शंख और नकुल व सहदेव ने क्रमश:  सुघोष और मणिपुष्पक नामक शंख बजाये।\n\n\n ",
+        "id": 107,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 16,
+        "verse_id": 16
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "King Yudhisthira, the son of Kunti, blew his conch, Anantavijaya, and Nakula and Sahadeva blew their conchs, Sughosa and Manipuspaka.",
+        "id": 108,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 16,
+        "verse_id": 16
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "King Yudhisthira, son of Kunti, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosa and the Manipuspaka, respectively.",
+        "id": 109,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 16,
+        "verse_id": 16
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "King Yudhishthira, the son of Kunti, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosha and the Manipushpaka.",
+        "id": 110,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 16,
+        "verse_id": 16
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Kunti's son, the king Yudhisthira, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosa and Manipuspaka, respectively.",
+        "id": 111,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 16,
+        "verse_id": 16
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The King Dharmaraja, the son of Kunti, blew the Anantavijaya, Nakula, and Sahadeva, the Sughosa and Manipushpaka, respectively.",
+        "id": 112,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 16,
+        "verse_id": 16
+    }
+]

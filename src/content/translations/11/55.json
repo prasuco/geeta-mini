@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।11.55।। हे पाण्डवन ! जो मेरे लिये ही कर्म करनेवाला, मेरे ही परायण और मेरा ही भक्त है तथा सर्वथा आसक्तिरहित और प्राणिमात्रके साथ निर्वैर है, वह भक्त मेरेको प्राप्त होता है।",
+        "id": 3277,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 469,
+        "verse_id": 469
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।11.55।। हे पाण्डव! जो पुरुष मेरे लिए ही कर्म करने वाला है, और मुझे ही परम लक्ष्य मानता है, जो मेरा भक्त है तथा संगरहित है, जो भूतमात्र के प्रति निर्वैर है, वह मुझे प्राप्त होता है।।",
+        "id": 3278,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 469,
+        "verse_id": 469
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Whoever works for Me, regards Me as the highest and is devoted to Me, free from attachment and without animosity towards any creature, they come to Me, O Arjuna.",
+        "id": 3279,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 469,
+        "verse_id": 469
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O son of Pandu, he who works for Me, accepts Me as the supreme goal, is devoted to Me, is devoid of attachment and free from enmity towards all beings—he attains Me.",
+        "id": 3280,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 469,
+        "verse_id": 469
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "He who does all actions for Me, who regards Me as the Supreme, who is devoted to Me, who is free from attachment, who bears no enmity towards any creature, he comes to Me, O Arjuna.",
+        "id": 3281,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 469,
+        "verse_id": 469
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "He who performs actions for Me, who regards Me as his supreme goal, who is devoted to Me, who is free from attachment, and who is free from hatred towards all beings—he attains Me, O son of Pandu!",
+        "id": 3282,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 469,
+        "verse_id": 469
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "He who does every action for My sake, to whom I am the final goal, who loves Me alone and hates no one—O My dearest son, only he can realize Me!",
+        "id": 3283,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 469,
+        "verse_id": 469
+    }
+]

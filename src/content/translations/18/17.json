@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.17।।जिसका अहंकृतभाव नहीं है और जिसकी बुद्धि लिप्त नहीं होती, वह इन सम्पूर्ण प्राणियोंको मारकर भी न मारता है और न बँधता है।",
+        "id": 4474,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 640,
+        "verse_id": 640
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.17।। जिस पुरुष में अहंकार का भाव नहीं है और बुद्धि किसी (गुण दोष) से लिप्त नहीं होती, वह पुरुष इन सब लोकों को मारकर भी वास्तव में न मरता है और न (पाप से) बँधता है।।\n ",
+        "id": 4475,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 640,
+        "verse_id": 640
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "He who is free from the notion of 'I am the doer,' and whose understanding is not tainted, does not slay, even though he slays all these men, nor is he bound.",
+        "id": 4476,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 640,
+        "verse_id": 640
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "He who has no feeling of egoism, whose intellect is untainted, he does not kill, nor does he become bound—even by killing these creatures!",
+        "id": 4477,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 640,
+        "verse_id": 640
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "He who is free from the egoistic notion, whose intelligence is not tainted by good or evil, though he slays these people, he does not slay, nor is he bound by the action.",
+        "id": 4478,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 640,
+        "verse_id": 640
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "He whose mental disposition is not dominated by the sense of 'I', and whose intellect is not stained—he, even if he slays these worlds, does not [really] slay any and is not fettered.",
+        "id": 4479,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 640,
+        "verse_id": 640
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "He who has no pride and whose intellect is unalloyed by attachment, even though he kills these people, he does not kill them, and his act does not bind him.",
+        "id": 4480,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 640,
+        "verse_id": 640
+    }
+]

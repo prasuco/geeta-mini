@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.29।। कोई इस शरीरीको आश्चर्यकी तरह देखता है और वैसे ही अन्य कोई इसका आश्चर्यकी तरह वर्णन करता है तथा अन्य कोई इसको आश्चर्यकी तरह सुनता है; और इसको सुनकर भी कोई नहीं जानता। अर्थात यह शरीरी दुर्विज्ञेय है। ",
+        "id": 526,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 76,
+        "verse_id": 76
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.29।। कोई इसे आश्चर्य के समान देखता है;  कोई इसके विषय में आश्चर्य के समान कहता है;  और कोई अन्य पुरुष इसे आश्चर्य के समान सुनता है;  और फिर कोई सुनकर भी नहीं जानता।।\n ",
+        "id": 527,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 76,
+        "verse_id": 76
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "One regards This (self) as a wonder; another speaks of It as a wonder; yet another hears of It as a wonder; and even after hearing of It, one does not know It.",
+        "id": 528,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 76,
+        "verse_id": 76
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Someone visualizes it as a wonder; someone else talks of it as a wonder; someone else hears of it as a wonder; and yet someone else does not even realize it after hearing about it.",
+        "id": 529,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 76,
+        "verse_id": 76
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "One sees this (the Self) as a wonder; another speaks of it as a wonder; another hears of it as a wonder; yet, having heard, none understands it at all.",
+        "id": 530,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 76,
+        "verse_id": 76
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "This someone observes as a wonder; similarly, another speaks of This as a wonder; another hears This as a wonder; but even after hearing, not even one understands This.",
+        "id": 531,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 76,
+        "verse_id": 76
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "One hears of the Spirit with surprise, another thinks it marvelous, the third listens without comprehending. Thus, though many are told about it, scarcely is there one who knows it.",
+        "id": 532,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 76,
+        "verse_id": 76
+    }
+]

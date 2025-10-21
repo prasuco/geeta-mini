@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.23।। रुद्रोंमें शंकर और यक्ष-राक्षसोंमें कुबेर मैं हूँ।वसुओंमें पावक (अग्नि) और शिखरवाले पर्वतोंमें सुमेरु मैं हूँ।",
+        "id": 2759,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 395,
+        "verse_id": 395
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.23।। मैं (ग्यारह) रुद्रों में शंकर हूँ और यक्ष तथा राक्षसों में धनपति कुबेर (वित्तेश) हूँ; (आठ) वसुओं में अग्नि हूँ तथा शिखर वाले पर्वतों में मेरु हूँ।।\n ",
+        "id": 2760,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 395,
+        "verse_id": 395
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of the Rudras, I am Sankara. Of the Yaksas and Raksasas, I am the Lord of Wealth (Kubera). Of the Vasus, I am Agni; of the mountains, I am Meru.",
+        "id": 2761,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 395,
+        "verse_id": 395
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Among the Rudras, I am Aja, Ekapada, Ahirbudhnya, Pinaki, Aparajita, Tryam-baka, Mahesvara, Vrsakapi, Sambhu, Harana, and Isvara; among the Yaksas and goblins, I am Kubera; among the Vasus, I am Fire; and among the mountains, I am Meru.",
+        "id": 2762,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 395,
+        "verse_id": 395
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "And among the Rudras, I am Sankara; among the Yakshas and Rakshasas, the Lord of Wealth (Kubera); among the Vasus, I am Pavaka (Fire); and among the seven mountains, I am Meru.",
+        "id": 2763,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 395,
+        "verse_id": 395
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "And of the Rudras, I am Sankara; of the Yaksas and the Raksas, I am the Lord of Wealth (Kubera); of the Vasus, I am the Fire-God; of the mountains, I am Meru.",
+        "id": 2764,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 395,
+        "verse_id": 395
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Among forces of vitality, I am the life; I am Mammon to the heathens and the godless; I am the energy in fire, earth, wind, sky, heaven, sun, moon, and planets; and among mountains, I am Mount Meru.",
+        "id": 2765,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 395,
+        "verse_id": 395
+    }
+]

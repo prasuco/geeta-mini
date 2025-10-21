@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।3.4।। मनुष्य न तो कर्मोंका आरम्भ किये बिना निष्कर्मताको प्राप्त होता है और न कर्मोंके त्यागमात्रसे सिद्धिको ही प्राप्त होता है। ",
+        "id": 855,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 123,
+        "verse_id": 123
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.4।। कर्मों के न करने से मनुष्य नैर्ष्कम्य को प्राप्त नहीं होता और न कर्मों के संन्यास से ही वह सिद्धि (पूर्णत्व) प्राप्त करता है।।",
+        "id": 856,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 123,
+        "verse_id": 123
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "No one experiences freedom from action (Naiskarmya) by abstaining from work; and no one ever attains success through mere renunciation of work.",
+        "id": 857,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 123,
+        "verse_id": 123
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "A person does not attain freedom from action by abstaining from action; nor does he attain fulfillment merely through renunciation.",
+        "id": 858,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 123,
+        "verse_id": 123
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Man does not reach actionlessness by not performing actions; nor does he attain perfection by mere renunciation.",
+        "id": 859,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 123,
+        "verse_id": 123
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "A person attains actionlessness not just by abstaining from actions, but also by renunciation, he attains success (emancipation).",
+        "id": 860,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 123,
+        "verse_id": 123
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "No one can attain freedom from action by abstaining from action, nor can they reach perfection by simply not acting.",
+        "id": 861,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 123,
+        "verse_id": 123
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.23।। शस्त्र इस शरीरीको काट नहीं सकते, अग्नि इसको जला नहीं सकती, जल इसको गीला नहीं कर सकता और वायु इसको सुखा नहीं सकती।\n ",
+        "id": 484,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 70,
+        "verse_id": 70
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.23।। इस आत्मा को शस्त्र काट नहीं सकते और न अग्नि इसे जला सकती है ; जल इसे गीला नहीं कर सकता और वायु इसे सुखा नहीं सकती।।\n ",
+        "id": 485,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 70,
+        "verse_id": 70
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Weapons cannot cleave It, fire cannot burn It, waters cannot wet It, and wind cannot dry It.",
+        "id": 486,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 70,
+        "verse_id": 70
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Weapons cannot cut It, fire cannot burn It, water cannot moisten It, and air cannot dry It.",
+        "id": 487,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 70,
+        "verse_id": 70
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Weapons cannot cut it, fire cannot burn it, water cannot wet it, wind cannot dry it.",
+        "id": 488,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 70,
+        "verse_id": 70
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Weapons cannot cut This; fire cannot burn This; water cannot make This wet; and the wind cannot make This dry.",
+        "id": 489,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 70,
+        "verse_id": 70
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Weapons cannot cleave it, fire cannot burn it, water cannot drench it, and wind cannot dry it.",
+        "id": 490,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 70,
+        "verse_id": 70
+    }
+]

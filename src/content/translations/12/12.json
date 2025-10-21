@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।12.12।।अभ्याससे शास्त्रज्ञान श्रेष्ठ है, शास्त्रज्ञानसे ध्यान श्रेष्ठ है और ध्यानसे भी सब कर्मोंके फलका त्याग श्रेष्ठ है। कर्मफलत्यागसे तत्काल ही परमशान्ति प्राप्त हो जाती है।",
+        "id": 3361,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 481,
+        "verse_id": 481
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।12.12।। अभ्यास से ज्ञान श्रेष्ठ है; ज्ञान से श्रेष्ठ ध्यान है और ध्यान से भी श्रेष्ठ कर्मफल त्याग है त्याग; से तत्काल ही शान्ति मिलती है।।\n ",
+        "id": 3362,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 481,
+        "verse_id": 481
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Far better is knowledge of the Self than the repeated practice (of remembrance of the Lord). Better is meditation than this knowledge; better is renunciation of the fruits of action than meditation. From such renunciation, peace ensues.",
+        "id": 3363,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 481,
+        "verse_id": 481
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Knowledge is certainly superior to practice; meditation surpasses knowledge. The renunciation of the results of works surpasses meditation. From renunciation, peace follows immediately.",
+        "id": 3364,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 481,
+        "verse_id": 481
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Better indeed is knowledge than practice; better than knowledge is meditation; better than meditation is the renunciation of the fruits of actions: peace immediately follows renunciation.",
+        "id": 3365,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 481,
+        "verse_id": 481
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "For, knowledge is superior to practice; due to knowledge, meditation becomes pre-eminent; from meditation arises the renunciation of the fruits of actions; and peace follows renunciation.",
+        "id": 3366,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 481,
+        "verse_id": 481
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Knowledge is superior to blind action, meditation is superior to knowledge, renunciation of the fruit of action is superior to meditation, and peace follows from renunciation.",
+        "id": 3367,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 481,
+        "verse_id": 481
+    }
+]

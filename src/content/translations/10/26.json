@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.26।। सम्पूर्ण वृक्षोंमें पीपल, देवर्षियोंमें नारद, गन्धर्वोंमें चित्ररथ और सिद्धोंमें कपिल मुनि मैं हूँ।",
+        "id": 2780,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 398,
+        "verse_id": 398
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.26।। मैं समस्त वृक्षों में अश्वत्थ (पीपल) हूँ और देवर्षियों में नारद हूँ; मैं गन्धर्वों में चित्ररथ और सिद्ध पुरुषों में कपिल मुनि हूँ।।\n ",
+        "id": 2781,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 398,
+        "verse_id": 398
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of trees I am the Asvattha; of celestial seers, I am Narada; of the Gandharvas, I am Citraratha; of the perfected, I am Kapila.",
+        "id": 2782,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 398,
+        "verse_id": 398
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Among all trees, I am the Ashvattha tree, and among divine sages, Narada. Among the Gandharvas, I am Citraratha; among the perfected ones, I am the sage Kapila.",
+        "id": 2783,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 398,
+        "verse_id": 398
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Among all the trees, I am the Peepul; among the divine sages, I am Narada; among the Gandharvas, I am Chitraratha; among the perfected, I am the sage Kapila.",
+        "id": 2784,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 398,
+        "verse_id": 398
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of all trees, I am the Pipal tree; of the divine seers, Narada; of the Gandharvas, Citraratha; and of the perfected ones, the sage Kapila.",
+        "id": 2785,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 398,
+        "verse_id": 398
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Of trees, I am the sacred fig tree; of divine seers, Narada; of heavenly singers, I am Chitraratha, their leader; and of sages, I am Kapila.",
+        "id": 2786,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 398,
+        "verse_id": 398
+    }
+]

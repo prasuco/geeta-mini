@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.10।।जो अकुशल कर्मसे द्वेष नहीं करता और कुशल कर्ममें आसक्त नहीं होता, वह त्यागी, बुद्धिमान्, सन्देहरहित और अपने स्वरूपमें स्थित है।",
+        "id": 4425,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 633,
+        "verse_id": 633
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.10।। जो पुरुष अकुशल (अशुभ) कर्म से द्वेष नहीं करता और कुशल (शुभ) कर्म में आसक्त नहीं होता, वह सत्त्वगुण से सम्पन्न पुरुष संशयरहित, मेधावी (ज्ञानी) और त्यागी है।।\n ",
+        "id": 4426,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 633,
+        "verse_id": 633
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "One who has abandoned, imbued with Sattva, wise, and whose doubts have been dispelled—such a person neither hates disagreeable acts nor clings to agreeable ones.",
+        "id": 4427,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 633,
+        "verse_id": 633
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "The man of renunciation, imbued with sattva, wise and free from doubts, does not hate unbecoming action, nor does he become attached to becoming activity.",
+        "id": 4428,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 633,
+        "verse_id": 633
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The man of renunciation, pervaded by purity, intelligent, and with his doubts cut asunder, does not hate an unpleasant task nor is he attached to a pleasant one.",
+        "id": 4429,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 633,
+        "verse_id": 633
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The man of renunciation, who is well-possessed of Sattva, is wise and has his doubts destroyed—he does not hate unskilled action and does not cling to skilled action.",
+        "id": 4430,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 633,
+        "verse_id": 633
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The wise man who has attained purity, whose doubts are resolved, who is filled with the spirit of self-abnegation, does not shy away from action due to its pain, nor does he crave it due to its pleasure.",
+        "id": 4431,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 633,
+        "verse_id": 633
+    }
+]

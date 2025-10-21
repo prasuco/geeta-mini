@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.38।। जय-पराजय, लाभ-हानि और सुख-दुःखको समान करके फिर युद्धमें लग जा। इस प्रकार युद्ध करनेसे तू पापको प्राप्त नहीं होगा।\n ",
+        "id": 589,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 85,
+        "verse_id": 85
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.38।। सुख-दु:ख,  लाभ-हानि और जय-पराजय को समान करके युद्ध के लिये तैयार हो जाओ;  इस प्रकार तुमको पाप नहीं होगा।।\n ",
+        "id": 590,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 85,
+        "verse_id": 85
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Holding pleasure and pain, gain and loss, victory and defeat as equal, gird yourself up for the battle. Thus, you shall not incur any sin.",
+        "id": 591,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 85,
+        "verse_id": 85
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Treating happiness and sorrow, gain and loss, and conquest and defeat with equanimity, then engage in battle. Thus, you will not incur sin.",
+        "id": 592,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 85,
+        "verse_id": 85
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Having made pleasure and pain, gain and loss, victory and defeat equal, engage in battle for the sake of battle; thus, you shall not incur sin.",
+        "id": 593,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 85,
+        "verse_id": 85
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Viewing pleasure and pain, gain and loss, victory and defeat alike, you should get yourself ready for the battle. Thus, you will not incur sin.",
+        "id": 594,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 85,
+        "verse_id": 85
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Look upon pleasure and pain, victory and defeat, with an equal eye. Be prepared for the combat, and you will commit no sin.",
+        "id": 595,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 85,
+        "verse_id": 85
+    }
+]

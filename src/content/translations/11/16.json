@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।11.16।। हे विश्वरूप ! हे विश्वेश्वरव ! आपको मैं अनेक हाथों, पेटों, मुखों और नेत्रोंवाला तथा सब ओरसे अनन्त रूपोंवाला देख रहा हूँ। मैं आपके न आदिको, न मध्यको और न अन्तको ही देख रहा हूँ।",
+        "id": 3004,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 430,
+        "verse_id": 430
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।11.16।। हे विश्वेश्वर! मैं आपकी अनेक बाहु, उदर, मुख और नेत्रों से युक्त तथा सब ओर से अनन्त रूपों वाला देखता हूँ। हे विश्वरूप! मैं आपके न अन्त को देखता हूँ और न मध्य को और न आदि को।।\n ",
+        "id": 3005,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 430,
+        "verse_id": 430
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "With manifold arms, stomachs, mouths, and eyes, I behold Your infinite form on all sides. I see no end, no middle, nor the beginning of You, O Lord of the universe, O You of Universal Form.",
+        "id": 3006,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 430,
+        "verse_id": 430
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "I see You with numerous arms, bellies, mouths, and eyes; with infinite forms all around. O Lord of the Universe, O Cosmic Person, I see no limit, no middle, nor beginning!",
+        "id": 3007,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 430,
+        "verse_id": 430
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "I see You with boundless form on every side, with many arms, stomachs, mouths, and eyes; neither the end nor the middle nor the beginning do I see, O Lord of the Universe, O Cosmic Form.",
+        "id": 3008,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 430,
+        "verse_id": 430
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "I behold You with many arms, bellies, mouths, and eyes, and with infinite forms on all sides; I find neither the end nor the center nor the beginning of You, O Lord of the Universe, O Universal-Formed One!",
+        "id": 3009,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 430,
+        "verse_id": 430
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I see You, infinite in form, with faces, eyes, and limbs everywhere; with no beginning, middle, or end. O You, Lord of the Universe, whose form is universal!",
+        "id": 3010,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 430,
+        "verse_id": 430
+    }
+]

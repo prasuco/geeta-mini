@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.4 -- 10.5।। बुद्धि, ज्ञान, असम्मोह, क्षमा, सत्य, दम, शम, सुख, दुःख, भव, अभाव, भय, अभय, अहिंसा, समता, तुष्टि, तप, दान, यश और अपयश -- प्राणियोंके ये अनेक प्रकारके और अलग-अलग (बीस) भाव मेरेसे ही होते हैं।",
+        "id": 2626,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 376,
+        "verse_id": 376
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.4।। बुद्धि, ज्ञान, मोह का अभाव, क्षमा, सत्य, दम (इन्द्रिय संयम), शम (मन: संयम), सुख, दु:ख, जन्म और मृत्यु, भय और अभय।।\n ",
+        "id": 2627,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 376,
+        "verse_id": 376
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Intelligence, knowledge, non-delusion, forbearance, truth, restraint, self-control, pleasure, pain, exaltation, and depression, fear, and fearlessness;",
+        "id": 2628,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 376,
+        "verse_id": 376
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Intelligence, wisdom, non-delusion, forgiveness, truth, control of the external organs, control of the internal organs, happiness, sorrow, birth, death, and fearlessness;",
+        "id": 2629,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 376,
+        "verse_id": 376
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Intellect, wisdom, non-delusion, forgiveness, truth, self-restraint, calmness, happiness, pain, existence or birth, non-existence or death, fear, and also fearlessness.",
+        "id": 2630,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 376,
+        "verse_id": 376
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Intellect, knowledge, steadiness, patience, truth, control over sense-organs, tranquility of mind, pleasure, pain, birth, death, fear, and courage.",
+        "id": 2631,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 376,
+        "verse_id": 376
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Intelligence, wisdom, non-delusion, forgiveness, truth, self-control, calmness, pleasure, pain, birth, death, fear, and fearlessness;",
+        "id": 2632,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 376,
+        "verse_id": 376
+    }
+]

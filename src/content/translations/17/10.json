@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।17.10।।जो भोजन अधपका, रसरहित, दुर्गन्धित, बासी और उच्छिष्ट है तथा जो महान् अपवित्र भी है, वह तामस मनुष्यको प्रिय होता है।",
+        "id": 4229,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 605,
+        "verse_id": 605
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।17.10।। अर्धपक्व, रसरहित, दुर्गन्धयुक्त, बासी, उच्छिष्ट तथा अपवित्र (अमेध्य) अन्न तामस जनों को प्रिय होता है।।\n ",
+        "id": 4230,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 605,
+        "verse_id": 605
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "That food which is stale, tasteless, putrid, decayed, rejected, unclean, is dear to those of a Tamasic nature.",
+        "id": 4231,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 605,
+        "verse_id": 605
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Food that is not properly cooked, lacking in essence, putrid and stale, as well as that which is unfit for sacrifice, is dear to one possessed of tamas.",
+        "id": 4232,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 605,
+        "verse_id": 605
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "That which is stale, tasteless, putrid, rotten, rejected, and impure is the food liked by the Tamasic.",
+        "id": 4233,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 605,
+        "verse_id": 605
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "What is old, tasteless, foul-smelling, and stale; what is also left over after eating, and is impure - such food is dear to the men of Tamas (Strand).",
+        "id": 4234,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 605,
+        "verse_id": 605
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The ignorant love food that is stale, not nourishing, putrid, and corrupt; the leftovers of others, and unclean.",
+        "id": 4235,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 605,
+        "verse_id": 605
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.21।।  मैं अदितिके पुत्रोंमें विष्णु (वामन) और प्रकाशमान वस्तुओंमें किरणोंवाला सूर्य हूँ। मैं मरुतोंका तेज और नक्षत्रोंका अधिपति चन्द्रमा हूँ।",
+        "id": 2745,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 393,
+        "verse_id": 393
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.21।। मैं (बारह) आदित्यों में विष्णु और ज्योतियों में अंशुमान् सूर्य हूँ; मैं (उनचास) मरुतों (वायु देवताओं) में मरीचि हूँ और नक्षत्रों में शशी (चन्द्रमा) हूँ।।\n ",
+        "id": 2746,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 393,
+        "verse_id": 393
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of the Adityas, I am Vishnu; of luminous bodies, I am the radiant sun. Of the Maruts, I am Marici, and among the constellations, I am the moon.",
+        "id": 2747,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 393,
+        "verse_id": 393
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Among the Adityas [viz Dhata, Mitra, Aryama, Rudra, Varuna, Surya, Bhaga, Vivasvan, Pusa, Savita, Tvasta, and Visnu.-Tr.], I am Visnu; among the luminaries, the radiant sun; among the (forty-nine) Maruts [The seven groups of Maruts are Avaha, Pravaha, Vivaha, Paravaha, Udvaha, Samvaha, and Parivaha.-Tr.], I am Marici; among the stars, I am the moon.",
+        "id": 2748,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 393,
+        "verse_id": 393
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Among the twelve Adityas, I am Vishnu; among luminaries, the radiant sun; among the seven or forty-nine Maruts, I am Marichi; among stars, I am the moon.",
+        "id": 2749,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 393,
+        "verse_id": 393
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of the sons of Aditi, I am Vishnu; of the luminaries, the radiant Sun; of the Maruts, I am Marici; of the stars, I am the Moon.",
+        "id": 2750,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 393,
+        "verse_id": 393
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Of all the creative powers, I am the Creator; of luminaries, the Sun; of winds, the Whirlwind; and of planets, the Moon.",
+        "id": 2751,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 393,
+        "verse_id": 393
+    }
+]

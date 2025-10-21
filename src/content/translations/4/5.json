@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।4.5।। श्रीभगवान् बोले -- हे परन्तप अर्जुन ! मेरे और तेरे बहुत-से जन्म हो चुके हैं। उन सबको मैं जानता हूँ, पर तू नहीं जानता। ",
+        "id": 1163,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 167,
+        "verse_id": 167
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।4.5।। श्रीभगवान् ने कहा -- हे अर्जुन ! मेरे और तुम्हारे बहुत से जन्म हो चुके हैं, (परन्तु) हे परन्तप ! उन सबको मैं जानता हूँ और तुम नहीं जानते।।\n ",
+        "id": 1164,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 167,
+        "verse_id": 167
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "The Lord said, \"Many of My births have passed, O Arjuna, as have yours. I know them all, but you do not know them.\"",
+        "id": 1165,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 167,
+        "verse_id": 167
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "The Blessed Lord said, \"O Arjuna, many lives of Mine have passed, and so have yours. I know them all, but you do not know, O scorcher of enemies!\"",
+        "id": 1166,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 167,
+        "verse_id": 167
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The Blessed Lord said, \"Many births of Mine have passed, as well as of thine, O Arjuna; I know them all, but thou knowest not, O Parantapa (scorcher of foes).\"",
+        "id": 1167,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 167,
+        "verse_id": 167
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The Bhagavat said, \"O Arjuna, many births of Mine as well as yours have passed. All of them I know, but you do not, O scorcher of foes!\"",
+        "id": 1168,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 167,
+        "verse_id": 167
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Lord Shri Krishna replied: I have been born again and again, from time to time; thou too, O Arjuna! My births are known to me, but yours are unknown to you.",
+        "id": 1169,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 167,
+        "verse_id": 167
+    }
+]

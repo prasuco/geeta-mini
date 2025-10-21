@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।3.23 -- 3.24।।  हे पार्थ ! अगर मैं किसी समय सावधान होकर कर्तव्य-कर्म न करूँ (तो बड़ी हानि हो जाय; क्योंकि) मनुष्य सब प्रकारसे मेरे ही मार्गका अनुसरण करते हैं। यदि मैं कर्म न करूँ, तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं वर्णसंकरताको करनेवाला  तथा इस समस्त प्रजाको नष्ट करनेवाला बनूँ।\n ",
+        "id": 995,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 143,
+        "verse_id": 143
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.24।। यदि मैं कर्म न करूँ, तो ये समस्त लोक नष्ट हो जायेंगे; और मैं वर्णसंकर का कर्ता तथा इस प्रजा का हनन करने वाला होऊँगा।।\n ",
+        "id": 996,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 143,
+        "verse_id": 143
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "If I do not do the work, these people will be lost; and I will be causing chaos in life and thereby ruining all these people.",
+        "id": 997,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 143,
+        "verse_id": 143
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "These worlds would be ruined if I did not perform action. And I shall become the agent of intermingling (of castes), and shall be destroying these beings.",
+        "id": 998,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 143,
+        "verse_id": 143
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "These worlds would perish if I did not perform action; I would be the author of confusion of castes and destruction of these beings.",
+        "id": 999,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 143,
+        "verse_id": 143
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "These worlds would perish if I were not to perform action; and I would be the cause of confusion; I would destroy these people.",
+        "id": 1000,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 143,
+        "verse_id": 143
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "And if I were to refrain from action, the human race would be ruined; I would lead the world to chaos, and destruction would follow.",
+        "id": 1001,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 143,
+        "verse_id": 143
+    }
+]

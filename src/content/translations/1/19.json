@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.19।। पाण्डव-सेना के शंखों के उस भयंकर शब्द ने आकाश और पृथ्वी को भी गुँजाते हुए अन्यायपूर्वक राज्य हड़पनेवाले दुर्योधन आदि के हृदय विदीर्ण कर दिये।\n ",
+        "id": 127,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 19,
+        "verse_id": 19
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.19।।वह भयंकर घोष आकाश और पृथ्वी पर गूँजने लगा और उसने धृतराष्ट्र के पुत्रों के हृदय विदीर्ण कर दिये।\n\n\n ",
+        "id": 128,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 19,
+        "verse_id": 19
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "And that tumultuous uproar, reverberating through heaven and earth, rent the hearts of Dhrtarastra's sons.",
+        "id": 129,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 19,
+        "verse_id": 19
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "That tremendous sound pierced the hearts of the sons of Dhrtarastra as it reverberated through the sky and the earth.",
+        "id": 130,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 19,
+        "verse_id": 19
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The tumultuous sound rent the hearts of Dhritarashtra's party, reverberating through both heaven and earth.",
+        "id": 131,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 19,
+        "verse_id": 19
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Resonating in both the sky and the earth, the tumultuous sound shattered the hearts of Dhrtarastra's men.",
+        "id": 132,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 19,
+        "verse_id": 19
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The tumult rent the hearts of the sons of Dhritarashtra, shaking heaven and earth with its echoing violence.",
+        "id": 133,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 19,
+        "verse_id": 19
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "Hindi Commentary By Swami Ramsukhdas",
+        "id": 9955,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Swami Chinmayananda",
+        "author_id": 2,
+        "description": "Hindi Commentary By Swami Chinmayananda ",
+        "id": 9956,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Anandgiri",
+        "author_id": 3,
+        "description": "Sanskrit Commentary By Sri Anandgiri",
+        "id": 9957,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Dhanpati",
+        "author_id": 4,
+        "description": "Sanskrit Commentary By Sri Dhanpati",
+        "id": 9958,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Madhavacharya",
+        "author_id": 5,
+        "description": "Sanskrit Commentary By Sri Madhavacharya",
+        "id": 9959,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Neelkanth",
+        "author_id": 6,
+        "description": "Sanskrit Commentary By Sri Neelkanth",
+        "id": 9960,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Ramanujacharya",
+        "author_id": 7,
+        "description": "Sanskrit Commentary By Sri Ramanuja",
+        "id": 9961,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Sridhara Swami",
+        "author_id": 8,
+        "description": "Sanskrit Commentary By Sri Sridhara Swami",
+        "id": 9962,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Vedantadeshikacharya Venkatanatha",
+        "author_id": 9,
+        "description": "Sanskrit Commentary By Sri Vedantadeshikacharya Venkatanatha",
+        "id": 9963,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Abhinavgupta",
+        "author_id": 10,
+        "description": "Sanskrit Commentary By Sri Abhinavgupta",
+        "id": 9964,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Jayatritha",
+        "author_id": 11,
+        "description": "Sanskrit Commentary By Sri Jayatritha",
+        "id": 9965,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Madhusudan Saraswati",
+        "author_id": 12,
+        "description": "Sanskrit Commentary By Sri Madhusudan Saraswati",
+        "id": 9966,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Purushottamji",
+        "author_id": 13,
+        "description": "Sanskrit Commentary By Sri Purushottamji",
+        "id": 9967,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Shankaracharya",
+        "author_id": 14,
+        "description": "Sanskrit Commentary By Sri Shankaracharya",
+        "id": 9968,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Sri Vallabhacharya",
+        "author_id": 15,
+        "description": "Sanskrit Commentary By Sri Vallabhacharya",
+        "id": 9969,
+        "lang": "sanskrit",
+        "language_id": 3,
+        "verseNumber": 625,
+        "verse_id": 625
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "English Commentary By Swami Sivananda",
+        "id": 9970,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 625,
+        "verse_id": 625
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.4।। अर्जुन बोले - हे मधुसूदन! मैं रणभूमिमें भीष्म और द्रोणके साथ बाणोंसे युद्ध कैसे करूँ? क्योंकि हे अरिसूदन! ये दोनों ही पूजाके योग्य हैं।\n ",
+        "id": 351,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 51,
+        "verse_id": 51
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.4।। अर्जुन ने कहा -- हे मधुसूदन ! मैं रणभूमि में किस प्रकार भीष्म और द्रोण के साथ बाणों से युद्ध करूँगा। हे अरिसूदन, वे दोनों ही पूजनीय हैं।।\n ",
+        "id": 352,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 51,
+        "verse_id": 51
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Arjuna said, \"O slayer of foes, how can I aim arrows in battle against Bhisma and Drona, who are worthy of reverence?\"",
+        "id": 353,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 51,
+        "verse_id": 51
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Arjuna said, \"O Madhusudana, O destroyer of enemies, how can I fight with arrows in battle against Bhisma and Drona, who are worthy of adoration?\"",
+        "id": 354,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 51,
+        "verse_id": 51
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Arjuna said, \"O Madhusudana, how can I fight in battle with arrows against Bhishma and Drona, who are worthy of being worshipped, O destroyer of enemies?\"",
+        "id": 355,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 51,
+        "verse_id": 51
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Arjuna said, \"How can I fight in battle with arrows against Bhisma and Drona, both of whom are worthy of reverence? O slayer of Mandhu, O slayer of foes!\"",
+        "id": 356,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 51,
+        "verse_id": 51
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Arjuna argued: My Lord! How can I, when the battle rages, send an arrow through Bheeshma and Drona, whom I should revere?",
+        "id": 357,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 51,
+        "verse_id": 51
+    }
+]

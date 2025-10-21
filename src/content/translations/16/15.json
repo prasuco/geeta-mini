@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।16.15।।हम धनवान् हैं, बहुत-से मनुष्य हमारे पास हैं, हमारे समान और कौन है? हम खूब यज्ञ करेंगे, दान देंगे और मौज करेंगे -- इस तरह वे अज्ञानसे मोहित रहते हैं।",
+        "id": 4096,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 586,
+        "verse_id": 586
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।16.15।। \"मैं धनवान् और श्रेष्ठकुल में जन्मा हूँ। मेरे समान दूसरा कौन है?\",'मैं यज्ञ करूंगा', 'मैं दान दूँगा', 'मैं मौज करूँगा' - इस प्रकार के अज्ञान से वे मोहित होते हैं।।\n ",
+        "id": 4097,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 586,
+        "verse_id": 586
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "'I am wealthy and high-born; who else is equal to me? I shall sacrifice, I shall give alms, I shall rejoice.' Thus they think, deluded by ignorance.",
+        "id": 4098,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 586,
+        "verse_id": 586
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "'I am wealthy and of noble birth; who else is like me? I shall perform sacrifices; I shall give, I shall rejoice'- thus, they are deluded by a lack of discernment in diverse ways.",
+        "id": 4099,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 586,
+        "verse_id": 586
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "\"I am wealthy and born into a noble family. Who is my equal? I shall perform sacrifices, give charity, and rejoice,\" thus deluded by ignorance.",
+        "id": 4100,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 586,
+        "verse_id": 586
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "'I am wealthy; I am of noble birth; who else is equal to me? I shall perform sacrifices; I shall give gifts; and I shall rejoice' - deluded by these wrong ideas;",
+        "id": 4101,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 586,
+        "verse_id": 586
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am wealthy, I am of noble birth; who can compare with me? I will sacrifice, I will give, I will pay—and I will enjoy. Thus blinded by ignorance,",
+        "id": 4102,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 586,
+        "verse_id": 586
+    }
+]

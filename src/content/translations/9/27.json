@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।9.27।। हे कुन्तीपुत्र ! तू जो कुछ करता है, जो कुछ खाता है, जो कुछ यज्ञ करता है, जो कुछ दान देता है और जो कुछ तप करता है, वह सब मेरे अर्पण कर दे।",
+        "id": 2549,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 365,
+        "verse_id": 365
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।9.27।। हे कौन्तेय ! तुम जो कुछ कर्म करते हो, जो कुछ खाते हो, जो कुछ हवन करते हो, जो कुछ दान देते हो और जो कुछ तप करते हो, वह सब तुम मुझे अर्पण करो।।\n ",
+        "id": 2550,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 365,
+        "verse_id": 365
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerity you practice, O Arjuna, do that as an offering to Me.",
+        "id": 2551,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 365,
+        "verse_id": 365
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O son of Kunti, whatever you do, whatever you eat, whatever you offer as a sacrifice, whatever you give, and whatever austerities you undertake—all of that you offer to Me.",
+        "id": 2552,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 365,
+        "verse_id": 365
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Whatever you do, whatever you eat, whatever you offer in sacrifice, whatever you give, whatever austerity you practice, O Arjuna, do it as an offering to Me.",
+        "id": 2553,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 365,
+        "verse_id": 365
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Whatever you do, whatever you eat, whatever oblation you offer, whatever gift you make, and whatever austerity you perform, O son of Kunti, do that as an offering to Me.",
+        "id": 2554,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 365,
+        "verse_id": 365
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Whatever you do, whatever you eat, whatever you sacrifice and give, whatever austerities you practice, do all as an offering to Me.",
+        "id": 2555,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 365,
+        "verse_id": 365
+    }
+]

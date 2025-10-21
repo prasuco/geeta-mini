@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.17 -- 1.18।। हे राजन्! श्रेष्ठ धनुषवाले काशिराज और महारथी शिखण्डी तथा धृष्टद्युम्न एवं राजा विराट और अजेय सात्यकि, राजा द्रुपद और द्रौपदी के पाँचों पुत्र तथा लम्बी-लम्बी भुजाओंवाले सुभद्रा-पुत्र अभिमन्यु - इन सभी ने सब ओर से अलग-अलग (अपने-अपने) शंख बजाये।\n ",
+        "id": 120,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 18,
+        "verse_id": 18
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.18।।हे राजन् ! राजा द्रुपद,  द्रौपदी के पुत्र और महाबाहु सौभद्र (अभिमन्यु) इन सब ने अलग-अलग शंख बजाये।\n\n\n ",
+        "id": 121,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 18,
+        "verse_id": 18
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Drupada and the sons of Draupadi, as well as the strong-armed son of Subhadra—all, O King, blew their respective conchs again and again.",
+        "id": 122,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 18,
+        "verse_id": 18
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Drupada and the sons of Draupadi, as well as the mighty-armed son of Subhadra, all of them together, O king, blew their respective conchs.",
+        "id": 123,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 18,
+        "verse_id": 18
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Drupada and the sons of Draupadi, O Lord of the Earth, and the son of Subhadra, the mighty-armed, blew their conches each separately.",
+        "id": 124,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 18,
+        "verse_id": 18
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The Pancala king, a mighty archer, and Draupad's five sons, as well as the mighty-armed son of Subhadra, each blew their own conch-shells individually.",
+        "id": 125,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 18,
+        "verse_id": 18
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "And, O King! Drupada's sons, Droupadi's sons, and the great soldier Soubhadra blew their conches.",
+        "id": 126,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 18,
+        "verse_id": 18
+    }
+]

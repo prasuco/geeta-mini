@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.2।। संजय बोले - उस समय वज्रव्यूह-से खड़ी हुई पाण्डव-सेना को देखकर राजा दुर्योधन द्रोणाचार्य के पास जाकर यह वचन बोला।\n ",
+        "id": 8,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 2,
+        "verse_id": 2
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.2।।संजय ने कहा -- पाण्डव-सैन्य की व्यूह रचना देखकर राजा दुर्योधन ने आचार्य द्रोण के पास जाकर ये वचन कहे।\n\n\n ",
+        "id": 9,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 2,
+        "verse_id": 2
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Sanjaya said: King Duryodhana, upon seeing the Pandava army in battle array, approached his teacher Drona and said these words.",
+        "id": 10,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 2,
+        "verse_id": 2
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Sanjaya said: But then, seeing the army of the Pandavas in battle array, King Duryodhana approached the teacher, Drona, and spoke.",
+        "id": 11,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 2,
+        "verse_id": 2
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Sanjaya said: Having seen the army of the Pandavas drawn up in battle array, King Duryodhana approached his teacher, Drona, and spoke these words.",
+        "id": 12,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 2,
+        "verse_id": 2
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Sanjaya said: Seeing the army of the sons of Pandu marshaled in military array, the prince Duryodhana approached the teacher Drona and spoke these words at that time:",
+        "id": 13,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 2,
+        "verse_id": 2
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Sanjaya replied: \"When Prince Duryodhana saw the Pandavas' army paraded, he approached his preceptor Guru Drona and spoke these words:",
+        "id": 14,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 2,
+        "verse_id": 2
+    }
+]

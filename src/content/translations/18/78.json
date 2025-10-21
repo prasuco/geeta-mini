@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.78।।जहाँ योगेश्वर भगवान् श्रीकृष्ण हैं और जहाँ गाण्डीवधनुषधारी अर्जुन हैं, वहाँ ही श्री, विजय, विभूति और अचल नीति है -- ऐसा मेरा मत है।",
+        "id": 4901,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 701,
+        "verse_id": 701
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.78।। जहाँ योगेश्वर श्रीकृष्ण हैं और जहाँ धनुर्धारी अर्जुन है वहीं पर श्री, विजय, विभूति और ध्रुव नीति है, ऐसा मेरा मत है।।",
+        "id": 4902,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 701,
+        "verse_id": 701
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Wherever there is Sri Krsna, the Lord of Yoga, and Arjuna the archer, there is always fortune, victory, wealth, and sound morality. This is my firm conviction.",
+        "id": 4903,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 701,
+        "verse_id": 701
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Where there is Krishna, the Lord of yogas, and where there is Partha, the wielder of the bow, there is fortune, victory, prosperity, and unfailing prudence. Such is my conviction.",
+        "id": 4904,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 701,
+        "verse_id": 701
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Wherever Krishna, the Lord of Yoga, is; and wherever Arjuna, the wielder of the bow, is; there is prosperity, victory, happiness, and a firm policy; this is my conviction.",
+        "id": 4905,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 701,
+        "verse_id": 701
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Where Krishna, the Lord of Yogis, remains, where the son of Prtha holds his bow, there lies fortune, victory, prosperity, and firm justice—so I believe.",
+        "id": 4906,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 701,
+        "verse_id": 701
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Wherever Lord Shri Krishna, the Prince of Wisdom, and Arjuna, the Great Archer, are, I am certain that good fortune, victory, happiness, and righteousness will follow.",
+        "id": 4907,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 701,
+        "verse_id": 701
+    }
+]

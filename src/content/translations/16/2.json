@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।16.2।।अहिंसा, सत्यभाषण; क्रोध न करना; संसारकी कामनाका त्याग; अन्तःकरणमें राग-द्वेषजनित हलचलका न होना; चुगली न करना; प्राणियोंपर दया करना सांसारिक विषयोंमें न ललचाना; अन्तःकरणकी कोमलता; अकर्तव्य करनेमें लज्जा; चपलताका अभाव।",
+        "id": 4005,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 573,
+        "verse_id": 573
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।16.2।। अहिंसा, सत्य, क्रोध का अभाव, त्याग, शान्ति, अपैशुनम् (किसी की निन्दा न करना), भूतमात्र के प्रति दया, अलोलुपता , मार्दव (कोमलता), लज्जा, अचंचलता।।\n ",
+        "id": 4006,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 573,
+        "verse_id": 573
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Non-injury, truth, freedom from anger, renunciation, tranquility, non-slandering of others, compassion for all beings, freedom from desire, gentleness, a sense of shame, and freedom from fickleness;",
+        "id": 4007,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 573,
+        "verse_id": 573
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Non-injury, truthfulness, absence of anger, renunciation, control of the inner self, absence of vilification, kindness to creatures, non-covetousness, gentleness, modesty, and freedom from restlessness;",
+        "id": 4008,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 573,
+        "verse_id": 573
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Harmlessness, truth, absence of anger, renunciation, peacefulness, absence of crookedness, compassion for beings, non-covetousness, gentleness, modesty, and absence of fickleness.",
+        "id": 4009,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 573,
+        "verse_id": 573
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Harmlessness, truth, absence of anger, renunciation, absence of attachment, absence of slander, compassion for living beings, and absence of greed, gentleness, modesty, and absence of thoughtlessness;",
+        "id": 4010,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 573,
+        "verse_id": 573
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Harmlessness, truth, absence of wrath, renunciation, contentment, straightforwardness, compassion towards all, uncovetousness, courtesy, modesty, and constancy.",
+        "id": 4011,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 573,
+        "verse_id": 573
+    }
+]

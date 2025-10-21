@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.37।। वृष्णिवंशियोंमें वासुदेव और पाण्डवोंमें धनञ्जय मैं हूँ। मुनियोंमें वेदव्यास और कवियोंमें कवि शुक्राचार्य भी मैं हूँ।",
+        "id": 2857,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 409,
+        "verse_id": 409
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.37।। मैं वृष्णियों में वासुदेव हूँ और पाण्डवों में धनंजय, मैं मुनियों में व्यास और कवियों में उशना कवि हूँ।।\n ",
+        "id": 2858,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 409,
+        "verse_id": 409
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of the Vrsnis, I am Vasudeva; of the Pandavas, I am Arjuna; of sages, I am Vyasa; and of seers, I am Usana (Sukra).",
+        "id": 2859,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 409,
+        "verse_id": 409
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Of the Vrsnis, I am Vasudeva; of the Pandavas, Dhananjaya (Arjuna). Of the wise, I am Vyasa; of the omniscient, the omniscient Usanas.",
+        "id": 2860,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 409,
+        "verse_id": 409
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Among the Vrishnis, I am Vaasudeva; among the Pandavas, I am Arjuna; among the sages, I am Vyasa; among the poets, I am Usanas, the poet.",
+        "id": 2861,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 409,
+        "verse_id": 409
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of the Vrsnis, I am the son of Vasudeva; of the sons of Pandu, I am Dhananjaya (Arjuna); of the sages, I am Vyasa; and of the seers, I am Usanas.",
+        "id": 2862,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 409,
+        "verse_id": 409
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am Shri Krishna among the Vishnu-clan, Arjuna among the Pandavas, Vyasa among the saints, and Shukracharya among the sages.",
+        "id": 2863,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 409,
+        "verse_id": 409
+    }
+]

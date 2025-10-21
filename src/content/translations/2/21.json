@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.21।। हे पृथानन्दन! जो मनुष्य इस शरीरीको अविनाशी, नित्य, जन्मरहित और अव्यय जानता है, वह कैसे किसको मारे और कैसे किसको मरवाये?\n ",
+        "id": 470,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 68,
+        "verse_id": 68
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.21।। हे पार्थ ! जो पुरुष इस आत्मा को अविनाशी,  नित्य और अव्ययस्वरूप जानता है,  वह कैसे किसको मरवायेगा और कैसे किसको मारेगा?\n ",
+        "id": 471,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 68,
+        "verse_id": 68
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "He who knows this self to be indestructible, unborn, unchanging, and thus eternal—how, O Arjuna, does he cause anyone to be killed, and whom does he kill?",
+        "id": 472,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 68,
+        "verse_id": 68
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O Partha, he who knows this One as indestructible, eternal, birthless, and undecaying—how can that person kill, or cause to be killed, whom?",
+        "id": 473,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 68,
+        "verse_id": 68
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Whoever knows it to be indestructible, eternal, unborn, and inexhaustible, how can that person slay, O Arjuna, or cause to be slain?",
+        "id": 474,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 68,
+        "verse_id": 68
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Whoever realizes this to be changeless, destructionless, unborn, and immutable, how can that person be slain? How can they slay anyone else? O son of Prtha!",
+        "id": 475,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 68,
+        "verse_id": 68
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "He who knows the Spirit to be indestructible, immortal, unborn, and always the same, how should he kill or cause to be killed?",
+        "id": 476,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 68,
+        "verse_id": 68
+    }
+]

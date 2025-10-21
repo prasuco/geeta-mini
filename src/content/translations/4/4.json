@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।4.4।। अर्जुन बोले - आपका जन्म तो अभीका है और सूर्यका जन्म बहुत पुराना है; अतः आपने ही सृष्टिके आदिमें सूर्यसे यह योग कहा था - यह बात मैं कैसे समझूँ?",
+        "id": 1156,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 166,
+        "verse_id": 166
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।4.4।। अर्जुन ने कहा -- आपका जन्म अपर अर्थात् पश्चात का है और विवस्वान् का जन्म (आपके) पूर्व का है, इसलिये यह मैं कैसे जानूँ कि (सृष्टि के) आदि में आपने (इस योग को) कहा था?",
+        "id": 1157,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 166,
+        "verse_id": 166
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Arjuna said, \"Your birth was later, and Vivasvan's birth was earlier. How then can I understand that you taught it in the beginning?\"",
+        "id": 1158,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 166,
+        "verse_id": 166
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Arjuna said, \"Your birth was later, whereas Vivasvan's birth was earlier. How am I to understand that You instructed him in the beginning?\"",
+        "id": 1159,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 166,
+        "verse_id": 166
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Arjuna said, \"Later was Thy birth, and prior to it was the birth of Vivasvan (the Sun); how am I to understand that Thou hast taught this Yoga from the beginning?\"",
+        "id": 1160,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 166,
+        "verse_id": 166
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Arjuna said, \"Your birth is later, while the birth of Vivasvat is earlier; how am I then to understand that You had properly taught him this in the beginning?\"",
+        "id": 1161,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 166,
+        "verse_id": 166
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Arjuna asked: My Lord! Vyasawana was born before You; how then can You have revealed it to him?",
+        "id": 1162,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 166,
+        "verse_id": 166
+    }
+]

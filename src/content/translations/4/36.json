@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।4.36।। अगर तू सब पापियोंसे भी अधिक पापी है, तो भी तू ज्ञानरूपी नौकाके द्वारा निःसन्देह सम्पूर्ण पापसमुद्रसे अच्छी तरह तर जायगा। ",
+        "id": 1380,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 198,
+        "verse_id": 198
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।4.36।। यदि तुम सब पापियों से भी अधिक पाप करने वाले हो,  तो भी ज्ञानरूपी नौका द्वारा,  निश्चय ही सम्पूर्ण पापों का तुम संतरण कर जाओगे।।\n ",
+        "id": 1381,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 198,
+        "verse_id": 198
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Even if you are the most sinful of all sinners, you can cross over all sins by the boat of knowledge alone.",
+        "id": 1382,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 198,
+        "verse_id": 198
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Even if you are the worst sinner among all sinners, you can still cross over all wickedness with the raft of Knowledge alone.",
+        "id": 1383,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 198,
+        "verse_id": 198
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Even if thou art the most sinful of all sinners, yet thou shalt surely cross over all sins by the raft of knowledge.",
+        "id": 1384,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 198,
+        "verse_id": 198
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Even if you are the highest sinner among all sinners, you can cross over the ocean of all sins by the boat of knowledge.",
+        "id": 1385,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 198,
+        "verse_id": 198
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Even if you are the greatest of sinners, you will cross over all sin by the ferryboat of wisdom.",
+        "id": 1386,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 198,
+        "verse_id": 198
+    }
+]

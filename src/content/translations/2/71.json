@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.71।। जो मनुष्य सम्पूर्ण कामनाओंका त्याग करके स्पृहारहित, ममतारहित और अहंकाररहित होकर आचरण करता है, वह शान्तिको प्राप्त होता है।\n ",
+        "id": 820,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 118,
+        "verse_id": 118
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.71।। जो पुरुष सब कामनाओं को त्यागकर स्पृहारहित? ममभाव रहित और निरहंकार हुआ विचरण करता है? वह शान्ति प्राप्त करता है।।",
+        "id": 821,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 118,
+        "verse_id": 118
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "The one who, abandoning all desires, abides without longing, possession, and the sense of 'I' and 'mine', wins peace.",
+        "id": 822,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 118,
+        "verse_id": 118
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "That man attains peace who, after rejecting all desires, moves about free from hankering, without the idea of 'me' and 'mine', and devoid of pride.",
+        "id": 823,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 118,
+        "verse_id": 118
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "That person attains peace who, abandoning all desires, moves about without longing, without the sense of ownership, and without egoism.",
+        "id": 824,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 118,
+        "verse_id": 118
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "That person, who, by abandoning all desires, consumes [objects] without longing, without a sense of ownership, and without egotism, attains peace.",
+        "id": 825,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 118,
+        "verse_id": 118
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "He attains peace who, giving up desire, moves through the world without aspiration, possessing nothing that he can call his own and is free from pride.",
+        "id": 826,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 118,
+        "verse_id": 118
+    }
+]

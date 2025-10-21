@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।4.3।। तू मेरा भक्त और प्रिय सखा है, इसलिये वही यह पुरातन योग आज मैंने तुझसे कहा है; क्योंकि यह बड़ा उत्तम रहस्य है। ",
+        "id": 1149,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 165,
+        "verse_id": 165
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।4.3।। वह ही यह पुरातन योग आज मैंने तुम्हें कहा (सिखाया) क्योंकि तुम मेरे भक्त और मित्र हो। यह उत्तम रहस्य है।।",
+        "id": 1150,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 165,
+        "verse_id": 165
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "It is the same ancient Yoga that I am now teaching you, for you are My devotee and My friend. For, this is a supreme mystery.",
+        "id": 1151,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 165,
+        "verse_id": 165
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "That ancient Yoga itself, which is this, has been taught to you by Me today, considering you to be My devotee and friend, for this Yoga is a profound secret.",
+        "id": 1152,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 165,
+        "verse_id": 165
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "That same ancient yoga has been today taught to you by me, for you are my devotee and my friend; it is the supreme secret.",
+        "id": 1153,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 165,
+        "verse_id": 165
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The same ancient Yoga has now been taught to you by Me, on the grounds that you are both My devotee and friend. This is the highest secret.",
+        "id": 1154,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 165,
+        "verse_id": 165
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "It is the same ancient path that I have now revealed to you, for you are my devotee and my friend. It is the supreme secret.",
+        "id": 1155,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 165,
+        "verse_id": 165
+    }
+]

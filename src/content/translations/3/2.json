@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "\n\n।।3.1 -- 3.2।। अर्जुन बोले -- हे जनार्दन! अगर आप कर्मसे बुद्धि- (ज्ञान-) को श्रेष्ठ मानते हैं, तो फिर हे केशव! मुझे घोर कर्ममें क्यों लगाते हैं ? आप अपने मिले हुए-से वचनोंसे मेरी बुद्धिको मोहित-सी कर रहे हैं। अतः आप निश्चय करके एक बात को कहिये, जिससे मैं कल्याणको प्राप्त हो जाऊँ। ",
+        "id": 841,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 121,
+        "verse_id": 121
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.2।। आप इस मिश्रित वाक्य से मेरी बुद्धि को मोहितसा करते हैं अत आप उस एक (मार्ग) को निश्चित रूप से कहिये जिससे मैं परम श्रेय को प्राप्त कर सकूँ।।",
+        "id": 842,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 121,
+        "verse_id": 121
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "You confuse my mind with statements that seem to contradict each other; tell me for certain the one way by which I could reach the highest good.",
+        "id": 843,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 121,
+        "verse_id": 121
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "You bewilder my understanding, as it were, with a seemingly conflicting statement! Tell me for certain which one of these I may use to attain the highest Good.",
+        "id": 844,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 121,
+        "verse_id": 121
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "With this seemingly perplexing speech, you seem to be confusing my understanding; therefore, tell me one certain way by which I may attain bliss.",
+        "id": 845,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 121,
+        "verse_id": 121
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "You seem to be confounding my intellect with Your seemingly confusing speech. Therefore, tell me with certainty that one thing by which I may attain the good (emancipation).",
+        "id": 846,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 121,
+        "verse_id": 121
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Your language confuses me and confounds my reason. Therefore, please tell me the only way by which I can, without doubt, secure my spiritual welfare.",
+        "id": 847,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 121,
+        "verse_id": 121
+    }
+]

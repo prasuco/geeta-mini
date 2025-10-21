@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।17.16।।मनकी प्रसन्नता, सौम्य भाव, मननशीलता, मनका निग्रह और भावोंकी शुद्धि -- इस तरह यह मन-सम्बन्धी तप कहा जाता है।",
+        "id": 4271,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 611,
+        "verse_id": 611
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।17.16।। मन की प्रसन्नता, सौम्यभाव, मौन आत्मसंयम और अन्त:करण की शुद्धि यह सब मानस तप कहलाता है।।\n ",
+        "id": 4272,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 611,
+        "verse_id": 611
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Serenity of mind, benevolence, silence, self-control, and purity of mind—these are known as austerity of the mind.",
+        "id": 4273,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 611,
+        "verse_id": 611
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Tranquility of mind, gentleness, reticence, withdrawal of the mind, purity of heart—these are what are called mental austerities.",
+        "id": 4274,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 611,
+        "verse_id": 611
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Serenity of mind, good-heartedness, self-control, and purity of nature—this is called mental austerity.",
+        "id": 4275,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 611,
+        "verse_id": 611
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The serenity of mind, the stillness, the taciturnity, the self-control, the purity of thought—all this is called mental austerity.",
+        "id": 4276,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 611,
+        "verse_id": 611
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Serenity, kindness, silence, self-control, and purity—these are the austerities of the mind.",
+        "id": 4277,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 611,
+        "verse_id": 611
+    }
+]

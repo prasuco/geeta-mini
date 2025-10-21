@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.16।।  जिन विभूतियोंसे आप इन सम्पूर्ण लोकोंको व्याप्त करके स्थित हैं, उन सभी अपनी दिव्य विभूतियोंका सम्पूर्णतासे वर्णन करनेमें आप ही समर्थ हैं।",
+        "id": 2710,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 388,
+        "verse_id": 388
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.16।। आप ही उन अपनी दिव्य विभूतियों को अशेषत: कहने के लिए योग्य हैं, जिन विभूतियों के द्वारा इन समस्त लोकों को आप व्याप्त करके स्थित हैं।।\n ",
+        "id": 2711,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 388,
+        "verse_id": 388
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "You should tell Me without reserve Your divine manifestations where You abide, pervading all these worlds.",
+        "id": 2712,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 388,
+        "verse_id": 388
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Be pleased to speak in full of Your own divine manifestations, through which You exist pervading these worlds.",
+        "id": 2713,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 388,
+        "verse_id": 388
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "You should indeed tell, without reserve, of your divine glories by which you exist, pervading all these worlds. (No one else can do so.)",
+        "id": 2714,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 388,
+        "verse_id": 388
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "You alone are capable of fully declaring the auspicious manifesting powers of Yours, through which manifesting power You remain pervading these worlds.",
+        "id": 2715,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 388,
+        "verse_id": 388
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Please tell me about all of Your glorious manifestations, through which You pervade the world.",
+        "id": 2716,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 388,
+        "verse_id": 388
+    }
+]

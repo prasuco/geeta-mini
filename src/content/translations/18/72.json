@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.72।।हे पृथानन्दन ! क्या तुमने एकाग्र-चित्तसे इसको सुना ?और हे धनञ्जय ! क्या तुम्हारा अज्ञानसे उत्पन्न मोह नष्ट हुआ ?",
+        "id": 4859,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 695,
+        "verse_id": 695
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.72।। हे पार्थ ! क्या इसे (मेरे उपदेश को) तुमने एकाग्रचित्त होकर श्रवण किया ? और हे धनञ्जय ! क्या तुम्हारा अज्ञान जनित संमोह पूर्णतया नष्ट हुआ ?\n ",
+        "id": 4860,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 695,
+        "verse_id": 695
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Have you heard this, O Arjuna, with a single-minded focus? Has your delusion, caused by ignorance, been dispelled?",
+        "id": 4861,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 695,
+        "verse_id": 695
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O Partha, have you listened to this with a one-pointed mind? O Dhananjaya, has your delusion caused by ignorance been dispelled?",
+        "id": 4862,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 695,
+        "verse_id": 695
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Has this been heard, O Arjuna, with one-pointed focus? Has the delusion of your ignorance been destroyed, O Dhananjaya?",
+        "id": 4863,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 695,
+        "verse_id": 695
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "O son of Prtha! Have you heard this with an attentive mind? O Dhananjaya! Has your strong delusion, born of ignorance, been completely destroyed?",
+        "id": 4864,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 695,
+        "verse_id": 695
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "O Arjuna, have you listened attentively to My words? Has your ignorance and delusion gone?",
+        "id": 4865,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 695,
+        "verse_id": 695
+    }
+]

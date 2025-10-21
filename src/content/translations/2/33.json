@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.33।। अब अगर तू यह धर्ममय युद्ध नहीं करेगा,  तो अपने धर्म और कीर्तिका त्याग करके पापको प्राप्त होगा।\n ",
+        "id": 554,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 80,
+        "verse_id": 80
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.33।। और यदि तुम इस धर्मयुद्ध को स्वीकार नहीं करोगे,  तो स्वधर्म और कीर्ति को खोकर पाप को प्राप्त करोगे।।\n ",
+        "id": 555,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 80,
+        "verse_id": 80
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "But if you do not fight this righteous war, you will be turning away from your duty and honor, and will incur sin.",
+        "id": 556,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 80,
+        "verse_id": 80
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "On the other hand, if you do not fight this righteous battle, then you will incur sin, forsaking your own duty and fame.",
+        "id": 557,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 80,
+        "verse_id": 80
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "But if you will not fight this righteous war, then having abandoned your own duty and reputation, you will incur sin.",
+        "id": 558,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 80,
+        "verse_id": 80
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "On the other hand, if you do not fight this righteous war, then you will incur sin by shirking your own duty and forfeiting your fame.",
+        "id": 559,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 80,
+        "verse_id": 80
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Refuse to fight in this righteous cause, and you will be a traitor, losing fame, incurring only sin.",
+        "id": 560,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 80,
+        "verse_id": 80
+    }
+]

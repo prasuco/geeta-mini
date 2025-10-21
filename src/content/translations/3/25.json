@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।3.25 -- 3.26।। हे भरतवंशोद्भव अर्जुन! कर्ममें आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं, आसक्तिरहित विद्वान भी लोकसंग्रह करना चाहता हुआ उसी प्रकार कर्म करे।  तत्त्वज्ञ महापुरुष कर्मोंमें आसक्तिवाले अज्ञानी मनुष्योंकी बुद्धिमें भ्रम उत्पन्न न करे, प्रत्युत स्वयं समस्त कर्मोंको अच्छी तरहसे करता हुआ उनसे भी वैसे ही करवाये।",
+        "id": 1002,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 144,
+        "verse_id": 144
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.25।। हे भारत ! कर्म में आसक्त हुए अज्ञानीजन जैसे कर्म करते हैं वैसे ही विद्वान् पुरुष अनासक्त होकर, लोकसंग्रह (लोक कल्याण) की इच्छा से कर्म करे।।\n ",
+        "id": 1003,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 144,
+        "verse_id": 144
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Just as the ignorant, attached to their work, act, O Arjuna, so too the learned should act without any attachment, and only for the welfare of the world.",
+        "id": 1004,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 144,
+        "verse_id": 144
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O scion of the Bharata dynasty, as the unenlightened people act with attachment to work, so should the enlightened person act, without attachment, desiring to prevent people from going astray.",
+        "id": 1005,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 144,
+        "verse_id": 144
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "As the ignorant act out of attachment to action, O Bharata, so should the wise act without attachment, wishing for the welfare of the world.",
+        "id": 1006,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 144,
+        "verse_id": 144
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Therefore, just as the unwise persons, being attached to action, do, O son of Prtha, so the wise should perform, but being unattached and desiring to hold the world together.",
+        "id": 1007,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 144,
+        "verse_id": 144
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "As the ignorant act, out of their fondness for action, so should the wise act without attachment, fixing their eyes, O Arjuna, only on the welfare of the world.",
+        "id": 1008,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 144,
+        "verse_id": 144
+    }
+]

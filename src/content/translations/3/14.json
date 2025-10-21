@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।3.14 -- 3.15।। सम्पूर्ण प्राणी अन्नसे उत्पन्न होते हैं। अन्न  वर्षासे होती है। वर्षा यज्ञसे होती है। यज्ञ कर्मोंसे निष्पन्न होता है। कर्मोंको तू वेदसे उत्पन्न जान और वेदको अक्षरब्रह्मसे प्रकट हुआ जान। इसलिये वह सर्वव्यापी परमात्मा यज्ञ (कर्तव्य-कर्म) में नित्य प्रतिष्ठित है।\n ",
+        "id": 925,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 133,
+        "verse_id": 133
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.14।। समस्त प्राणी अन्न से उत्पन्न होते हैं अन्न की उत्पत्ति पर्जन्य से। पर्जन्य की उत्पत्ति यज्ञ से और यज्ञ कर्मों से उत्पन्न होता है।।",
+        "id": 926,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 133,
+        "verse_id": 133
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "All beings arise from food; food is produced from rain; rain comes from sacrifice; and sacrifice is born of action.",
+        "id": 927,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 133,
+        "verse_id": 133
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "From food are born the creatures; the origin of food is from rain; rain originates from sacrifice; sacrifice has action as its source.",
+        "id": 928,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 133,
+        "verse_id": 133
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "From food come forth beings; from rain, food is produced; from sacrifice arises rain, and sacrifice is born of action.",
+        "id": 929,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 133,
+        "verse_id": 133
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "From food arise the things that are born; from the rain-cloud the food arises; from the sacrifice the rain-cloud arises; the sacrifice arises from action.",
+        "id": 930,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 133,
+        "verse_id": 133
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "All creatures are the product of food; food is the product of rain; rain comes from sacrifice, and sacrifice is the noblest form of action.",
+        "id": 931,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 133,
+        "verse_id": 133
+    }
+]

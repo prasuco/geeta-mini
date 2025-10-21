@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।10.32।। हे अर्जुन ! सम्पूर्ण सर्गोंके आदि, मध्य तथा अन्तमें मैं ही हूँ। विद्याओंमें अध्यात्मविद्या और परस्पर शास्त्रार्थ करनेवालोंका(तत्त्व-निर्णयके लिये किया जानेवाला) वाद मैं हूँ।",
+        "id": 2822,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 404,
+        "verse_id": 404
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।10.32।। हे अर्जुन ! सृष्टियों का आदि, अन्त और मध्य भी मैं ही हूँ, मैं विद्याओं में अध्यात्मविद्या और विवाद करने वालों में (अर्थात् विवाद के प्रकारों में) मैं वाद हूँ।।\n ",
+        "id": 2823,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 404,
+        "verse_id": 404
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Of creatures, I am the beginning, the middle, and the end, O Arjuna. Of sciences, I am the science of the Self (of the individual and Universal Self). Of those who argue, I am the fair reasoning.",
+        "id": 2824,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 404,
+        "verse_id": 404
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O Arjuna, of creations I am the beginning, the middle, and the end; I am the knowledge of the Self among knowledge; of those who debate, I am vada.",
+        "id": 2825,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 404,
+        "verse_id": 404
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Among creations I am the beginning, the middle, and the end, O Arjuna; among the sciences, I am the science of the Self; and I am the logic among controversialists.",
+        "id": 2826,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 404,
+        "verse_id": 404
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Of the creations, I am the beginning, the end, and the middle, O Arjuna! Of the sciences, I am the science of the Self; of arguers, I am the argument.",
+        "id": 2827,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 404,
+        "verse_id": 404
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "I am the beginning, the middle, and the end of creation; among sciences, I am the science of spirituality; I am the discussion among disputants.",
+        "id": 2828,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 404,
+        "verse_id": 404
+    }
+]

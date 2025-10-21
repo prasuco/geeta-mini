@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।7.7।। हे धनञ्जय ! मेरे बढ़कर (इस जगत् का) दूसरा कोई किञ्चिन्मात्र भी कारण नहीं है। जैसे सूतकी मणियाँ सूतके धागेमें पिरोयी हुई होती हैं, ऐसे ही यह सम्पूर्ण जगत् मेरेमें ही ओत-प्रोत है। ",
+        "id": 2003,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 287,
+        "verse_id": 287
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।7.7।। हे धनंजय ! मुझसे श्रेष्ठ (परे) अन्य किचिन्मात्र वस्तु नहीं है। यह सम्पूर्ण जगत् सूत्र में मणियों के सदृश मुझमें पिरोया हुआ है।।\n ",
+        "id": 2004,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 287,
+        "verse_id": 287
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "There is nothing higher than Me, O Arjuna. All this is strung on Me, like rows of gems on a thread.",
+        "id": 2005,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 287,
+        "verse_id": 287
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "O Dhananjaya, there is nothing else higher than Myself. All this is strung on Me like pearls on a string.",
+        "id": 2006,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 287,
+        "verse_id": 287
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "There is nothing higher than Me, O Arjuna. All this is strung on Me, like clusters of gems on a string.",
+        "id": 2007,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 287,
+        "verse_id": 287
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "There is nothing beyond Me, O Dhananjaya; all this is strung on Me, just as pearls are strung on a string.",
+        "id": 2008,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 287,
+        "verse_id": 287
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "O Arjuna! There is nothing higher than Me; all is strung on Me like rows of pearls on a thread.",
+        "id": 2009,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 287,
+        "verse_id": 287
+    }
+]

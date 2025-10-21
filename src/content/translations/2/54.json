@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.54।। अर्जुन बोले - हे केशव ! परमात्मामें स्थित स्थिर बुद्धिवाले मनुष्यके क्या लक्षण होते हैं? वह स्थिर बुद्धिवाला मनुष्य कैसे बोलता है, कैसे बैठता है और कैसे चलता है?\n ",
+        "id": 701,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 101,
+        "verse_id": 101
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.54।। अर्जुन ने कहा -- हे केशव  समाधि में स्थित स्थिर बुद्धि वाले पुरुष का क्या लक्षण है स्थिर बुद्धि पुरुष कैसे बोलता है कैसे बैठता है  कैसे चलता है",
+        "id": 702,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 101,
+        "verse_id": 101
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Arjuna said, \"What is the mode of speech of one who is of firm wisdom, established in the control of the mind? What does a man of firm wisdom speak, O Krsna? How does he sit? How does he move?\"",
+        "id": 703,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 101,
+        "verse_id": 101
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Arjuna said, \"O Kesava, what is the description of a man of steady wisdom who is self-absorbed? How does he speak, sit, and move about?\"",
+        "id": 704,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 101,
+        "verse_id": 101
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Arjuna said, \"O Krishna, what is the description of one who has steady wisdom and is merged in the superconscious state? How does one of steady wisdom speak, how do they sit, and how do they walk?\"",
+        "id": 705,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 101,
+        "verse_id": 101
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Arjuna said, \"O Kesava! What is the meaning of sthita-prajna (a man-of-stabilized-intellect) when applied to a man fixed in concentration? What does sthira-dhih (the fixed-minded) imply? Where does the fixed-minded abide? And what is their goal?\"",
+        "id": 706,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 101,
+        "verse_id": 101
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Arjuna asked: My Lord! How can we recognize the saint who has attained Pure Intellect, who has reached this state of Bliss, and whose mind is steady? How does he talk, how does he live, and how does he act?",
+        "id": 707,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 101,
+        "verse_id": 101
+    }
+]

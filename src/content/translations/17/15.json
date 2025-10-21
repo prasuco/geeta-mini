@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।17.15।।उद्वेग न करनेवाला, सत्य, प्रिय, हितकारक भाषण तथा स्वाध्याय और अभ्यास करना -- यह वाणी-सम्बन्धी तप कहा जाता है।",
+        "id": 4264,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 610,
+        "verse_id": 610
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।17.15।। जो वाक्य (भाषण) उद्वेग उत्पन्न करने वाला नहीं है, जो प्रिय, हितकारक और सत्य है तथा वेदों का स्वाध्याय अभ्यास वाङ्मय (वाणी का) तप कहलाता है।।\n ",
+        "id": 4265,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 610,
+        "verse_id": 610
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Speech that causes no shock, is true, pleasant, and beneficial, and also the practice of reciting scriptures, is called the austerity of speech.",
+        "id": 4266,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 610,
+        "verse_id": 610
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "That speech which causes no pain, which is true, agreeable, and beneficial; as well as the practice of studying the scriptures—is said to be the austerity of speech.",
+        "id": 4267,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 610,
+        "verse_id": 610
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Speech that causes no excitement, is truthful, pleasant, and beneficial; the practice of studying the Vedas is called austerity of speech.",
+        "id": 4268,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 610,
+        "verse_id": 610
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The unoffending speech which is true, pleasant, and beneficial; as well as the practice of regular recitation of the Vedas—all this is said to be an austerity of the speech-sense.",
+        "id": 4269,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 610,
+        "verse_id": 610
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Speech that hurts no one, that is true, pleasant to listen to, and beneficial, and the constant study of the scriptures—this is austerity of speech.",
+        "id": 4270,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 610,
+        "verse_id": 610
+    }
+]

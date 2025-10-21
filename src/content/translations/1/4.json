@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.4 -- 1.6।। यहाँ (पाण्डवों की सेना में) बड़े-बड़े शूरवीर हैं, जिनके बहुत बड़े-बड़े धनुष हैं तथा जो युद्ध में भीम और अर्जुनके समान हैं। उनमें युयुधान (सात्यकि), राजा विराट और महारथी द्रुपद भी हैं। धृष्टकेतु और चेकितान तथा पराक्रमी काशिराज भी हैं। पुरुजित् और कुन्तिभोज--ये दोनों भाई तथा मनुष्योंमें श्रेष्ठ शैब्य भी हैं। पराक्रमी युधामन्यु और पराक्रमी उत्तमौजा भी हैं। सुभद्रापुत्र अभिमन्यु और द्रौपदी के पाँचों पुत्र भी हैं। ये सब-के-सब महारथी हैं।\n ",
+        "id": 22,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 4,
+        "verse_id": 4
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.4।।इस सेना में महान् धनुर्धारी शूर योद्धा है ,  जो युद्ध में भीम और अर्जुन के समान हैं , जैसे --  युयुधान, विराट तथा महारथी राजा द्रुपद।\n\n\n ",
+        "id": 23,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 4,
+        "verse_id": 4
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "There (in that army) are heroes, great bowmen, such as Bhima and Arjuna; Yuyudhana, Virata, and Drupada, a mighty warrior;",
+        "id": 24,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 4,
+        "verse_id": 4
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Here are the heroes wielding great bows, who in battle are peers of Bhima and Arjuna: Yuyudhana (Satyaki) and Virata, and the maharatha (great chariot-rider) Drupada;",
+        "id": 25,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 4,
+        "verse_id": 4
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Here are heroes, mighty archers, equal in battle to Bhima and Arjuna, Yuyudhana (Satyaki), Virata, and Drupada—all mighty warriors.",
+        "id": 26,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 4,
+        "verse_id": 4
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Here are the heroes and mighty archers, comparable in war to Bhima and Arjuna: Yuyudhana, the king of the Virata country, and Drupada, the mighty warrior.",
+        "id": 27,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 4,
+        "verse_id": 4
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "In it are heroes and great bowmen; the equals in battle of Arjuna, Bheema, Yuyudhana, Virata, and Drupada—all great soldiers.",
+        "id": 28,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 4,
+        "verse_id": 4
+    }
+]

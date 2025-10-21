@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।2.25।। यह देही प्रत्यक्ष नहीं दीखता, यह चिन्तनका विषय नहीं है और यह निर्विकार कहा जाता है। अतः इस देहीको ऐसा जानकर शोक नहीं करना चाहिये।\n ",
+        "id": 498,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 72,
+        "verse_id": 72
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।2.25।। यह आत्मा अव्यक्त,  अचिन्त्य और अविकारी कहा जाता है;  इसलिए इसको इस प्रकार जानकर तुमको शोक करना उचित नहीं है।।\n ",
+        "id": 499,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 72,
+        "verse_id": 72
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "This (self) is said to be unmanifest, inconceivable, and unchanging. Therefore, knowing it thus, it does not befit you to grieve.",
+        "id": 500,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 72,
+        "verse_id": 72
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "It is said that This is unmanifest; This is inconceivable; This is unchangeable. Therefore, having known This thus, you ought not to grieve.",
+        "id": 501,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 72,
+        "verse_id": 72
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "This Self is said to be unmanifested, unthinkable, and unchangeable. Therefore, knowing this to be so, you should not grieve.",
+        "id": 502,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 72,
+        "verse_id": 72
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "This is declared to be non-evident, imponderable, and unchangeable. Therefore, understanding this as such, you should not lament.",
+        "id": 503,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 72,
+        "verse_id": 72
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "It is named the Unmanifest, the Unthinkable, and the immutable. Therefore, knowing the Spirit as such, you have no cause to grieve.",
+        "id": 504,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 72,
+        "verse_id": 72
+    }
+]

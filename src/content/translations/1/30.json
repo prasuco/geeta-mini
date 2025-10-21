@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।1.28 -- 1.30।। अर्जुन बोले - हे कृष्ण! युद्ध की इच्छावाले इस कुटुम्ब-समुदाय को अपने सामने उपस्थित देखकर मेरे अङ्ग शिथिल हो रहे हैं और मुख सूख रहा है तथा मेरे शरीर में कँपकँपी आ रही है एवं रोंगटे खड़े हो रहे हैं। हाथ से गाण्डीव धनुष गिर रहा है और त्वचा भी जल रही है। मेरा मन भ्रमित-सा हो रहा है और मैं खड़े रहने में भी असमर्थ हो रहा हूँ।\n ",
+        "id": 204,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 30,
+        "verse_id": 30
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।1.30।।मेरे हाथ से गाण्डीव (धनुष) गिर रहा है और त्वचा जल रही है। मेरा मन भ्रमित सा हो रहा है,  और मैं खड़े रहने में असमर्थ हूँ।\n\n\n ",
+        "id": 205,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 30,
+        "verse_id": 30
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "The bow Gandiva slips from my hand and my skin is burning. I can no longer stand. My mind seems to be reeling.",
+        "id": 206,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 30,
+        "verse_id": 30
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Moreover, O Kesava (Krishna), I am not able to stand firmly, and my mind seems to be whirling. And I observe the omens to be adverse.",
+        "id": 207,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 30,
+        "verse_id": 30
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "The Gandiva slips from my hand, and my skin burns all over; I am unable to stand, and my mind is reeling, as it were.",
+        "id": 208,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 30,
+        "verse_id": 30
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "I do not foresee any good in killing my own kinsmen in the battle. O Krsna! I neither wish for victory, nor kingdom, nor the pleasures thereof.",
+        "id": 209,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 30,
+        "verse_id": 30
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "The bow Gandiva slips from my hand, and my skin burns. I cannot remain still, for my mind is in tumult.",
+        "id": 210,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 30,
+        "verse_id": 30
+    }
+]

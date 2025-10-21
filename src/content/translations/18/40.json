@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.40।।पृथ्वीमें या स्वर्गमें अथवा देवताओंमें तथा इनके सिवाय और कहीं भी वह ऐसी कोई वस्तु नहीं है, जो प्रकृतिसे उत्पन्न इन तीनों गुणोंसे रहित हो।",
+        "id": 4635,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 663,
+        "verse_id": 663
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.40।। पृथ्वी पर अथवा स्वर्ग के देवताओं में ऐसा कोई प्राणी (सत्त्वं अर्थात् विद्यमान वस्तु) नहीं है जो प्रकृति से उत्पन्न इन तीन गुणों से मुक्त (रहित) हो।।",
+        "id": 4636,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 663,
+        "verse_id": 663
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "There is no creature, on earth or among the gods in heaven, that is exempt from these three Gunas born of Prakrti.",
+        "id": 4637,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 663,
+        "verse_id": 663
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "There is no entity in the world, nor among the gods in heaven, that can be free from these three gunas born of Nature.",
+        "id": 4638,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 663,
+        "verse_id": 663
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "There is no being on earth or in heaven among the gods that is liberated from the three qualities born of Nature.",
+        "id": 4639,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 663,
+        "verse_id": 663
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Whether on earth or among the gods in heaven, there is not a single being that is free from these three strands born of material nature.",
+        "id": 4640,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 663,
+        "verse_id": 663
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "There is nothing anywhere on earth or in the higher worlds that is free from the three Qualities, for they are born of Nature.",
+        "id": 4641,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 663,
+        "verse_id": 663
+    }
+]

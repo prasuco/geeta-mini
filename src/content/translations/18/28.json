@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.28।।जो कर्ता असावधान, अशिक्षित, ऐंठ-अकड़वाला, जिद्दी, उपकारीका अपकार करनेवाला, आलसी, विषादी और दीर्घसूत्री है, वह तामस कहा जाता है।",
+        "id": 4551,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 651,
+        "verse_id": 651
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.28।। अयुक्त, प्राकृत, स्तब्ध, शठ, नैष्कृतिक, आलसी, विषादी और दीर्घसूत्री कर्ता तामस कहा जाता है।।\n ",
+        "id": 4552,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 651,
+        "verse_id": 651
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "That doer is said to be Tamasika who is unqualified, unrefined, obstinate, depraved, dishonest, indolent, despondent, and lethargic.",
+        "id": 4553,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 651,
+        "verse_id": 651
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "The agent who is unsteady, naive, inflexible, deceitful, wicked, lazy, sullen, and procrastinating is said to be possessed of tamas.",
+        "id": 4554,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 651,
+        "verse_id": 651
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Unsteady, vulgar, inflexible, deceitful, malicious, lazy, despondent, and procrastinating—such an agent is called Tamasic.",
+        "id": 4555,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 651,
+        "verse_id": 651
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "The agent who does not exert is vulgar, obstinate, and deceitful; they are a man of wickedness and are lazy, sorrowful, and procrastinating—such an agent is said to be of the Tamas strand.",
+        "id": 4556,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 651,
+        "verse_id": 651
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "While he whose purpose is weak, who is low-minded, stubborn, dishonest, malicious, lazy, despondent, and procrastinating—he may be assumed to be in darkness.",
+        "id": 4557,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 651,
+        "verse_id": 651
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।3.21।। श्रेष्ठ मनुष्य जो-जो आचरण करता है, दूसरे मनुष्य वैसा-वैसा ही आचरण करते हैं। वह जो कुछ प्रमाण  देता है,  दूसरे मनुष्य उसीके अनुसार आचरण करते हैं। ",
+        "id": 974,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 140,
+        "verse_id": 140
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।3.21।। श्रेष्ठ पुरुष जैसा आचरण करता है, अन्य लोग भी वैसा ही अनुकरण करते हैं; वह पुरुष जो कुछ प्रमाण कर देता है, लोग भी उसका अनुसरण करते हैं।।\n ",
+        "id": 975,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 140,
+        "verse_id": 140
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Whatever a great man does, others do too. Whatever standard he sets, the world follows it.",
+        "id": 976,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 140,
+        "verse_id": 140
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Whatever a superior person does, another person does the same! Whatever they uphold as authority, an ordinary person follows that.",
+        "id": 977,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 140,
+        "verse_id": 140
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Whatever a great man does, others also do; whatever he establishes as the standard, the world follows.",
+        "id": 978,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 140,
+        "verse_id": 140
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Whatever a great man does, others of lesser stature follow suit; whatever standard he sets, the world follows it.",
+        "id": 979,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 140,
+        "verse_id": 140
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "For whatever a great man does, others imitate; people conform to the standard he has set.",
+        "id": 980,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 140,
+        "verse_id": 140
+    }
+]

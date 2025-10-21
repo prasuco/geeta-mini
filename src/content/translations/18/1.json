@@ -1,0 +1,72 @@
+[
+    {
+        "authorName": "Swami Ramsukhdas",
+        "author_id": 1,
+        "description": "।।18.1।। अर्जुन बोले -- हे महाबाहो ! हे हृषीकेश ! हे केशिनिषूदन ! मैं  संन्यास और त्यागका तत्त्व अलग-अलग जानना चाहता हूँ।",
+        "id": 4362,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 624,
+        "verse_id": 624
+    },
+    {
+        "authorName": "Swami Tejomayananda",
+        "author_id": 17,
+        "description": "।।18.1।। अर्जुन ने कहा -- हे महाबाहो ! हे हृषीकेश ! हे केशनिषूदन ! मैं संन्यास और त्याग के तत्त्व को पृथक्-पृथक् जानना चाहता हूँ।।\n ",
+        "id": 4363,
+        "lang": "hindi",
+        "language_id": 2,
+        "verseNumber": 624,
+        "verse_id": 624
+    },
+    {
+        "authorName": "Swami Adidevananda",
+        "author_id": 18,
+        "description": "Arjuna said, \"I desire to know the truth about renunciation and abnegation separately, O Krishna.\"",
+        "id": 4364,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 624,
+        "verse_id": 624
+    },
+    {
+        "authorName": "Swami Gambirananda",
+        "author_id": 19,
+        "description": "Arjuna said, O mighty-armed Hrsikesa, O slayer of Kesi, I want to know separately the truth about sannyasa as well as about tyaga.",
+        "id": 4365,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 624,
+        "verse_id": 624
+    },
+    {
+        "authorName": "Swami Sivananda",
+        "author_id": 16,
+        "description": "Arjuna said, \"O mighty-armed Hrishikesa, I desire to know the essence or truth of renunciation and abandonment severally, O slayer of Kesi.\"",
+        "id": 4366,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 624,
+        "verse_id": 624
+    },
+    {
+        "authorName": "Dr. S. Sankaranarayan",
+        "author_id": 20,
+        "description": "Arjuna said, O Mighty-armed One! I desire to know, in detail, the distinctive nature of renunciation and relinquishment, O Hrsikesa! O Slayer of Kesin!",
+        "id": 4367,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 624,
+        "verse_id": 624
+    },
+    {
+        "authorName": "Shri Purohit Swami",
+        "author_id": 21,
+        "description": "Arjuna asked, \"O Mighty One! I desire to know how relinquishment is distinguished from renunciation.",
+        "id": 4368,
+        "lang": "english",
+        "language_id": 1,
+        "verseNumber": 624,
+        "verse_id": 624
+    }
+]
