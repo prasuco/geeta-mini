@@ -4,6 +4,7 @@ import BaseHead from "../base/BaseHead.astro";
 import MobileLayout from "../base/layouts/MobileLayout.astro";
 
 import StackHeader from "../components/StackHeader.astro";
+import SlokItem from "../components/SlokItem.astro";
 
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
@@ -16,35 +17,25 @@ export async function getStaticPaths() {
 
 const { chapter } = Astro.props;
 const allSloks = await getCollection("sloks");
-const sloks = allSloks.filter((s) => s.data.chapter === +Astro.params.chapter);
+const sloks = allSloks.filter(
+  (s) => s.data.chapter_number === +Astro.params.chapter,
+);
 
-const sortedSloks = sloks.sort((a, b) => a.data.verse - b.data.verse);
+const sortedSloks = sloks.sort(
+  (a, b) => a.data.verse_number - b.data.verse_number,
+);
+
+
 ---
 
 <BaseHead
-  description={`${chapter.data.summary.en.substring(0, 40)} |  Read all sloks of Chapter ${chapter.data.chapter_number} with meaning and explanation`}
-  title={`Bhagavad Gita Chapter ${chapter.data.chapter_number} - ${chapter.data.meaning.en} | ${chapter.data.meaning.hi} | ${chapter.data.name}  | Full Sloks with Meaning`}
+  description={`${chapter.data.chapter_summary.substring(0, 40)} |  Read all sloks of Chapter ${chapter.data.chapter_number} with meaning and explanation`}
+  title={`Bhagavad Gita Chapter ${chapter.data.chapter_number} - ${chapter.data.name_meaning}  | ${chapter.data.name}  | Full Sloks with Meaning`}
 >
   <MobileLayout showBottomBar={false}>
-    <StackHeader title={chapter.data.transliteration} href="/" />
+    <StackHeader title={chapter.data.name_meaning} href="/" />
     <div class="main m-2 gap-2 flex flex-col">
-      {
-        sortedSloks.map((slok) => (
-          <Fragment>
-            <a
-              transition:name={`slok-name-${slok.id}`}
-              href={`/${slok.data.chapter}/${slok.data.verse}`}
-              class="hover:bg-neutral-200/60 p-2 transition-all  duration-75 ease-linear"
-            >
-              <p class="text-xs italic">Shloka: {slok.data.verse}</p>
-              <h2 class="font-[500]">
-                {slok.data.prabhu?.et.substring(0, 65)}
-                ...
-              </h2>
-            </a>
-          </Fragment>
-        ))
-      }
+      {sortedSloks.map((slok) => <SlokItem slok={slok} />)}
     </div>
   </MobileLayout>
 </BaseHead>

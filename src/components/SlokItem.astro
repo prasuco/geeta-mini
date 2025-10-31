@@ -1,0 +1,28 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type Props = {
+  slok: CollectionEntry<"sloks">;
+};
+
+const { slok } = Astro.props;
+
+const translations = (await getCollection("translations")).find(
+  (t) => t.id === `${slok.data.chapter_number}/${slok.data.verse_number}`,
+);
+---
+
+<Fragment>
+  <a
+    transition:name={`slok-name-${slok.id}`}
+    href={`/${slok.data.chapter_number}/${slok.data.verse_number}`}
+    class="hover:bg-neutral-200/60 p-2 transition-all duration-75 ease-linear"
+  >
+    <p class="text-xs italic">
+      Shloka: BG {slok.data.chapter_number}.{slok.data.verse_number}
+    </p>
+    <h2 class="font-[500] text-sm">
+      {translations?.data.find((t) => t.author_id == 16)?.description}
+    </h2>
+  </a>
+</Fragment>

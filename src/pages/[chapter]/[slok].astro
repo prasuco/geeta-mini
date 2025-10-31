@@ -7,8 +7,8 @@ export async function getStaticPaths() {
 
   return sloks.map((item) => ({
     params: {
-      chapter: item.data.chapter.toString(),
-      slok: item.data.verse.toString(),
+      chapter: item.data.chapter_number.toString(),
+      slok: item.data.verse_number.toString(),
     },
     props: { slok: item },
   }));
@@ -18,18 +18,12 @@ const { slok } = Astro.props;
 ---
 
 <BaseHead
-  description={`Read Bhagavad Gita ${slok.data.chapter}.${slok.data.verse} in Sanskrit with English meaning. Understand the verse's message and its spiritual significance as explained by Lord Krishna.`}
-  title={`Bhagavad Gita ${slok.data.chapter}.${slok.data.verse} - Slokas with meaning`}
+  description={`Read Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} in Sanskrit with English meaning. Understand the verse's message and its spiritual significance as explained by Lord Krishna.`}
+  title={`Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} - Slokas with meaning`}
 >
   <MobileLayout>
     <h2 transition:name={`slok-name-${slok.id}`}>
-      {slok.data.slok}
+      {slok.data.title}
     </h2>
-    <br />
-    <br />
-    {slok.data.raman.sc}
-    <br />
-    <br />
-    {slok.data.raman.et}
   </MobileLayout>
 </BaseHead>
