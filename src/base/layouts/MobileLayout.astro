@@ -25,10 +25,10 @@ const { title = "Chapters", showBottomBar = true } = Astro.props;
     showBottomBar && (
       <footer class="w-full bg-white  mt-auto rounded-tl-lg rounded-tr-lg sticky shadow bottom-0">
         <div class="flex justify-around p-2 py-4 text-black text-sm">
-          <div class="chapters flex flex-col items-center">
+          <a href="/" class="chapters flex flex-col items-center">
             <TableOfContents />
             <p>Chapters</p>
-          </div>
+          </a>
           <div class="Highlighter flex flex-col items-center">
             <Highlighter />
             <p>Highlighter</p>

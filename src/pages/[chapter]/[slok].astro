@@ -22,8 +22,20 @@ const { slok } = Astro.props;
   title={`Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} - Slokas with meaning`}
 >
   <MobileLayout>
-    <h2 transition:name={`slok-name-${slok.id}`}>
-      {slok.data.title}
+    <h2
+      transition:name={`slok-name-${slok.id}`}
+      class="text-3xl font-bold text-center p-2"
+    >
+      BG
+      {slok.data.chapter_number}.{slok.data.verse_number}
     </h2>
+
+    <p
+      class="text-center font-normal text-amber-500 text-2xl"
+      id="output"
+      set:html={slok.data.text.replace(/\n/g, "<br>")}
+    />
   </MobileLayout>
 </BaseHead>
+
+<script></script>
