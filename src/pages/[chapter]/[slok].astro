@@ -33,8 +33,9 @@ const { slok } = Astro.props;
     <p
       class="text-center font-normal text-amber-500 text-2xl"
       id="output"
-      set:html={slok.data.text.replace(/\n/g, "<br>")}
-    />
+      set:html={slok.data.text.split("\n\n").join("<br/>")}  
+    >
+  </p>
   </MobileLayout>
 </BaseHead>
 
