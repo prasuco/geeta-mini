@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseHead from "../../base/BaseHead.astro";
 import MobileLayout from "../../base/layouts/MobileLayout.astro";
+import { getEntry } from "astro:content";
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 
@@ -15,6 +16,14 @@ export async function getStaticPaths() {
 }
 
 const { slok } = Astro.props;
+
+// const commentaries = (await getCollection("chapters")).filter((c)=>c.data.);
+const commentaries = await getEntry(
+  "translations",
+  `${slok.data.chapter_number}/${slok.data.verse_number}`,
+);
+
+console.log(commentaries?.data.filter((c) => c.author_id == 7));
 ---
 
 <BaseHead
@@ -33,9 +42,10 @@ const { slok } = Astro.props;
     <p
       class="text-center font-normal text-amber-500 text-2xl"
       id="output"
-      set:html={slok.data.text.split("\n\n").join("<br/>")}  
-    >
-  </p>
+      set:html={slok.data.text.split("\n\n").join("<br/>")}
+    />
+
+    {JSON.stringify(commentaries)}
   </MobileLayout>
 </BaseHead>
 
