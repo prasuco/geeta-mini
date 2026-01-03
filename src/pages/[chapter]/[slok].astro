@@ -18,11 +18,13 @@ export async function getStaticPaths() {
 const { slok } = Astro.props;
 
 // const commentaries = (await getCollection("chapters")).filter((c)=>c.data.);
-const commentaries = await getEntry(
-  "translations",
-  `${slok.data.chapter_number}/${slok.data.verse_number}`,
-);
-
+const commentaries = (
+  await getEntry(
+    "translations",
+    `${slok.data.chapter_number}/${slok.data.verse_number}`
+  )
+)?.data.filter((c) => c.lang == "hindi" && c.author_id == 17);
+console.log(slok.data.word_meanings);
 ---
 
 <BaseHead
@@ -38,11 +40,21 @@ const commentaries = await getEntry(
       {slok.data.chapter_number}.{slok.data.verse_number}
     </h2>
 
-    <p
+
+    <div class="space-y-4">
+      <p
       class="text-center font-normal text-amber-500 text-2xl"
       id="output"
       set:html={slok.data.text.split("\n\n").join("<br/>")}
+      />
+      <p
+      class="text-center font-normal text-amber-500 text-lg"
+      id="output"
+      set:html={slok.data.word_meanings
+      // .split(";").join("<br/>")
+      }
     />
+  </div>
 
   </MobileLayout>
 </BaseHead>
