@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+
 import BaseHead from "../../base/BaseHead.astro";
 import MobileLayout from "../../base/layouts/MobileLayout.astro";
 import { getEntry } from "astro:content";
@@ -16,15 +17,12 @@ export async function getStaticPaths() {
 }
 
 const { slok } = Astro.props;
-
-// const commentaries = (await getCollection("chapters")).filter((c)=>c.data.);
-const commentaries = (
+const translations = (
   await getEntry(
     "translations",
     `${slok.data.chapter_number}/${slok.data.verse_number}`
   )
-)?.data.filter((c) => c.lang == "hindi" && c.author_id == 17);
-console.log(slok.data.word_meanings);
+)?.data.filter((c) => c);
 ---
 
 <BaseHead
@@ -32,31 +30,105 @@ console.log(slok.data.word_meanings);
   title={`Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} - Slokas with meaning`}
 >
   <MobileLayout>
-    <h2
-      transition:name={`slok-name-${slok.id}`}
-      class="text-3xl font-bold text-center p-2"
-    >
-      BG
-      {slok.data.chapter_number}.{slok.data.verse_number}
-    </h2>
+    <article class="max-w-3xl mx-auto px-4 py-6 space-y-10">
+      <!-- Verse Header -->
+      <header class="text-center space-y-2">
+        <h2
+          transition:name={`slok-name-${slok.id}`}
+          class="text-sm tracking-widest uppercase text-muted"
+        >
+          Bhagavad Gita
+        </h2>
+        <h1 class="text-3xl font-semibold text-primary">
+          {slok.data.chapter_number}.{slok.data.verse_number}
+        </h1>
+      </header>
 
+      <!-- Sanskrit -->
+      <section class="text-center space-y-4">
+        <p
+          class="text-xl md:text-2xl leading-relaxed font-medium text-sanskrit"
+          set:html={slok.data.text.split("\n\n").join("<br/>")}
+        />
+        <p
+          class="text-base italic leading-loose text-muted"
+          set:html={slok.data.transliteration.split("\n").join("<br/>")}
+        />
+      </section>
 
-    <div class="space-y-4">
-      <p
-      class="text-center font-normal text-amber-500 text-2xl"
-      id="output"
-      set:html={slok.data.text.split("\n\n").join("<br/>")}
-      />
-      <p
-      class="text-center font-normal text-amber-500 text-lg"
-      id="output"
-      set:html={slok.data.word_meanings
-      // .split(";").join("<br/>")
+      <!-- Divider -->
+      <div class="flex items-center gap-4">
+        <span class="flex-1 h-px bg-border"></span>
+        <span class="text-xs tracking-widest text-muted">◆</span>
+        <span class="flex-1 h-px bg-border"></span>
+      </div>
+
+      <!-- Synonyms -->
+      <section class="space-y-3">
+        <h3 class="text-lg font-semibold text-primary text-center">
+          Word Meanings
+        </h3>
+        <p
+          class="text-base leading-relaxed text-body text-justify"
+          set:html={slok.data.word_meanings}
+        />
+      </section>
+
+      <!-- Translation -->
+      {
+        translations && (
+          <section class="space-y-4">
+            <h3 class="text-lg font-semibold text-primary text-center">
+              Translation
+            </h3>
+
+            <div class="max-w-sm mx-auto">
+              <select
+                id="translationSelector"
+                class="w-full rounded-lg border bg-surface px-3 py-2 text-sm focus:ring-2 focus:ring-primary/40"
+              >
+                {translations.map((t, i) => (
+                  <option selected={i === 0} value={t.author_id}>
+                    {t.authorName}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <p
+              id="translationPara"
+              class="text-base leading-loose text-body text-justify"
+              set:html={translations[0].description}
+            />
+          </section>
+        )
       }
-    />
-  </div>
-
+    </article>
   </MobileLayout>
 </BaseHead>
+<script
+  type="application/json"
+  id="translations-data"
+  set:html={JSON.stringify(translations ?? [])}
+/>
 
-<script></script>
+<script>
+  const translationSelector = document.getElementById("translationSelector");
+  const translationPara = document.getElementById("translationPara");
+
+  const translations = JSON.parse(
+    document.getElementById("translations-data")?.textContent || "[]"
+  );
+
+  translationSelector?.addEventListener("change", (e) => {
+    // @ts-ignore
+    const authorId = Number(e.target.value);
+
+    // @ts-ignore
+    const translation = translations.find((t) => t.author_id === authorId);
+
+    if (translation && translationPara) {
+      translationPara.innerHTML = translation.description;
+    }
+  });
+</script>
