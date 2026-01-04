@@ -40,6 +40,15 @@ const {
     }
 
     {
+      Astro.params.slok && (
+        <meta
+          property="og:image"
+          content={`/og/${Astro.params.chapter}/${Astro.params.slok}.webp`}
+        />
+      )
+    }
+
+    {
       process.env.NODE_ENV === "production" && (
         <script
           defer
