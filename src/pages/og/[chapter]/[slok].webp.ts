@@ -1,15 +1,16 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 import { createCanvas } from "canvas";
+import { wrapText } from "../../../utils/wrapText";
 
 export const GET: APIRoute = async ({ params }) => {
   const { chapter, slok } = params;
   const allSloks = await getCollection("sloks");
-  
+
   // Find the specific slok based on chapter and verse number
   const item = allSloks.find(
-    (s) => 
-      s.data.chapter_number.toString() === chapter && 
+    (s) =>
+      s.data.chapter_number.toString() === chapter &&
       s.data.verse_number.toString() === slok
   );
 
@@ -42,7 +43,7 @@ export const GET: APIRoute = async ({ params }) => {
   ctx.fillStyle = "white";
   ctx.font = "500 24px Inter";
   // Assuming y starts after the verse; you might need a dynamic Y based on verse length
-  const transliteration = item.data.transliteration || ""; 
+  const transliteration = item.data.transliteration || "";
   wrapText(ctx, transliteration, 38, 380, 1100, 32);
 
   // 5. Footer
@@ -60,25 +61,6 @@ export const GET: APIRoute = async ({ params }) => {
   });
 };
 
-function wrapText(ctx: any, text: string, x: number, y: number, maxWidth: number, lineHeight: number) {
-  const words = text.split(/\s+/); // Split by any whitespace
-  let line = "";
-
-  for (let n = 0; n < words.length; n++) {
-    let testLine = line + words[n] + " ";
-    let metrics = ctx.measureText(testLine);
-    let testWidth = metrics.width;
-
-    if (testWidth > maxWidth && n > 0) {
-      ctx.fillText(line, x, y);
-      line = words[n] + " ";
-      y += lineHeight;
-    } else {
-      line = testLine;
-    }
-  }
-  ctx.fillText(line, x, y);
-}
 
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");

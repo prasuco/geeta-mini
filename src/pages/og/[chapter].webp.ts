@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 import { createCanvas } from "canvas";
+import { wrapText } from "../../utils/wrapText";
 
 
 export const GET: APIRoute = async ({ params }) => {
@@ -60,28 +61,7 @@ export const GET: APIRoute = async ({ params }) => {
   });
 };
 
-/**
- * Helper function to wrap text on Canvas
- */
-function wrapText(ctx: any, text: string, x: number, y: number, maxWidth: number, lineHeight: number) {
-  const words = text.split(" ");
-  let line = "";
 
-  for (let n = 0; n < words.length; n++) {
-    let testLine = line + words[n] + " ";
-    let metrics = ctx.measureText(testLine);
-    let testWidth = metrics.width;
-
-    if (testWidth > maxWidth && n > 0) {
-      ctx.fillText(line, x, y);
-      line = words[n] + " ";
-      y += lineHeight;
-    } else {
-      line = testLine;
-    }
-  }
-  ctx.fillText(line, x, y);
-}
 
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
