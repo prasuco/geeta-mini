@@ -15,11 +15,10 @@ const { title = "Chapters", showBottomBar = true } = Astro.props;
   {/* Top Section */}
 
   {/* Content Section */}
-  <main class="flex-1 w-full mx-auto  relative bg-slate-100/70">
+  <main class="flex-1 w-full mx-auto relative bg-slate-100/70">
     <slot />
   </main>
 
-  
   {/* Bottom Navigation */}
   {
     showBottomBar && (
@@ -29,10 +28,7 @@ const { title = "Chapters", showBottomBar = true } = Astro.props;
             <TableOfContents />
             <p>Chapters</p>
           </a>
-          <div class="Highlighter flex flex-col items-center">
-            <Highlighter />
-            <p>Highlighter</p>
-          </div>
+
           <div class="more flex flex-col items-center">
             <CircleEllipsis />
             <p>More</p>
