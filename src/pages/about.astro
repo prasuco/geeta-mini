@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../base/BaseHead.astro";
 import MobileLayout from "../base/layouts/MobileLayout.astro";
+import { Github } from "@lucide/astro";
 ---
 
 <BaseHead
@@ -8,15 +9,127 @@ import MobileLayout from "../base/layouts/MobileLayout.astro";
   description={"Learn about our Bhagavad Gita reader - a modern, accessible platform to study the timeless wisdom of the Gita with multiple translations and commentaries."}
 >
   <MobileLayout showBottomBar={true}>
-    <div class="m-2 space-y-4">
-      <h1 class="text-2xl font-semibold text-primary">About</h1>
-      <p class="leading-relaxed" style="color: var(--color-text-primary)">
-        Our goal is to make the timeless wisdom of the Bhagavad Gita accessible to everyone. 
-        We've created a clean, modern interface that allows you to explore all 18 chapters, 
-        700 verses, with original Sanskrit text, transliterations, word meanings, translations, 
-        and commentaries from renowned scholars.
-      </p>
+    <div class="m-2 space-y-6">
+      <header class="space-y-2">
+        <h1 class="text-2xl font-semibold text-primary">About</h1>
+        <p class="text-sm" style="color: var(--color-text-muted)">
+          A modern, accessible platform to study the Bhagavad Gita
+        </p>
+      </header>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-medium text-primary">Our Mission</h2>
+        <p class="leading-relaxed" style="color: var(--color-text-primary)">
+          Our goal is to make the timeless wisdom of the Bhagavad Gita
+          accessible to everyone. We've created a clean, modern interface that
+          allows you to explore all 18 chapters, 700 verses, with original
+          Sanskrit text, transliterations, word meanings, translations, and
+          commentaries from renowned scholars.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-medium text-primary">Features</h2>
+        <ul class="space-y-2" style="color: var(--color-text-primary)">
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">•</span>
+            <span>Complete text with all 18 chapters and 700 verses</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">•</span>
+            <span>Original Sanskrit verses with transliteration</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">•</span>
+            <span>Multiple translations from renowned scholars</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">•</span>
+            <span>Detailed commentaries for deeper understanding</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">•</span>
+            <span>Word-by-word meanings for each verse</span>
+          </li>
+        </ul>
+      </section>
+
+      <section
+        class="space-y-3 pt-4 border-t"
+        style="border-color: var(--color-border)"
+      >
+        <p class="text-sm" style="color: var(--color-text-muted)">
+          Brought to you by
+        </p>
+        <div class="flex flex-row items-center justify-center gap-4">
+          <a
+            href="https://github.com/prasuco"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <img
+              src="https://github.com/prasuco.png"
+              alt="prasuco"
+              class="w-10 h-10 rounded-full"
+            />
+            <div class="flex items-center gap-2">
+              <span
+                class="font-medium"
+                style="color: var(--color-text-primary)"
+              >
+                prasuco
+              </span>
+            </div>
+          </a>
+          <span
+            class="text-sm text-center"
+            style="color: var(--color-text-muted)">×</span
+          >
+          <a
+            href="https://github.com/prabincankod"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <img
+              src="https://github.com/prabincankod.png"
+              alt="prabincankod"
+              class="w-10 h-10 rounded-full"
+            />
+            <div class="flex items-center gap-2">
+              <span
+                class="font-medium"
+                style="color: var(--color-text-primary)"
+              >
+                prabincankod
+              </span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section
+        class="space-y-3 pt-4 border-t"
+        style="border-color: var(--color-border)"
+      >
+        <h2 class="text-lg font-medium text-primary">Data Source</h2>
+        <p
+          class="text-sm leading-relaxed"
+          style="color: var(--color-text-primary)"
+        >
+          The content in this application is based on data from{" "}
+          <a
+            href="https://github.com/gita/gita"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-primary hover:underline"
+          >
+            gita/gita
+          </a>
+          , which has been heavily manipulated and processed for this implementation.
+        </p>
+      </section>
     </div>
   </MobileLayout>
 </BaseHead>
-
