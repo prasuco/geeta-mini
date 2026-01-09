@@ -1,0 +1,22 @@
+---
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+---
+
+<BaseHead
+  title="About - Bhagavad Gita Reader | Geeta.Prasuco.com"
+  description={"Learn about our Bhagavad Gita reader - a modern, accessible platform to study the timeless wisdom of the Gita with multiple translations and commentaries."}
+>
+  <MobileLayout showBottomBar={true}>
+    <div class="m-2 space-y-4">
+      <h1 class="text-2xl font-semibold text-primary">About</h1>
+      <p class="leading-relaxed" style="color: var(--color-text-primary)">
+        Our goal is to make the timeless wisdom of the Bhagavad Gita accessible to everyone. 
+        We've created a clean, modern interface that allows you to explore all 18 chapters, 
+        700 verses, with original Sanskrit text, transliterations, word meanings, translations, 
+        and commentaries from renowned scholars.
+      </p>
+    </div>
+  </MobileLayout>
+</BaseHead>
+

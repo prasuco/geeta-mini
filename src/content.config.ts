@@ -19,9 +19,8 @@ const sloks = defineCollection({
     verse_number: z.number(),
     verse_order: z.number(),
     transliteration: z.string(),
-    word_meanings: z.string()
-  })
-
+    word_meanings: z.string(),
+  }),
 });
 
 const chapters = defineCollection({
@@ -36,12 +35,12 @@ const chapters = defineCollection({
     name_meaning: z.string(),
     name_translation: z.string(),
     name_transliterated: z.string(),
-    verses_count: z.number()
-  })
+    verses_count: z.number(),
+  }),
 });
 
 const translations = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./src/content/translations", }),
+  loader: glob({ pattern: "**/*.json", base: "./src/content/translations" }),
   schema: z.array(
     z.object({
       authorName: z.string(),
@@ -51,12 +50,26 @@ const translations = defineCollection({
       lang: z.string(),
       language_id: z.number(),
       verseNumber: z.number(),
-      verse_id: z.number()
-    })
-  )
+      verse_id: z.number(),
+    }),
+  ),
+});
 
-
-})
+const commentary = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./src/content/commentary" }),
+  schema: z.array(
+    z.object({
+      authorName: z.string(),
+      author_id: z.number(),
+      description: z.string(),
+      id: z.number(),
+      lang: z.string(),
+      language_id: z.number(),
+      verseNumber: z.number(),
+      verse_id: z.number(),
+    }),
+  ),
+});
 
 // 4. Export a single `collections` object to register your collection(s)
-export const collections = { sloks, chapters, translations };
+export const collections = { sloks, chapters, translations, commentary };

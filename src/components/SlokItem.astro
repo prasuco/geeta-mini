@@ -10,19 +10,20 @@ const { slok } = Astro.props;
 const translations = (await getCollection("translations")).find(
   (t) => t.id === `${slok.data.chapter_number}/${slok.data.verse_number}`,
 );
+
+const previewText = translations?.data.find((t) => t.author_id == 16)?.description || "";
+const truncatedPreview = previewText.length > 120 ? previewText.substring(0, 120) + "..." : previewText;
 ---
 
-<Fragment>
-  <a
-    transition:name={`slok-name-${slok.id}`}
-    href={`/${slok.data.chapter_number}/${slok.data.verse_number}`}
-    class="hover:bg-neutral-200/60 p-2 transition-all duration-75 ease-linear"
-  >
-    <p class="text-xs italic">
-      Shloka: BG {slok.data.chapter_number}.{slok.data.verse_number}
-    </p>
-    <h2 class="font-[500] text-sm">
-      {translations?.data.find((t) => t.author_id == 16)?.description}
-    </h2>
-  </a>
-</Fragment>
+<a
+  transition:name={`slok-name-${slok.id}`}
+  href={`/${slok.data.chapter_number}/${slok.data.verse_number}`}
+  class="hover:bg-surface p-2 transition-colors"
+>
+  <p class="text-xs" style="color: var(--color-text-muted)">
+    Shloka: BG {slok.data.chapter_number}.{slok.data.verse_number}
+  </p>
+  <h2 class="font-medium text-sm" style="color: var(--color-text-primary)">
+    {truncatedPreview}
+  </h2>
+</a>

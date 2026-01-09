@@ -24,6 +24,13 @@ const translations = (
     `${slok.data.chapter_number}/${slok.data.verse_number}`
   )
 )?.data;
+
+const commentaries = (
+  await getEntry(
+    "commentary",
+    `${slok.data.chapter_number}/${slok.data.verse_number}`
+  )
+)?.data;
 ---
 
 <BaseHead
@@ -41,7 +48,8 @@ const translations = (
       <header class="text-center space-y-2">
         <h2
           transition:name={`slok-name-${slok.id}`}
-          class="text-sm tracking-widest uppercase text-muted"
+          class="text-sm tracking-widest uppercase"
+          style="color: var(--color-text-muted)"
         >
           Bhagavad Gita
         </h2>
@@ -57,7 +65,8 @@ const translations = (
           set:html={slok.data.text.split("\n\n").join("<br/>")}
         />
         <p
-          class="text-base text- italic leading-loose text-muted"
+          class="text-base italic leading-loose"
+          style="color: var(--color-text-muted)"
           set:html={slok.data.transliteration
             .normalize("NFKD")
             .split("\n")
@@ -68,7 +77,7 @@ const translations = (
       <!-- Divider -->
       <div class="flex items-center gap-4">
         <span class="flex-1 h-px bg-border"></span>
-        <span class="text-xs tracking-widest text-muted">◆</span>
+        <span class="text-xs tracking-widest" style="color: var(--color-text-muted)">◆</span>
         <span class="flex-1 h-px bg-border"></span>
       </div>
 
@@ -78,14 +87,15 @@ const translations = (
           Word Meanings
         </h3>
         <p
-          class="text-base leading-relaxed text-body text-justify"
+          class="text-base leading-relaxed text-justify"
+          style="color: var(--color-text-primary)"
           set:html={slok.data.word_meanings}
         />
       </section>
 
       <!-- Translation -->
       {
-        translations && (
+        translations && translations.length > 0 && (
           <section class="space-y-4">
             <h3 class="text-lg font-semibold text-primary text-center">
               Translation
@@ -94,7 +104,7 @@ const translations = (
             <div class="max-w-sm mx-auto">
               <select
                 id="translationSelector"
-                class="w-full rounded-lg border bg-surface px-3 py-2 text-sm focus:ring-2 focus:ring-primary/40"
+                class="w-full rounded border bg-surface px-3 py-2 text-sm focus:ring-2 focus:ring-primary/40"
               >
                 {translations.map((t, i) => (
                   <option selected={i === 0} value={t.author_id}>
@@ -106,8 +116,40 @@ const translations = (
 
             <p
               id="translationPara"
-              class="text-base leading-loose text-body text-justify"
+              class="text-base leading-loose text-justify"
+              style="color: var(--color-text-primary)"
               set:html={translations[0].description}
+            />
+          </section>
+        )
+      }
+
+      <!-- Commentary -->
+      {
+        commentaries && commentaries.length > 0 && (
+          <section class="space-y-4">
+            <h3 class="text-lg font-semibold text-primary text-center">
+              Commentary
+            </h3>
+
+            <div class="max-w-sm mx-auto">
+              <select
+                id="commentarySelector"
+                class="w-full rounded border bg-surface px-3 py-2 text-sm focus:ring-2 focus:ring-primary/40"
+              >
+                {commentaries.map((c, i) => (
+                  <option selected={i === 0} value={c.author_id}>
+                    {c.authorName} {c.lang && `(${c.lang})`}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <p
+              id="commentaryPara"
+              class="text-base leading-loose text-justify"
+              style="color: var(--color-text-primary)"
+              set:html={commentaries[0].description}
             />
           </section>
         )
@@ -120,13 +162,24 @@ const translations = (
   id="translations-data"
   set:html={JSON.stringify(translations ?? [])}
 />
+<script
+  type="application/json"
+  id="commentaries-data"
+  set:html={JSON.stringify(commentaries ?? [])}
+/>
 
 <script>
   const translationSelector = document.getElementById("translationSelector");
   const translationPara = document.getElementById("translationPara");
+  const commentarySelector = document.getElementById("commentarySelector");
+  const commentaryPara = document.getElementById("commentaryPara");
 
   const translations = JSON.parse(
     document.getElementById("translations-data")?.textContent || "[]"
+  );
+
+  const commentaries = JSON.parse(
+    document.getElementById("commentaries-data")?.textContent || "[]"
   );
 
   translationSelector?.addEventListener("change", (e) => {
@@ -138,6 +191,18 @@ const translations = (
 
     if (translation && translationPara) {
       translationPara.innerHTML = translation.description;
+    }
+  });
+
+  commentarySelector?.addEventListener("change", (e) => {
+    // @ts-ignore
+    const authorId = Number(e.target.value);
+
+    // @ts-ignore
+    const commentary = commentaries.find((c) => c.author_id === authorId);
+
+    if (commentary && commentaryPara) {
+      commentaryPara.innerHTML = commentary.description;
     }
   });
 </script>
