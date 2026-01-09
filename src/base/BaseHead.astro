@@ -31,12 +31,14 @@ const {
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     {
-      !Astro.params.slok && (
-        <meta
-          property="og:image"
-          content={`/og/${Astro.params.chapter}.webp`}
-        />
-      )
+      !Astro.params.slok &&
+        Astro.params.chapter &&
+        (
+          <meta
+            property="og:image"
+            content={`/og/${Astro.params.chapter}.webp`}
+          />
+        )
     }
 
     {
@@ -45,6 +47,12 @@ const {
           property="og:image"
           content={`/og/${Astro.params.chapter}/${Astro.params.slok}.webp`}
         />
+      )
+    }
+
+    {
+      !Astro.params.slok && !Astro.params.chapter && (
+        <meta property="og:image" content={`/og.png`} />
       )
     }
 
