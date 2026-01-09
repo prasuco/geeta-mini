@@ -1,7 +1,8 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
-import { createCanvas } from "canvas";
-import { wrapText } from "../../utils/wrapText";
+import { createCanvas, type CanvasRenderingContext2D } from "canvas";
+import { drawWrappedText } from "../../utils/wrapText";
+
 
 
 export const GET: APIRoute = async ({ params }) => {
@@ -30,38 +31,41 @@ export const GET: APIRoute = async ({ params }) => {
   ctx.fillText(`Chapter ${chapter.data.chapter_number}`, 38, 86);
 
   // 4. Draw Chapter Name
+  // We place this at a fixed Y, but we could make the summary start relative to this 
+  // if the chapter names were multi-line.
   ctx.fillStyle = "#FFCC00";
-  ctx.font = "600 44px Inter";
+  ctx.font = "600 52px Inter";
   ctx.fillText(chapter.data.name, 38, 157);
 
-  // 5. Draw Wrapped Summary
-  ctx.fillStyle = "white";
-  ctx.font = "500 24px Inter";
-  const summary = chapter.data.chapter_summary;
-  const maxWidth = 1100; // Constrain the text width
-  const lineHeight = 32;
+  // 5. Draw Wrapped Summary (Dynamic)
+  ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
+  ctx.font = "500 26px Inter";
+  const summary = chapter.data.chapter_summary || "";
+  const maxWidth = 1100; 
+  const lineHeight = 38;
   const startX = 38;
   const startY = 220;
 
-  wrapText(ctx, summary, startX, startY, maxWidth, lineHeight);
+  // This returns the Y where the text ended
+  const endOfSummaryY = drawWrappedText(ctx, summary, startX, startY, maxWidth, lineHeight);
 
   // 6. Draw Footer
+  // Usually the footer stays at the bottom, but you could use endOfSummaryY + 40 
+  // if you wanted it to "float" right under the text.
   ctx.fillStyle = "wheat";
   ctx.font = "600 20px Inter";
   ctx.fillText("geeta.prasuco.com", 38, 592);
 
-  // 7. Export to WebP
+  // 7. Export
   const buffer = canvas.toBuffer("image/png");
 
   return new Response(buffer, {
     headers: {
-      "Content-Type": "image/webp",
+      "Content-Type": "image/png", // PNG buffer matches PNG content type
       "Cache-Control": "public, max-age=31536000",
     },
   });
 };
-
-
 
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
