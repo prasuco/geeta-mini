@@ -10,9 +10,9 @@ const { data } = Astro.props;
 
 <Fragment>
   <a
-    transition:name={`chapter-name-${data.id}`}
+    transition:name={`chapter-name-${data.data.chapter_number}`}
     href={`/${data.id}`}
-    class="hover:bg-neutral-200/60 p-2 transition-all  duration-75 ease-linear"
+    class="hover:bg-neutral-200/60 p-2 transition-all duration-75 ease-linear"
   >
     <p class="text-xs italic">
       Chapter {data.data.chapter_number}

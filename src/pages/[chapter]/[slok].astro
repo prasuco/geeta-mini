@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import BaseHead from "../../base/BaseHead.astro";
 import MobileLayout from "../../base/layouts/MobileLayout.astro";
 import { getEntry } from "astro:content";
+import GotoButton from "../../base/GotoButton.astro";
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 
@@ -22,7 +23,7 @@ const translations = (
     "translations",
     `${slok.data.chapter_number}/${slok.data.verse_number}`
   )
-)?.data.filter((c) => c);
+)?.data;
 ---
 
 <BaseHead
@@ -31,6 +32,11 @@ const translations = (
 >
   <MobileLayout>
     <article class="max-w-3xl mx-auto px-4 py-6 space-y-10">
+      <GotoButton
+        transition_name={`chapter-${slok.data.chapter_number}`}
+        name="Go to Chapter"
+        href={`/${slok.data.chapter_number}`}
+      />
       <!-- Verse Header -->
       <header class="text-center space-y-2">
         <h2
@@ -51,8 +57,11 @@ const translations = (
           set:html={slok.data.text.split("\n\n").join("<br/>")}
         />
         <p
-          class="text-base italic leading-loose text-muted"
-          set:html={slok.data.transliteration.split("\n").join("<br/>")}
+          class="text-base text- italic leading-loose text-muted"
+          set:html={slok.data.transliteration
+            .normalize("NFKD")
+            .split("\n")
+            .join("<br/>")}
         />
       </section>
 

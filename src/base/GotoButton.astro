@@ -1,0 +1,22 @@
+---
+import { MoveLeft } from "@lucide/astro";
+
+
+type Props = {
+  transition_name: string;
+  name: string;
+  href: string;
+};
+
+const { href, name, transition_name } = Astro.props;
+---
+
+<Fragment>
+  <a
+    transition:name={transition_name}
+    href={href}
+    class=" "
+  >
+    <MoveLeft />
+  </a>
+</Fragment>

@@ -4,7 +4,7 @@ type Props = {
   showBottomBar?: boolean;
 };
 
-import { TableOfContents, Highlighter, CircleEllipsis } from "@lucide/astro";
+import { TableOfContents, CircleEllipsis } from "@lucide/astro";
 
 const { title = "Chapters", showBottomBar = true } = Astro.props;
 ---
@@ -29,10 +29,10 @@ const { title = "Chapters", showBottomBar = true } = Astro.props;
             <p>Chapters</p>
           </a>
 
-          <div class="more flex flex-col items-center">
+          <a href="/about" class="more flex flex-col items-center">
             <CircleEllipsis />
-            <p>More</p>
-          </div>
+            <p>About Us</p>
+          </a>
         </div>
       </footer>
     )
