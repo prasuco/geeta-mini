@@ -77,7 +77,10 @@ const commentaries = (
       <!-- Divider -->
       <div class="flex items-center gap-4">
         <span class="flex-1 h-px bg-border"></span>
-        <span class="text-xs tracking-widest" style="color: var(--color-text-muted)">◆</span>
+        <span
+          class="text-xs tracking-widest"
+          style="color: var(--color-text-muted)">◆</span
+        >
         <span class="flex-1 h-px bg-border"></span>
       </div>
 
@@ -86,11 +89,34 @@ const commentaries = (
         <h3 class="text-lg font-semibold text-primary text-center">
           Word Meanings
         </h3>
-        <p
-          class="text-base leading-relaxed text-justify"
-          style="color: var(--color-text-primary)"
-          set:html={slok.data.word_meanings}
-        />
+
+        <div
+          class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default"
+        >
+          <table class="w-full text-sm text-left rtl:text-right text-body">
+            <thead class="bg-neutral-secondary-soft border-b border-default">
+              <tr>
+                <th scope="col" class="px-6 py-3 font-medium"> Word </th>
+                <th scope="col" class="px-6 py-3 font-medium"> Meaning </th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                slok.data.word_meanings?.split(";").map((m) => (
+                  <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
+                    <th
+                      scope="row"
+                      class="px-6 py-4 font-medium text-heading whitespace-nowrap"
+                    >
+                      {m.split("—")[0]}
+                    </th>
+                    <td class="px-6 py-4"> {m.split("—")[1]}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <!-- Translation -->
