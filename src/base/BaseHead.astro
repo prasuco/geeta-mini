@@ -31,14 +31,12 @@ const {
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     {
-      !Astro.params.slok &&
-        Astro.params.chapter &&
-        (
-          <meta
-            property="og:image"
-            content={`/og/${Astro.params.chapter}.webp`}
-          />
-        )
+      !Astro.params.slok && Astro.params.chapter && (
+        <meta
+          property="og:image"
+          content={`/og/${Astro.params.chapter}.webp`}
+        />
+      )
     }
 
     {
@@ -68,7 +66,7 @@ const {
 
     <ClientRouter />
   </head>
-  <body>
+  <body data-umami-auto-track data-umami-auto-track-all-clicks="true">
     <slot />
   </body>
 </html>
