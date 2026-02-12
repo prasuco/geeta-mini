@@ -1,0 +1,153 @@
+---
+const url = Astro.request.url;
+---
+
+<div>
+  <!-- Modal -->
+  <div id="modal" class="hidden fixed inset-0 z-50">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <!-- Content -->
+    <div class="relative flex items-center justify-center min-h-screen p-4">
+      <div class="w-full max-w-md bg-white rounded-xl shadow-xl p-6 relative">
+
+        <!-- Header -->
+        <div class="flex items-center justify-between border-b pb-3">
+          <h3 class="text-lg font-semibold text-slate-800">
+            Share this slok
+          </h3>
+          <button id="closeModal" class="text-gray-400 hover:text-red-500">
+            ✕
+          </button>
+        </div>
+
+        <!-- Social -->
+        <div class="mt-6">
+          <p class="text-sm font-medium text-slate-700 mb-3">
+            Share via
+          </p>
+
+          <div class="flex gap-4">
+            <button id="shareFb"
+              class="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center font-bold">
+              f
+            </button>
+
+            <button id="shareX"
+              class="w-10 h-10 rounded-full bg-black hover:bg-gray-800 text-white flex items-center justify-center font-bold">
+              X
+            </button>
+
+            <button id="shareLinkedin"
+              class="w-10 h-10 rounded-full bg-[#0077b5] hover:bg-[#005e94] text-white flex items-center justify-center font-bold">
+              in
+            </button>
+          </div>
+        </div>
+
+        <!-- Copy -->
+        <div class="mt-8">
+          <p class="text-sm font-medium text-slate-700 mb-2">
+            Or copy link
+          </p>
+
+          <div class="flex border rounded-lg overflow-hidden">
+            <input
+              id="shareUrl"
+              value={url}
+              readonly
+              class="flex-1 px-3 py-2 text-sm text-slate-600 outline-none"
+            />
+            <button
+              id="copyBtn"
+              class="px-4 bg-orange-600 hover:bg-orange-700 text-white text-sm font-medium transition">
+              Copy
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 🟠 Geeta Orange Open Button -->
+  <button
+    id="openModal"
+    class="fixed top-4 right-4 px-4 py-2 rounded-lg bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white text-sm font-semibold shadow-md transition">
+    Share
+  </button>
+</div>
+
+<script lang="ts">
+  document.addEventListener("DOMContentLoaded", () => {
+
+    const modal = document.getElementById("modal") 
+    const openBtn = document.getElementById("openModal") 
+    const closeBtn = document.getElementById("closeModal") 
+
+    const shareUrlInput = document.getElementById("shareUrl") 
+    const copyBtn = document.getElementById("copyBtn")
+
+    const shareFb = document.getElementById("shareFb") 
+    const shareX = document.getElementById("shareX")
+    const shareLinkedin = document.getElementById("shareLinkedin") 
+
+    if (!modal || !openBtn || !closeBtn || !shareUrlInput) return;
+
+    const currentUrl = shareUrlInput.value;
+
+    // Open
+    openBtn.addEventListener("click", () => {
+      modal.classList.remove("hidden");
+    });
+
+    // Close
+    closeBtn.addEventListener("click", () => {
+      modal.classList.add("hidden");
+    });
+
+    // Overlay close
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.classList.add("hidden");
+      }
+    });
+
+    // Share handlers
+    shareFb?.addEventListener("click", () => {
+      window.open(
+        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
+        "_blank"
+      );
+    });
+
+    shareX?.addEventListener("click", () => {
+      window.open(
+        `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}`,
+        "_blank"
+      );
+    });
+
+    shareLinkedin?.addEventListener("click", () => {
+      window.open(
+        `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`,
+        "_blank"
+      );
+    });
+
+    // Copy
+    copyBtn?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(currentUrl);
+        copyBtn.textContent = "Copied!";
+        setTimeout(() => {
+          if (copyBtn) copyBtn.textContent = "Copy";
+        }, 2000);
+      } catch {
+        alert("Copy failed.");
+      }
+    });
+
+  });
+</script>

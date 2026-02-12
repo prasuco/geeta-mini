@@ -6,6 +6,9 @@ import MobileLayout from "../../base/layouts/MobileLayout.astro";
 import { getEntry } from "astro:content";
 import GotoButton from "../../base/GotoButton.astro";
 import { padToThree } from "../../utils/padToThree";
+
+import SocialShare from "../../components/SocialShare.astro";
+
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 
@@ -196,7 +199,10 @@ const commentaries = (
       }
     </article>
   </MobileLayout>
+
+  <SocialShare />
 </BaseHead>
+
 <script
   type="application/json"
   id="translations-data"
