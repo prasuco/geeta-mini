@@ -5,6 +5,7 @@ import BaseHead from "../../base/BaseHead.astro";
 import MobileLayout from "../../base/layouts/MobileLayout.astro";
 import { getEntry } from "astro:content";
 import GotoButton from "../../base/GotoButton.astro";
+import { padToThree } from "../../utils/padToThree";
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 
@@ -21,14 +22,14 @@ const { slok } = Astro.props;
 const translations = (
   await getEntry(
     "translations",
-    `${slok.data.chapter_number}/${slok.data.verse_number}`
+    `${slok.data.chapter_number}/${slok.data.verse_number}`,
   )
 )?.data;
 
 const commentaries = (
   await getEntry(
     "commentary",
-    `${slok.data.chapter_number}/${slok.data.verse_number}`
+    `${slok.data.chapter_number}/${slok.data.verse_number}`,
   )
 )?.data;
 ---
@@ -60,10 +61,19 @@ const commentaries = (
 
       <!-- Sanskrit -->
       <section class="text-center space-y-4">
-        <p
-          class="text-xl md:text-2xl leading-relaxed font-medium text-sanskrit"
-          set:html={slok.data.text.split("\n\n").join("<br/>")}
-        />
+        {
+          slok.data.text.includes("\n") ? (
+            <p
+              class="text-xl md:text-2xl leading-relaxed font-medium text-sanskrit"
+              set:html={slok.data.text.split("\n\n").join("<br/>")}
+            />
+          ) : (
+            <p
+              class="text-xl md:text-2xl leading-relaxed font-medium text-sanskrit"
+              set:html={slok.data.text.replace("।", " । <br/>")}
+            />
+          )
+        }
         <p
           class="text-base italic leading-loose"
           style="color: var(--color-text-muted)"
@@ -73,6 +83,11 @@ const commentaries = (
             .join("<br/>")}
         />
       </section>
+      <audio
+        class="prose"
+        autoplay
+        src={`https://gita-audio.jkyog.org/audio/sanskrit/gita_audios/${padToThree(slok.data.chapter_number)}_${padToThree(slok.data.verse_number)}.mp3`}
+      ></audio>
 
       <!-- Divider -->
       <div class="flex items-center gap-4">
@@ -118,7 +133,6 @@ const commentaries = (
           </table>
         </div>
       </section>
-
       <!-- Translation -->
       {
         translations && translations.length > 0 && (
@@ -201,11 +215,11 @@ const commentaries = (
   const commentaryPara = document.getElementById("commentaryPara");
 
   const translations = JSON.parse(
-    document.getElementById("translations-data")?.textContent || "[]"
+    document.getElementById("translations-data")?.textContent || "[]",
   );
 
   const commentaries = JSON.parse(
-    document.getElementById("commentaries-data")?.textContent || "[]"
+    document.getElementById("commentaries-data")?.textContent || "[]",
   );
 
   translationSelector?.addEventListener("change", (e) => {
