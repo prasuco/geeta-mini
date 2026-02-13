@@ -12,6 +12,9 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+  output: "static",
+
+
 
   site: 'https://geeta.prasuco.com',
 

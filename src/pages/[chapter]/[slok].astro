@@ -200,7 +200,7 @@ const commentaries = (
     </article>
   </MobileLayout>
 
-  <SocialShare />
+  <SocialShare  />
 </BaseHead>
 
 <script
@@ -215,6 +215,15 @@ const commentaries = (
 />
 
 <script>
+
+
+document.addEventListener("astro:page-load", () => {
+
+
+
+
+
+
   const translationSelector = document.getElementById("translationSelector");
   const translationPara = document.getElementById("translationPara");
   const commentarySelector = document.getElementById("commentarySelector");
@@ -251,4 +260,7 @@ const commentaries = (
       commentaryPara.innerHTML = commentary.description;
     }
   });
+  });
+
+
 </script>

@@ -80,7 +80,7 @@ const url = Astro.request.url;
 </div>
 
 <script lang="ts">
-  document.addEventListener("DOMContentLoaded", () => {
+  function initShareModal() {
     const modal = document.getElementById("modal");
     const openBtn = document.getElementById("openModal");
     const closeBtn = document.getElementById("closeModal");
@@ -96,24 +96,21 @@ const url = Astro.request.url;
 
     const currentUrl = shareUrlInput.value;
 
-    // Open
-    openBtn.addEventListener("click", () => {
+    const openModal = () => {
       modal.classList.remove("hidden");
-    });
+    };
 
-    // Close
-    closeBtn.addEventListener("click", () => {
+    const closeModal = () => {
       modal.classList.add("hidden");
-    });
+    };
 
-    // Overlay close
-    modal.addEventListener("click", (event) => {
-      if (event.target === modal) {
-        modal.classList.add("hidden");
-      }
-    });
+    openBtn.onclick = openModal;
+    closeBtn.onclick = closeModal;
 
-    // Share handlers
+    modal.onclick = (event) => {
+      if (event.target === modal) closeModal();
+    };
+
     shareFb?.addEventListener("click", () => {
       window.open(
         `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
@@ -135,7 +132,6 @@ const url = Astro.request.url;
       );
     });
 
-    // Copy
     copyBtn?.addEventListener("click", async () => {
       try {
         await navigator.clipboard.writeText(currentUrl);
@@ -147,5 +143,11 @@ const url = Astro.request.url;
         alert("Copy failed.");
       }
     });
-  });
+  }
+
+  // First page load
+  initShareModal();
+
+  // Client router navigation (important!)
+  document.addEventListener("astro:page-load", initShareModal);
 </script>
