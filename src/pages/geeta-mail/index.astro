@@ -10,14 +10,14 @@ import BaseHead from "../../base/BaseHead.astro";
     @reference "./../../styles/globals.css";
 
     p {
-      @apply text-xl md:text-2xl text-justify;
+      @apply text-xl md:text-2xl text-justify text-gray-700;
     }
 
     input {
-      @apply bg-white  h-10 w-sm md:w-xl max-w-4xl border border-accent rounded-sm placeholder:text-black placeholder:p-2 placeholder:font-medium;
+      @apply bg-white  h-10 w-sm md:w-xl max-w-4xl border p-2 border-accent rounded-sm placeholder:text-black placeholder:mr-2 placeholder:font-medium;
     }
     button {
-      @apply bg-orange-400  px-3 py-2 text-white;
+      @apply bg-orange-400  px-3 py-2 text-white font-semibold;
     }
   </style>
   <div class="bg-[#faf3dd]">
@@ -52,12 +52,7 @@ import BaseHead from "../../base/BaseHead.astro";
             hidden
             value="https://geeta.prasuco.com/purchase_success"
           />
-          <input
-            type="text"
-            name="fullName"
-            placeholder="Your Name"
-            required
-          />
+          <input type="text" name="fullName" placeholder="Your Name" required />
           <input
             type="email"
             name="email"
@@ -69,5 +64,11 @@ import BaseHead from "../../base/BaseHead.astro";
         </div>
       </form>
     </div>
+  </div>
+
+  <div
+    class="footer fixed bottom-0 py-1 px-2  text-gray-400 hover:underline w-screen flex flex-row items-center justify-end"
+  >
+    <a href="/"> &copy; geeta.prasuco.com</a>
   </div>
 </BaseHead>
