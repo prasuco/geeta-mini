@@ -4,46 +4,57 @@ import BaseHead from "../../base/BaseHead.astro";
 
 <BaseHead
   title="Geeta in Mail"
-  description="Get geeta insights directly in your inbox"
+  description="Get Geeta insights directly in your inbox"
 >
   <style>
     @reference "./../../styles/globals.css";
 
     p {
-      @apply text-xl md:text-2xl text-justify text-gray-700;
+      @apply text-lg md:text-xl leading-relaxed  text-gray-700 max-w-2xl;
     }
 
     input {
-      @apply bg-white  h-10 w-sm md:w-xl max-w-4xl border p-2 border-accent rounded-sm placeholder:text-black placeholder:mr-2 placeholder:font-medium;
+      @apply bg-white h-11 w-full max-w-xl border border-gray-300 px-3 rounded-md placeholder:text-gray-500 placeholder:font-normal focus:outline-none focus:ring-2 focus:ring-orange-300 focus:border-orange-400 transition;
     }
+
     button {
-      @apply bg-orange-400  px-3 py-2 text-white font-semibold;
+      @apply bg-orange-400 px-6 py-3 text-white font-semibold;
     }
   </style>
-  <div class="bg-[#faf3dd]">
+
+  <div class="min-h-screen bg-[#faf3dd] flex items-center">
     <div
-      class="h-screen max-w-4xl flex mx-auto flex-col gap-4 justify-center items-center text-black p-2"
+      class="max-w-5xl mx-auto flex flex-col gap-5 justify-center items-center text-black px-4 py-16"
     >
-      <h1 class="text-center text-5xl md:text-8xl font-black">
+
+      <h1 class="text-center text-4xl md:text-7xl font-black leading-tight">
         Geeta In
-        <span class="bg-[#EA4335] text-white p-2">Mail</span> is Launching soon.
+        <span class="bg-[#EA4335] text-white px-3 py-1"> Mail </span>
+        <span class="block mt-2 text-3xl md:text-5xl font-bold">
+          is launching soon
+        </span>
       </h1>
-      <p class="italic">Until Then...</p>
-      <p>
+
+      <p class="italic text-gray-600">Until then…</p>
+
+      <p class="font-medium">
         Join the free daily email for people who want more clarity and less
         chaos in their daily life.
       </p>
 
       <p>
         Join the waitlist to receive one short, practical teaching from the
-        Bhagavad Gita every morning explained in simple words and connected to
+        Bhagavad Gita every morning; explained in simple words and connected to
         real-life problems like stress, confusion, and decision-making.
       </p>
+
+
       <form
         method="get"
         action="https://checkout.dodopayments.com/buy/pdt_0NYJdMguBw2aoAABebn3m"
+        class="mt-6 w-full flex justify-center"
       >
-        <div class="flex flex-col m-2 p-2 gap-2">
+        <div class="p-6 md:p-8 flex flex-col gap-3 w-full max-w-xl">
           <input name="quantity" hidden value="1" />
           <input name="disableFullName" hidden value="true" />
           <input name="disableEmail" hidden value="true" />
@@ -52,23 +63,24 @@ import BaseHead from "../../base/BaseHead.astro";
             hidden
             value="https://geeta.prasuco.com/purchase_success"
           />
-          <input type="text" name="fullName" placeholder="Your Name" required />
+
+          <input type="text" name="fullName" placeholder="Your name" required />
           <input
             type="email"
             name="email"
-            placeholder="Your Best Email"
+            placeholder="Your best email"
             required
           />
 
-          <button class="" type="submit"> Try Now </button>
+          <button type="submit" class="mt-2"> Join Now </button>
         </div>
       </form>
-    </div>
-  </div>
 
-  <div
-    class="footer fixed bottom-0 py-1 px-2  text-gray-400 hover:underline w-screen flex flex-row items-center justify-end"
-  >
-    <a href="/"> &copy; geeta.prasuco.com</a>
+      <p class="text-sm text-gray-500 mt-6">
+        affiliated with <a class="underline hover:text-black" href="/"
+          >geeta.prasuco.com</a
+        >
+      </p>
+    </div>
   </div>
 </BaseHead>
