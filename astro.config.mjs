@@ -4,6 +4,8 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite'
 import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
+import cloudflare from '@astrojs/cloudflare';
+
 // https://astro.build/config
 export default defineConfig({
   devToolbar: {
@@ -14,6 +16,7 @@ export default defineConfig({
   },
   output: "static",
 
+  adapter: cloudflare(),
 
 
   site: 'https://geeta.prasuco.com',
