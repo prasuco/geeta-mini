@@ -2,15 +2,17 @@ import { Resend } from 'resend';
 import { welcomeEmail } from '../utils/welcomeEmail';
 
 
-export async function GET({ request }) {
-  const url = new URL(request.url);
+export async function GET(p) {
+  console.log("nice", p)
+
+  const url = new URL(p.request.url);
   const email = url.searchParams.get('email');
 
   // ✅ Use Astro.env for server-side secrets
   const RESEND_API_KEY = import.meta.env.RESEND_API_KEY;
 
   if (!RESEND_API_KEY) {
-    console.log(RESEND_API_KEY)
+    console.log("not", RESEND_API_KEY)
     return new Response(
       JSON.stringify({ success: false, message: "API key missing" }),
       { status: 500 }
