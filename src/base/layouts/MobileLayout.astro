@@ -7,6 +7,7 @@ type Props = {
 import { TableOfContents, CircleEllipsis } from "@lucide/astro";
 
 const { title = "Chapters", showBottomBar = true } = Astro.props;
+export const prerender = true;
 ---
 
 <div

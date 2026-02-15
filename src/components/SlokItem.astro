@@ -13,6 +13,7 @@ const translations = (await getCollection("translations")).find(
 
 const previewText = translations?.data.find((t) => t.author_id == 16)?.description || "";
 const truncatedPreview = previewText.length > 120 ? previewText.substring(0, 120) + "..." : previewText;
+export const prerender = true;
 ---
 
 <a
