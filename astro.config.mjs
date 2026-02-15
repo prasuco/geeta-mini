@@ -12,14 +12,14 @@ export default defineConfig({
     enabled: false
   },
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    ssr: {
+      external: ["canvas"],
+
+    },
   },
-  output: "static",
-
+  output: "server",
   adapter: cloudflare(),
-
-
   site: 'https://geeta.prasuco.com',
-
   integrations: [sitemap(), mdx(), react()]
 });

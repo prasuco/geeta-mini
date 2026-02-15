@@ -9,6 +9,7 @@ import { padToThree } from "../../utils/padToThree";
 
 import SocialShare from "../../components/SocialShare.astro";
 
+export const prerender = true;
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 

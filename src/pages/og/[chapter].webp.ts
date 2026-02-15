@@ -4,6 +4,8 @@ import { createCanvas, type CanvasRenderingContext2D } from "canvas";
 import { drawWrappedText } from "../../utils/wrapText";
 
 
+export const prerender = true;
+export const runtime = "node";
 
 export const GET: APIRoute = async ({ params }) => {
   const chapters = await getCollection("chapters");
@@ -13,7 +15,7 @@ export const GET: APIRoute = async ({ params }) => {
 
   if (!chapter) return new Response("Not found", { status: 404 });
 
-  // 1. Setup Canvas
+  // 1. Setup Canvas 
   const width = 1200;
   const height = 630;
   const canvas = createCanvas(width, height);

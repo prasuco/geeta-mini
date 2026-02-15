@@ -1,5 +1,6 @@
 onlyBuiltDependencies:
   - canvas
   - esbuild
+  - node-canvas
   - sharp
   - workerd

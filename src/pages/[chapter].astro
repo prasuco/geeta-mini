@@ -6,6 +6,8 @@ import MobileLayout from "../base/layouts/MobileLayout.astro";
 import StackHeader from "../components/StackHeader.astro";
 import SlokItem from "../components/SlokItem.astro";
 
+
+export const prerender = true;
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
 

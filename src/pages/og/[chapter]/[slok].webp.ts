@@ -4,6 +4,10 @@ import { createCanvas, type CanvasRenderingContext2D } from "canvas";
 import { drawWrappedText } from "../../../utils/wrapText";
 
 
+
+export const prerender = true;
+export const runtime = "node";
+
 export const GET: APIRoute = async ({ params }) => {
   const { chapter, slok } = params;
   const allSloks = await getCollection("sloks");
