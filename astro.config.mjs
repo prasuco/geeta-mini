@@ -1,4 +1,5 @@
 // @ts-check
+import { minify } from '@zokki/astro-minify';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite'
@@ -15,11 +16,11 @@ export default defineConfig({
     plugins: [tailwindcss()],
     ssr: {
       external: ["canvas"],
-
     },
+
   },
   output: "server",
   adapter: cloudflare(),
   site: 'https://geeta.prasuco.com',
-  integrations: [sitemap(), mdx(), react()]
+  integrations: [sitemap(), mdx(), react(), minify()]
 });
