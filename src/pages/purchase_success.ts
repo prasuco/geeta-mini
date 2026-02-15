@@ -1,14 +1,15 @@
 import { Resend } from 'resend';
 import { welcomeEmail } from '../utils/welcomeEmail';
+import type { APIRoute } from 'astro';
 
 
-export async function GET(p) {
-  console.log("nice", p)
+export const GET: APIRoute = async (p) => {
+
 
   const url = new URL(p.request.url);
   const email = url.searchParams.get('email');
 
-  // ✅ Use Astro.env for server-side secrets
+  // @ts-ignore
   const RESEND_API_KEY = p.locals.runtime.env.RESEND_API_KEY;
 
   if (!RESEND_API_KEY) {
