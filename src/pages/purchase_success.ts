@@ -9,7 +9,7 @@ export async function GET(p) {
   const email = url.searchParams.get('email');
 
   // ✅ Use Astro.env for server-side secrets
-  const RESEND_API_KEY = import.meta.env.RESEND_API_KEY;
+  const RESEND_API_KEY = p.locals.runtime.env.RESEND_API_KEY;
 
   if (!RESEND_API_KEY) {
     console.log("not", RESEND_API_KEY)
