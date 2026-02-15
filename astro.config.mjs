@@ -3,8 +3,8 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite'
-import mdx from '@astrojs/mdx';
-import react from '@astrojs/react';
+// import mdx from '@astrojs/mdx';
+// import react from '@astrojs/react';
 import cloudflare from '@astrojs/cloudflare';
 import compressor from "astro-compressor";
 
@@ -22,7 +22,7 @@ export default defineConfig({
 
   },
   output: "server",
-  adapter: cloudflare({imageService:"compile"}),
+  adapter: cloudflare({imageService:"compile", }),
   site: 'https://geeta.prasuco.com',
-  integrations: [sitemap(), mdx(), react(),compressor({brotli:true})  ]
+  integrations: [sitemap(), ,compressor({brotli:true})  ]
 });
