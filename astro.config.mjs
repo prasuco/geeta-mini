@@ -17,12 +17,12 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     ssr: {
-      external: ["canvas"],
+      external: ["canvas", "sharp"],
     },
 
   },
   output: "server",
   adapter: cloudflare({imageService:"compile", }),
   site: 'https://geeta.prasuco.com',
-  integrations: [sitemap(), ,compressor({brotli:true})  ]
+  integrations: [sitemap()  ]
 });

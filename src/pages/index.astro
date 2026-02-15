@@ -8,6 +8,8 @@ import ChapterItem from "../components/ChapterItem.astro";
 const sortedChapters = chapters.sort(
   (a, b) => a.data.chapter_number - b.data.chapter_number
 );
+
+export const prerender = true;
 ---
 
 <BaseHead
