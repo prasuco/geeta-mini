@@ -6,6 +6,8 @@ import tailwindcss from '@tailwindcss/vite'
 import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
 import cloudflare from '@astrojs/cloudflare';
+import compressor from "astro-compressor";
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,7 +22,7 @@ export default defineConfig({
 
   },
   output: "server",
-  adapter: cloudflare({}),
+  adapter: cloudflare({imageService:"compile"}),
   site: 'https://geeta.prasuco.com',
-  integrations: [sitemap(), mdx(), react(),  ]
+  integrations: [sitemap(), mdx(), react(),compressor({brotli:true})  ]
 });
