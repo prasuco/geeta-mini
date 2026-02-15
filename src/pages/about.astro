@@ -2,6 +2,7 @@
 import BaseHead from "../base/BaseHead.astro";
 import MobileLayout from "../base/layouts/MobileLayout.astro";
 import StackHeader from "../components/StackHeader.astro";
+export const prerender = true;
 ---
 
 <BaseHead
@@ -108,10 +109,7 @@ import StackHeader from "../components/StackHeader.astro";
         style="border-color: var(--color-border)"
       >
         <h2 class="text-lg font-medium text-primary">Data Source</h2>
-        <p
-          class=" leading-relaxed"
-          style="color: var(--color-text-primary)"
-        >
+        <p class="leading-relaxed" style="color: var(--color-text-primary)">
           The content in this application is based on data from{" "}
           <a
             href="https://github.com/gita/gita"
