@@ -21,7 +21,6 @@
     "@types/react-dom": "^19.2.3",
     "@zokki/astro-minify": "^1.1.0",
     "astro": "^5.17.2",
-    "canvas": "^3.2.1",
     "number-to-words": "^1.2.4",
     "react-dom": "^19.2.4",
     "resend": "^6.9.2",
@@ -30,6 +29,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
+    "canvas": "^3.2.1",
     "prettier": "^3.8.1",
     "prettier-plugin-astro": "^0.14.1",
     "react": "^19.2.4"
