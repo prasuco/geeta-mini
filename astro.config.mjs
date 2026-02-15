@@ -9,6 +9,9 @@ import cloudflare from '@astrojs/cloudflare';
 import compressor from "astro-compressor";
 
 
+import { loadEnv } from "vite";
+
+const { SECRET_PASSWORD } = loadEnv(process.env.NODE_ENV, process.cwd(), "");
 // https://astro.build/config
 export default defineConfig({
   devToolbar: {
@@ -16,6 +19,7 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    environments:,
     ssr: {
       external: ["canvas", "sharp"],
     },

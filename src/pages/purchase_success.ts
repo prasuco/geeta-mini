@@ -1,9 +1,6 @@
 import { Resend } from 'resend';
 import { welcomeEmail } from '../utils/welcomeEmail';
 
-
-export const runtime = "node";
-export const prerender = false;
 // @ts-ignore
 export async function GET({ request }) {
   const url = new URL(request.url);
