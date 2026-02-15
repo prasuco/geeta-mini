@@ -11,7 +11,7 @@ import compressor from "astro-compressor";
 
 import { loadEnv } from "vite";
 
-const { RESEND_API_KEY } = loadEnv(process.env.NODE_ENV, process.cwd(), "");
+const { RESEND_API_KEY } = loadEnv(process.env.RESEND_API_KEY, process.cwd(), "");
 // https://astro.build/config
 export default defineConfig({
   devToolbar: {
@@ -27,7 +27,7 @@ export default defineConfig({
 
   },
   output: "server",
-  adapter: cloudflare({imageService:"compile", }),
+  adapter: cloudflare({ imageService: "compile", }),
   site: 'https://geeta.prasuco.com',
-  integrations: [sitemap()  ]
+  integrations: [sitemap()]
 });

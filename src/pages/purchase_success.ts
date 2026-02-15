@@ -1,36 +1,41 @@
 import { Resend } from 'resend';
 import { welcomeEmail } from '../utils/welcomeEmail';
 
-// @ts-ignore
+
 export async function GET({ request }) {
   const url = new URL(request.url);
   const email = url.searchParams.get('email');
 
-  const resend = new Resend(import.meta.env.RESEND_API_KEY);
+  // ✅ Use Astro.env for server-side secrets
+  const RESEND_API_KEY = Astro.env.RESEND_API_KEY;
 
-  const { data, error } = await resend.emails.send({
-    from: 'Gita <geeta@prasuco.com>',
-    to: [`${email}`],
-    subject: 'Welcome',
-    html: welcomeEmail(email?.split('@')[0]!),
-  });
-
-
-  if (error) {
+  if (!RESEND_API_KEY) {
     return new Response(
-      JSON.stringify({
-        success: false,
-        message: "email sending failed.",
-      }),
+      JSON.stringify({ success: false, message: "API key missing" }),
       { status: 500 }
     );
   }
 
+  const resend = new Resend(RESEND_API_KEY);
 
-  return new Response(null, {
-    status: 302, // or 303
-    headers: {
-      Location: "/success",
-    },
-  });
+  try {
+    const { data, error } = await resend.emails.send({
+      from: 'Gita <geeta@prasuco.com>',
+      to: [email!],
+      subject: 'Welcome',
+      html: welcomeEmail(email?.split('@')[0]!),
+    });
+
+    if (error) throw new Error(error.message || "Unknown error");
+
+    return new Response(null, {
+      status: 302,
+      headers: { Location: "/success" },
+    });
+  } catch (err) {
+    return new Response(
+      JSON.stringify({ success: false, message: "Email sending failed." }),
+      { status: 500 }
+    );
+  }
 }
