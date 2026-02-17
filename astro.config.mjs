@@ -10,6 +10,7 @@ import compressor from "astro-compressor";
 
 // https://astro.build/config
 export default defineConfig({
+
   devToolbar: {
     enabled: false
   },
@@ -24,7 +25,7 @@ export default defineConfig({
 
   },
   output: "server",
-
+  trailingSlash: "ignore",
   adapter: cloudflare({ imageService: "compile", }),
   site: 'https://geeta.prasuco.com',
   integrations: [sitemap()]
