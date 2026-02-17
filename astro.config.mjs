@@ -25,7 +25,8 @@ export default defineConfig({
 
   },
   output: "server",
-  trailingSlash: "ignore",
+  trailingSlash: "never",
+
   adapter: cloudflare({ imageService: "compile", }),
   site: 'https://geeta.prasuco.com',
   integrations: [sitemap()]
