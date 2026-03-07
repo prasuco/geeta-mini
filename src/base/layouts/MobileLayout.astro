@@ -4,7 +4,7 @@ type Props = {
   showBottomBar?: boolean;
 };
 
-import { TableOfContents, CircleEllipsis } from "@lucide/astro";
+import { TableOfContents, CircleEllipsis, Search, Mail, BookMarked } from "@lucide/astro";
 
 const { title = "Chapters", showBottomBar = true } = Astro.props;
 export const prerender = true;
@@ -28,9 +28,21 @@ export const prerender = true;
             <p>Chapters</p>
           </a>
 
+
+
+          <a href="/geeta-mail" class="mail flex flex-col items-center text-orange-600">
+            <Mail />
+            <p>Geeta Mail</p>
+          </a>
+
+          <a href="/bookmarks" class="bookmarks flex flex-col items-center">
+            <BookMarked />
+            <p>Saved</p>
+          </a>
+
           <a href="/about" class="more flex flex-col items-center">
             <CircleEllipsis />
-            <p>About Us</p>
+            <p>About</p>
           </a>
         </div>
       </footer>

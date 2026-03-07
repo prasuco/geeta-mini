@@ -1,0 +1,73 @@
+---
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+
+export const prerender = true;
+---
+
+<BaseHead
+  title="Saved Verses - Bookmarks | Geeta.Prasuco.com"
+  description="Your saved Bhagavad Gita verses. Access your bookmarked verses for quick reference."
+>
+  <MobileLayout>
+    <div class="p-4">
+      <h1 class="text-2xl font-semibold mb-4">Saved Verses</h1>
+      <div id="bookmarksList" class="space-y-2">
+        <p class="text-gray-500 text-center py-8">Loading your saved verses...</p>
+      </div>
+    </div>
+  </MobileLayout>
+</BaseHead>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const bookmarksList = document.getElementById("bookmarksList");
+    if (!bookmarksList) return;
+
+    function getBookmarks() {
+      try {
+        return JSON.parse(localStorage.getItem("bookmarkedVerses") || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    const bookmarks = getBookmarks();
+
+    if (bookmarks.length === 0) {
+      bookmarksList.innerHTML = `
+        <p class="text-gray-500 text-center py-8">No saved verses yet.</p>
+        <p class="text-gray-400 text-center text-sm">Tap the bookmark icon on any verse to save it here.</p>
+      `;
+      return;
+    }
+
+    bookmarksList.innerHTML = bookmarks.map((b: any) => `
+      <a href="/${b.chapter}/${b.verse}" class="block p-4 bg-white border rounded-lg hover:bg-orange-50 transition">
+        <div class="flex items-center justify-between">
+          <span class="font-semibold">Chapter ${b.chapter}, Verse ${b.verse}</span>
+          <button class="delete-bookmark text-red-400 hover:text-red-600" data-key="${b.key}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 6h18"></path>
+              <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+              <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+            </svg>
+          </button>
+        </div>
+      </a>
+    `).join("");
+
+    // Delete bookmark
+    bookmarksList.querySelectorAll(".delete-bookmark").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const key = (btn as HTMLElement).dataset.key;
+        const newBookmarks = bookmarks.filter((b: any) => b.key !== key);
+        localStorage.setItem("bookmarkedVerses", JSON.stringify(newBookmarks));
+        // Reload to show updated list
+        window.location.reload();
+      });
+    });
+  });
+</script>

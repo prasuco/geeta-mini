@@ -5,6 +5,8 @@ import "../styles/globals.css";
 type Props = {
   title: string;
   description?: string;
+  chapter?: number;
+  verse?: number;
 };
 
 // import "@fontsource-variable/inter";
@@ -12,7 +14,56 @@ type Props = {
 const {
   description = "Bhagavad Gita |  Complete Chapters with Slok, Meaning & Commentary | Geeta.Prasuco.com",
   title,
+  chapter,
+  verse,
 } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = chapter && verse 
+  ? `/og/${chapter}/${verse}.webp`
+  : chapter 
+    ? `/og/${chapter}.webp`
+    : `/og.png`;
+
+const schema = chapter && verse ? {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": `Bhagavad Gita Chapter ${chapter}, Verse ${verse}`,
+  "description": description,
+  "image": ogImage,
+  "url": canonicalURL.href,
+  "author": {
+    "@type": "Person",
+    "name": "Krishna"
+  },
+  "book": {
+    "@type": "Book",
+    "name": "Bhagavad Gita",
+    "author": {
+      "@type": "Person",
+      "name": "Vyasa"
+    }
+  }
+} : chapter ? {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "headline": `Bhagavad Gita Chapter ${chapter}`,
+  "description": description,
+  "image": ogImage,
+  "url": canonicalURL.href
+} : {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Geeta Mini - Bhagavad Gita",
+  "description": description,
+  "url": canonicalURL.href,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+
 export const prerender = true;
 ---
 
@@ -29,31 +80,24 @@ export const prerender = true;
     <title>{title}</title>
 
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL.href} />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    {
-      !Astro.params.slok && Astro.params.chapter && (
-        <meta
-          property="og:image"
-          content={`/og/${Astro.params.chapter}.webp`}
-        />
-      )
-    }
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
 
-    {
-      Astro.params.slok && (
-        <meta
-          property="og:image"
-          content={`/og/${Astro.params.chapter}/${Astro.params.slok}.webp`}
-        />
-      )
-    }
+    <!-- Open Graph -->
+    <meta property="og:type" content={chapter && verse ? "article" : chapter ? "website" : "website"} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={canonicalURL.href} />
 
-    {
-      !Astro.params.slok && !Astro.params.chapter && (
-        <meta property="og:image" content={`/og.png`} />
-      )
-    }
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 
     {
       process.env.NODE_ENV === "production" && (

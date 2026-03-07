@@ -35,6 +35,15 @@ const sortedSloks = sloks.sort(
   title={`Bhagavad Gita Chapter ${chapter.data.chapter_number} - ${chapter.data.name_meaning}  | ${chapter.data.name}  | Full Sloks with Meaning`}
 >
   <MobileLayout showBottomBar={false}>
+    <!-- Breadcrumbs -->
+    <nav class="px-4 pt-4 text-sm">
+      <ol class="flex items-center gap-1 text-gray-500">
+        <li><a href="/" class="hover:text-orange-600">Home</a></li>
+        <li><span class="mx-1">/</span></li>
+        <li class="text-gray-900">Chapter {chapter.data.chapter_number}</li>
+      </ol>
+    </nav>
+
     <StackHeader title={chapter.data.name_meaning} href="/" />
     <div class="main m-2 gap-2 flex flex-col">
       {sortedSloks.map((slok) => <SlokItem slok={slok} />)}
