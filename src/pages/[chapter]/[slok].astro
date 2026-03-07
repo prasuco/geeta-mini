@@ -87,11 +87,14 @@ const commentaries = (
             .join("<br/>")}
         />
       </section>
-      <audio
-        class="prose"
-        autoplay
-        src={`https://gita-audio.jkyog.org/audio/sanskrit/gita_audios/${padToThree(slok.data.chapter_number)}_${padToThree(slok.data.verse_number)}.mp3`}
-      ></audio>
+      <section class="flex flex-col items-center gap-2">
+        <span class="text-xs" style="color: var(--color-text-muted)">Listen to Verse {slok.data.chapter_number}.{slok.data.verse_number}</span>
+        <audio
+          controls
+          class="w-full max-w-md h-10 rounded"
+          src={`https://gita-audio.jkyog.org/audio/sanskrit/gita_audios/${padToThree(slok.data.chapter_number)}_${padToThree(slok.data.verse_number)}.mp3`}
+        ></audio>
+      </section>
 
       <!-- Divider -->
       <div class="flex items-center gap-4">
