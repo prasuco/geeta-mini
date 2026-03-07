@@ -88,9 +88,14 @@ const commentaries = (
         />
       </section>
       <section class="flex flex-col items-center gap-2">
-        <span class="text-xs" style="color: var(--color-text-muted)">Listen to Verse {slok.data.chapter_number}.{slok.data.verse_number}</span>
+        <span class="text-xs" style="color: var(--color-text-muted)"
+          >Listen to Verse {slok.data.chapter_number}.{
+            slok.data.verse_number
+          }</span
+        >
         <audio
           controls
+          autoplay
           class="w-full max-w-md h-10 rounded"
           src={`https://gita-audio.jkyog.org/audio/sanskrit/gita_audios/${padToThree(slok.data.chapter_number)}_${padToThree(slok.data.verse_number)}.mp3`}
         ></audio>
@@ -202,9 +207,9 @@ const commentaries = (
         )
       }
     </article>
+    <SocialShare />
   </MobileLayout>
 
-  <SocialShare  />
 </BaseHead>
 
 <script
@@ -219,52 +224,42 @@ const commentaries = (
 />
 
 <script>
+  document.addEventListener("astro:page-load", () => {
+    const translationSelector = document.getElementById("translationSelector");
+    const translationPara = document.getElementById("translationPara");
+    const commentarySelector = document.getElementById("commentarySelector");
+    const commentaryPara = document.getElementById("commentaryPara");
 
+    const translations = JSON.parse(
+      document.getElementById("translations-data")?.textContent || "[]",
+    );
 
-document.addEventListener("astro:page-load", () => {
+    const commentaries = JSON.parse(
+      document.getElementById("commentaries-data")?.textContent || "[]",
+    );
 
+    translationSelector?.addEventListener("change", (e) => {
+      // @ts-ignore
+      const authorId = Number(e.target.value);
 
+      // @ts-ignore
+      const translation = translations.find((t) => t.author_id === authorId);
 
+      if (translation && translationPara) {
+        translationPara.innerHTML = translation.description;
+      }
+    });
 
+    commentarySelector?.addEventListener("change", (e) => {
+      // @ts-ignore
+      const authorId = Number(e.target.value);
 
+      // @ts-ignore
+      const commentary = commentaries.find((c) => c.author_id === authorId);
 
-  const translationSelector = document.getElementById("translationSelector");
-  const translationPara = document.getElementById("translationPara");
-  const commentarySelector = document.getElementById("commentarySelector");
-  const commentaryPara = document.getElementById("commentaryPara");
-
-  const translations = JSON.parse(
-    document.getElementById("translations-data")?.textContent || "[]",
-  );
-
-  const commentaries = JSON.parse(
-    document.getElementById("commentaries-data")?.textContent || "[]",
-  );
-
-  translationSelector?.addEventListener("change", (e) => {
-    // @ts-ignore
-    const authorId = Number(e.target.value);
-
-    // @ts-ignore
-    const translation = translations.find((t) => t.author_id === authorId);
-
-    if (translation && translationPara) {
-      translationPara.innerHTML = translation.description;
-    }
+      if (commentary && commentaryPara) {
+        commentaryPara.innerHTML = commentary.description;
+      }
+    });
   });
-
-  commentarySelector?.addEventListener("change", (e) => {
-    // @ts-ignore
-    const authorId = Number(e.target.value);
-
-    // @ts-ignore
-    const commentary = commentaries.find((c) => c.author_id === authorId);
-
-    if (commentary && commentaryPara) {
-      commentaryPara.innerHTML = commentary.description;
-    }
-  });
-  });
-
-
 </script>
