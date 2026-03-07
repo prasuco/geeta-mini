@@ -12,12 +12,13 @@ export const prerender = true;
 <a
   transition:name={`chapter-name-${data.data.chapter_number}`}
   href={`/${data.id}`}
-  class="hover:bg-surface p-2 transition-colors"
+  class="block px-4 py-3 hover:bg-gray-50 transition-colors"
 >
-  <p class="text-xs" style="color: var(--color-text-muted)">
-    Chapter {data.data.chapter_number}
-  </p>
-  <h2 class="font-medium" style="color: var(--color-text-primary)">
-    {data.data.name_meaning}
-  </h2>
+  <div class="flex items-center gap-3">
+    <span class="text-orange-600 font-semibold">{data.data.chapter_number}</span>
+    <div class="flex-1 min-w-0">
+      <p class="font-medium text-gray-900 truncate">{data.data.name_meaning}</p>
+      <p class="text-xs text-gray-500">{data.data.name}</p>
+    </div>
+  </div>
 </a>

@@ -8,11 +8,12 @@ import GotoButton from "../../base/GotoButton.astro";
 import { padToThree } from "../../utils/padToThree";
 
 import SocialShare from "../../components/SocialShare.astro";
+import { Bookmark } from "@lucide/astro";
 
 export const prerender = true;
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
-  
+
   const sortedSloks = sloks.sort((a, b) => {
     if (a.data.chapter_number !== b.data.chapter_number) {
       return a.data.chapter_number - b.data.chapter_number;
@@ -22,17 +23,28 @@ export async function getStaticPaths() {
 
   return sortedSloks.map((item, index) => {
     const prevSlok = index > 0 ? sortedSloks[index - 1] : null;
-    const nextSlok = index < sortedSloks.length - 1 ? sortedSloks[index + 1] : null;
-    
+    const nextSlok =
+      index < sortedSloks.length - 1 ? sortedSloks[index + 1] : null;
+
     return {
       params: {
         chapter: item.data.chapter_number.toString(),
         slok: item.data.verse_number.toString(),
       },
-      props: { 
+      props: {
         slok: item,
-        prevSlok: prevSlok ? { chapter: prevSlok.data.chapter_number, verse: prevSlok.data.verse_number } : null,
-        nextSlok: nextSlok ? { chapter: nextSlok.data.chapter_number, verse: nextSlok.data.verse_number } : null,
+        prevSlok: prevSlok
+          ? {
+              chapter: prevSlok.data.chapter_number,
+              verse: prevSlok.data.verse_number,
+            }
+          : null,
+        nextSlok: nextSlok
+          ? {
+              chapter: nextSlok.data.chapter_number,
+              verse: nextSlok.data.verse_number,
+            }
+          : null,
       },
     };
   });
@@ -65,30 +77,35 @@ const commentaries = (
         <ol class="flex items-center gap-1 text-gray-500">
           <li><a href="/" class="hover:text-orange-600">Home</a></li>
           <li><span class="mx-1">/</span></li>
-          <li><a href={`/${slok.data.chapter_number}`} class="hover:text-orange-600">Chapter {slok.data.chapter_number}</a></li>
+          <li>
+            <a
+              href={`/${slok.data.chapter_number}`}
+              class="hover:text-orange-600"
+              >Chapter {slok.data.chapter_number}</a
+            >
+          </li>
           <li><span class="mx-1">/</span></li>
           <li class="text-gray-900">Verse {slok.data.verse_number}</li>
         </ol>
       </nav>
 
-      <GotoButton
-        transition_name={`chapter-${slok.data.chapter_number}`}
-        name="Go to Chapter"
-        href={`/${slok.data.chapter_number}`}
-      />
       <!-- Verse Header -->
       <header class="text-center space-y-2">
-        <div class="flex justify-end">
+        <div class="flex justify-between">
+          <GotoButton
+            transition_name={`chapter-${slok.data.chapter_number}`}
+            name="Go to Chapter"
+            href={`/${slok.data.chapter_number}`}
+          />
+
           <button
             id="bookmarkBtn"
             data-chapter={slok.data.chapter_number}
             data-verse={slok.data.verse_number}
-            class="text-gray-400 hover:text-orange-500 transition"
+            class="hover:bg-accent/50 rounded-full p-3"
             aria-label="Bookmark this verse"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bookmark-icon">
-              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-            </svg>
+            <Bookmark class="fill-primary stroke-0" />
           </button>
         </div>
         <h2
@@ -248,41 +265,40 @@ const commentaries = (
 
       <!-- Prev/Next Navigation -->
       <nav class="flex justify-between items-center pt-6 border-t">
-        {prevSlok ? (
-          <a 
-            href={`/${prevSlok.chapter}/${prevSlok.verse}`}
-            class="flex flex-col items-start text-sm hover:text-orange-600"
-          >
-            <span class="text-gray-500">← Previous</span>
-            <span class="font-medium">Chapter {prevSlok.chapter}.{prevSlok.verse}</span>
-          </a>
-        ) : (
-          <div></div>
-        )}
-        {nextSlok ? (
-          <a 
-            href={`/${nextSlok.chapter}/${nextSlok.verse}`}
-            class="flex flex-col items-end text-sm hover:text-orange-600"
-          >
-            <span class="text-gray-500">Next →</span>
-            <span class="font-medium">Chapter {nextSlok.chapter}.{nextSlok.verse}</span>
-          </a>
-        ) : (
-          <div></div>
-        )}
+        {
+          prevSlok ? (
+            <a
+              href={`/${prevSlok.chapter}/${prevSlok.verse}`}
+              class="flex flex-col items-start text-sm hover:text-orange-600"
+            >
+              <span class="text-gray-500">← Previous</span>
+              <span class="font-medium">
+                Chapter {prevSlok.chapter}.{prevSlok.verse}
+              </span>
+            </a>
+          ) : (
+            <div />
+          )
+        }
+        {
+          nextSlok ? (
+            <a
+              href={`/${nextSlok.chapter}/${nextSlok.verse}`}
+              class="flex flex-col items-end text-sm hover:text-orange-600"
+            >
+              <span class="text-gray-500">Next →</span>
+              <span class="font-medium">
+                Chapter {nextSlok.chapter}.{nextSlok.verse}
+              </span>
+            </a>
+          ) : (
+            <div />
+          )
+        }
       </nav>
-
-      <!-- Geeta in Mail CTA -->
-      <div class="bg-orange-50 border border-orange-200 rounded-lg p-4 text-center">
-        <p class="text-sm text-orange-800 mb-2">Get daily verses delivered to your inbox</p>
-        <a href="/geeta-mail" class="inline-block px-4 py-2 bg-orange-500 text-white text-sm font-medium rounded hover:bg-orange-600 transition">
-          Subscribe to Geeta in Mail
-        </a>
-      </div>
     </article>
     <SocialShare />
   </MobileLayout>
-
 </BaseHead>
 
 <script
@@ -338,7 +354,7 @@ const commentaries = (
     // Bookmark functionality
     const bookmarkBtn = document.getElementById("bookmarkBtn");
     const bookmarkIcon = bookmarkBtn?.querySelector(".bookmark-icon");
-    
+
     function getBookmarks() {
       try {
         return JSON.parse(localStorage.getItem("bookmarkedVerses") || "[]");
@@ -349,7 +365,9 @@ const commentaries = (
 
     function isBookmarked(chapter: number, verse: number) {
       const bookmarks = getBookmarks();
-      return bookmarks.some((b: any) => b.chapter === chapter && b.verse === verse);
+      return bookmarks.some(
+        (b: any) => b.chapter === chapter && b.verse === verse,
+      );
     }
 
     function updateBookmarkIcon(chapter: number, verse: number) {
@@ -364,18 +382,23 @@ const commentaries = (
     if (bookmarkBtn) {
       const chapter = parseInt(bookmarkBtn.dataset.chapter || "0");
       const verse = parseInt(bookmarkBtn.dataset.verse || "0");
-      
+
       // Update icon on load
       updateBookmarkIcon(chapter, verse);
 
       bookmarkBtn.addEventListener("click", () => {
         const bookmarks = getBookmarks();
         const key = `${chapter}.${verse}`;
-        
+
         if (isBookmarked(chapter, verse)) {
           // Remove bookmark
-          const newBookmarks = bookmarks.filter((b: any) => !(b.chapter === chapter && b.verse === verse));
-          localStorage.setItem("bookmarkedVerses", JSON.stringify(newBookmarks));
+          const newBookmarks = bookmarks.filter(
+            (b: any) => !(b.chapter === chapter && b.verse === verse),
+          );
+          localStorage.setItem(
+            "bookmarkedVerses",
+            JSON.stringify(newBookmarks),
+          );
           updateBookmarkIcon(chapter, verse);
         } else {
           // Add bookmark

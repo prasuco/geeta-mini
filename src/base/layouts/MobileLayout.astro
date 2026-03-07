@@ -4,47 +4,38 @@ type Props = {
   showBottomBar?: boolean;
 };
 
-import { TableOfContents, CircleEllipsis, Search, Mail, BookMarked } from "@lucide/astro";
+import { TableOfContents, CircleEllipsis, Mail, BookMarked } from "@lucide/astro";
 
 const { title = "Chapters", showBottomBar = true } = Astro.props;
 export const prerender = true;
 ---
 
-<div
-  class="flex flex-col items-center min-h-screen max-w-lg mx-auto"
->
-  {/* Content Section */}
-  <main class="flex-1 w-full mx-auto relative bg-background">
+<div class="flex flex-col min-h-screen max-w-lg mx-auto bg-background">
+  <main class="flex-1">
     <slot />
   </main>
 
-  {/* Bottom Navigation */}
   {
     showBottomBar && (
-      <footer class="w-full bg-white mt-auto rounded-tl-lg rounded-tr-lg sticky shadow bottom-0">
-        <div class="flex justify-around p-2 py-4 text-black text-sm">
-          <a href="/" class="chapters flex flex-col items-center">
-            <TableOfContents />
+      <footer class="border-t border-gray-100 bg-white">
+        <nav class="flex justify-around text-xs text-gray-600">
+          <a href="/" class="flex flex-col items-center gap-1 p-3">
+            <TableOfContents class="w-5 h-5" />
             <p>Chapters</p>
           </a>
-
-
-
-          <a href="/geeta-mail" class="mail flex flex-col items-center text-orange-600">
-            <Mail />
-            <p>Geeta Mail</p>
+          <a href="/geeta-mail" class="flex flex-col items-center gap-1 p-3 text-orange-600">
+            <Mail class="w-5 h-5" />
+            <p>Mail</p>
           </a>
-
-          <a href="/bookmarks" class="bookmarks flex flex-col items-center">
-            <BookMarked />
+          <a href="/bookmarks" class="flex flex-col items-center gap-1 p-3">
+            <BookMarked class="w-5 h-5" />
             <p>Saved</p>
           </a>
-
-          <a href="/about" class="more flex flex-col items-center">
-            <CircleEllipsis />
+          <a href="/about" class="flex flex-col items-center gap-1 p-3">
+            <CircleEllipsis class="w-5 h-5" />
             <p>About</p>
           </a>
-        </div>
+        </nav>
       </footer>
     )
   }

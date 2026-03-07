@@ -12,19 +12,17 @@ const translations = (await getCollection("translations")).find(
 );
 
 const previewText = translations?.data.find((t) => t.author_id == 16)?.description || "";
-const truncatedPreview = previewText.length > 120 ? previewText.substring(0, 120) + "..." : previewText;
+const truncatedPreview = previewText.length > 80 ? previewText.substring(0, 80) + "..." : previewText;
 export const prerender = true;
 ---
 
 <a
   transition:name={`slok-name-${slok.id}`}
   href={`/${slok.data.chapter_number}/${slok.data.verse_number}`}
-  class="hover:bg-surface p-2 transition-colors"
+  class="block px-4 py-3 hover:bg-gray-50 transition-colors"
 >
-  <p class="text-xs" style="color: var(--color-text-muted)">
-    Shloka: BG {slok.data.chapter_number}.{slok.data.verse_number}
-  </p>
-  <h2 class="font-medium text-sm" style="color: var(--color-text-primary)">
-    {truncatedPreview}
-  </h2>
+  <div class="flex items-start gap-3">
+    <span class="text-orange-600 font-semibold text-sm mt-0.5">{slok.data.verse_number}</span>
+    <p class="text-sm text-gray-600 leading-relaxed">{truncatedPreview}</p>
+  </div>
 </a>
