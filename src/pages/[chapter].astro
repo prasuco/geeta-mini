@@ -33,7 +33,7 @@ const sortedSloks = sloks.sort(
 >
   <MobileLayout showBottomBar={false}>
     <StackHeader title={chapter.data.name_meaning} href="/" />
-    <div class="main m-2 gap-2 flex flex-col">
+    <div class="main m-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
       {sortedSloks.map((slok) => <SlokItem slok={slok} />)}
     </div>
   </MobileLayout>

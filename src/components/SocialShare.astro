@@ -1,37 +1,53 @@
 ---
 import { Share2 } from "@lucide/astro";
 
+interface Props {
+  chapter?: number;
+  verse?: number;
+}
+
+const { chapter, verse } = Astro.props;
 const url = Astro.request.url;
 export const prerender = true;
 ---
 
-<!-- jq and modal from public -->
-<script is:inline src="/js/jquery.min.js"></script>
-<link rel="stylesheet" href="/css/jquery.modal.css" />
-<script is:inline src="/js/jquery.modal.js"></script>
-
 <div>
-  <!-- Share Button -->
+
   <a
+
+  href="#shareModal" rel="modal:open"
     title="Share The Slok"
-    id="openModal"
-    href="#shareModal"
-    rel="modal:open"
-    class="fixed bottom-30 right-5 p-3 rounded-full bg-orange-500 hover:bg-orange-600 active:bg-orange text-white text-sm font-semibold shadow-md transition"
+    id="openModalBtn"
+    class="fixed bottom-10 right-5 p-3 rounded-full bg-orange-500 hover:bg-orange-600 active:bg-orange text-white text-sm font-semibold shadow-md transition z-40 flex items-center justify-center cursor-pointer"
   >
     <Share2 />
   </a>
 
   <!-- Modal -->
-  <div id="shareModal" class="modal">
+  <div id="shareModal" class="modal   max-w-lg w-full">
     <div class="">
       <!-- Header -->
-      <div class="flex items-center justify-between pb-3 mb-4">
-        <h3 class="text-lg font-semibold text-slate-800">Share this verse</h3>
+      <div class="mb-6">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Share this verse</h3>
+        <p class="text-gray-500 text-sm">Spread the wisdom of the Gita with your friends and family.</p>
       </div>
 
+      <!-- Generator Link -->
+      {chapter && verse && (
+        <div class="mb-8">
+          <a 
+            href={`/generate/${chapter}/${verse}`} 
+            class="w-full py-4 bg-orange-600 hover:bg-orange-700 text-white rounded-2xl font-bold shadow-lg shadow-orange-100 transition-all flex items-center justify-center gap-2 group"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:scale-110"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+            Design Social Post
+          </a>
+          <p class="text-[10px] text-center text-gray-400 mt-2 uppercase tracking-tighter">New: Create beautiful images for Facebook/Instagram</p>
+        </div>
+      )}
+
       <!-- Native Share (Mobile) -->
-      <div id="nativeShare" class="hidden mb-4">
+      <div id="nativeShare" class="hidden mb-6">
         <button
           id="nativeShareBtn"
           class="w-full py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-medium flex items-center justify-center gap-2"
@@ -103,10 +119,10 @@ export const prerender = true;
   </div>
 </div>
 
-<script lang="ts">
+<script>
   function initShareModal() {
-    const openBtn = document.getElementById("openModal");
-    const shareUrlInput = document.getElementById("shareUrl");
+
+    const shareUrlInput = document.getElementById("shareUrl") as HTMLInputElement;
     const copyBtn = document.getElementById("copyBtn");
     const nativeShare = document.getElementById("nativeShare");
     const nativeShareBtn = document.getElementById("nativeShareBtn");
@@ -116,7 +132,8 @@ export const prerender = true;
     const shareLinkedin = document.getElementById("shareLinkedin");
     const shareWhatsapp = document.getElementById("shareWhatsapp");
 
-    if (!openBtn || !shareUrlInput) return;
+    if (!shareUrlInput) return;
+
 
     const currentUrl = shareUrlInput.value;
     const pageTitle = document.title;

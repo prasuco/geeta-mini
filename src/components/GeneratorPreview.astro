@@ -1,0 +1,265 @@
+---
+interface Props {
+  sanskrit: string;
+  translation: string;
+  reference: string;
+}
+
+const { sanskrit, translation, reference } = Astro.props;
+---
+
+<div class="relative group">
+  <!-- The Visual Preview (What users see) -->
+  <div 
+    id="previewContainer" 
+    class="preview-box bg-white shadow-2xl rounded-sm overflow-hidden flex flex-col items-center justify-center p-12 text-center transition-all duration-500 ease-in-out"
+    style="width: 500px; height: 500px;"
+  >
+    <div id="previewBg" class="absolute inset-0 z-0 bg-white"></div>
+    
+    <div class="relative z-10 space-y-8 flex flex-col items-center justify-center h-full w-full max-w-[85%]">
+      <!-- Decorative Element -->
+      <div id="previewDecorator" class="text-orange-600 text-3xl opacity-50">❦</div>
+      
+      <!-- Sanskrit Content -->
+      <div 
+        id="previewSanskrit" 
+        class="text-gray-900 font-bold leading-relaxed transition-all"
+        style="font-size: 28px;"
+      >
+        {sanskrit.split("\n\n").join("\n").split("\n").map(line => (
+          <p key={line}>{line}</p>
+        ))}
+      </div>
+
+      <!-- Divider -->
+      <div id="previewDivider" class="w-16 h-1 bg-orange-600 rounded-full mx-auto opacity-30"></div>
+
+      <!-- Translation Content -->
+      <div 
+        id="previewTranslation" 
+        class="text-gray-600 leading-relaxed italic transition-all"
+        style="font-size: 18px;"
+      >
+        {translation}
+      </div>
+
+      <!-- Reference Footer -->
+      <div id="previewFooter" class="pt-4 flex flex-col items-center gap-2">
+        <span id="previewRef" class="text-xs font-bold uppercase tracking-widest text-gray-400">{reference}</span>
+        <span class="text-[10px] tracking-tight text-orange-600/50 uppercase font-medium">geeta.mini</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden Canvas for high-res export -->
+  <canvas id="exportCanvas" class="hidden" width="1440" height="1440"></canvas>
+</div>
+
+<style>
+  .preview-box {
+    aspect-ratio: 1 / 1;
+    transform-origin: center;
+  }
+  
+  .preview-box.story {
+    aspect-ratio: 9 / 16;
+    width: 360px !important;
+    height: 640px !important;
+  }
+</style>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const container = document.getElementById("previewContainer");
+    const bg = document.getElementById("previewBg");
+    const sanskritEl = document.getElementById("previewSanskrit");
+    const translationEl = document.getElementById("previewTranslation");
+    const decorator = document.getElementById("previewDecorator");
+    const divider = document.getElementById("previewDivider");
+    const ref = document.getElementById("previewRef");
+    const downloadBtn = document.getElementById("downloadBtn");
+
+    // Controls
+    const sanskritRange: any = document.getElementById("sanskritSize");
+    const translationRange: any = document.getElementById("translationSize");
+    const formatBtns = document.querySelectorAll(".format-btn");
+    const themeBtns = document.querySelectorAll(".theme-btn");
+
+    // Themes Data
+    const themes: any = {
+      light: {
+        bg: "#ffffff",
+        text: "#111827",
+        muted: "#4b5563",
+        accent: "#ea580c",
+        footer: "#9ca3af"
+      },
+      dark: {
+        bg: "#111827",
+        text: "#f9fafb",
+        muted: "#d1d5db",
+        accent: "#fb923c",
+        footer: "#6b7280"
+      },
+      saffron: {
+        bg: "#f97316",
+        text: "#ffffff",
+        muted: "#ffedd5",
+        accent: "#ffffff",
+        footer: "#ffedd5"
+      },
+      minimal: {
+        bg: "#f9fafb",
+        text: "#374151",
+        muted: "#6b7280",
+        accent: "#9ca3af",
+        footer: "#9ca3af"
+      }
+    };
+
+    let currentTheme = 'light';
+    let currentFormat = 'square';
+
+    // Handle Format Switching
+    formatBtns.forEach((btn: any) => {
+      btn.addEventListener("click", () => {
+        const format = btn.dataset.format;
+        currentFormat = format;
+        
+        // Update UI
+        formatBtns.forEach(b => b.classList.remove("border-orange-600", "bg-orange-50"));
+        btn.classList.add("border-orange-600", "bg-orange-50");
+
+        if (format === 'story') {
+          container?.classList.add("story");
+        } else {
+          container?.classList.remove("story");
+        }
+      });
+    });
+
+    // Handle Theme Switching
+    themeBtns.forEach((btn: any) => {
+      btn.addEventListener("click", () => {
+        const themeKey = btn.dataset.theme;
+        currentTheme = themeKey;
+        const theme = themes[themeKey];
+
+        // Update UI selection
+        themeBtns.forEach(b => b.classList.remove("ring-2", "border-orange-600", "ring-orange-50"));
+        btn.classList.add("ring-2", "border-orange-600", "ring-orange-50");
+
+        // Apply to Preview
+        if (bg) bg.style.backgroundColor = theme.bg;
+        if (sanskritEl) sanskritEl.style.color = theme.text;
+        if (translationEl) translationEl.style.color = theme.muted;
+        if (decorator) decorator.style.color = theme.accent;
+        if (divider) divider.style.backgroundColor = theme.accent;
+        if (ref) ref.style.color = theme.footer;
+      });
+    });
+
+    // Handle Font Size
+    sanskritRange?.addEventListener("input", (e: any) => {
+      if (sanskritEl) sanskritEl.style.fontSize = `${e.target.value}px`;
+    });
+
+    translationRange?.addEventListener("input", (e: any) => {
+      if (translationEl) translationEl.style.fontSize = `${e.target.value}px`;
+    });
+
+    // Handle Download
+    downloadBtn?.addEventListener("click", async () => {
+      const canvas: any = document.getElementById("exportCanvas");
+      const ctx = canvas.getContext("2d");
+      const theme = themes[currentTheme];
+
+      // Set dimensions
+      const width = 1440;
+      const height = currentFormat === 'story' ? 2560 : 1440;
+      canvas.width = width;
+      canvas.height = height;
+
+      // Scaling factor (Preview at 500px vs Export at 1440px)
+      const scale = width / 500;
+
+      // 1. Background
+      ctx.fillStyle = theme.bg;
+      ctx.fillRect(0, 0, width, height);
+
+      // 2. Decorator (❦)
+      ctx.fillStyle = theme.accent;
+      ctx.font = `${48 * scale}px serif`;
+      ctx.textAlign = "center";
+      ctx.fillText("❦", width / 2, height * 0.15);
+
+      // 3. Sanskrit
+      ctx.fillStyle = theme.text;
+      const sanskritText = sanskritEl?.innerText || "";
+      const lines = sanskritText.split("\n");
+      const sanskritFontSize = parseInt(sanskritRange.value) * scale;
+      ctx.font = `bold ${sanskritFontSize}px sans-serif`;
+      
+      let currentY = height * 0.3;
+      lines.forEach(line => {
+        ctx.fillText(line, width / 2, currentY);
+        currentY += sanskritFontSize * 1.5;
+      });
+
+      // 4. Divider
+      currentY += 20 * scale;
+      ctx.globalAlpha = 0.3;
+      ctx.beginPath();
+      ctx.roundRect(width/2 - (40*scale), currentY, 80 * scale, 4 * scale, 5 * scale);
+      ctx.fill();
+      ctx.globalAlpha = 1.0;
+
+      // 5. Translation
+      currentY += 60 * scale;
+      ctx.fillStyle = theme.muted;
+      const translationText = translationEl?.innerText || "";
+      const translationFontSize = parseInt(translationRange.value) * scale;
+      ctx.font = `italic ${translationFontSize}px serif`;
+      
+      // Simple text wrapping for canvas
+      const maxWidth = width * 0.8;
+      const wrapText = (text: string, x: number, y: number, maxWidth: number, lineHeight: number) => {
+        const words = text.split(' ');
+        let line = '';
+        for(let n = 0; n < words.length; n++) {
+          let testLine = line + words[n] + ' ';
+          let metrics = ctx.measureText(testLine);
+          if (metrics.width > maxWidth && n > 0) {
+            ctx.fillText(line, x, y);
+            line = words[n] + ' ';
+            y += lineHeight;
+          } else {
+            line = testLine;
+          }
+        }
+        ctx.fillText(line, x, y);
+        return y;
+      };
+
+      currentY = wrapText(translationText, width / 2, currentY, maxWidth, translationFontSize * 1.5);
+
+      // 6. Footer
+      const footerY = height * 0.9;
+      ctx.fillStyle = theme.footer;
+      ctx.font = `bold ${12 * scale}px sans-serif`;
+      ctx.fillText(ref?.innerText || "", width / 2, footerY);
+      
+      ctx.fillStyle = theme.accent;
+      ctx.globalAlpha = 0.5;
+      ctx.font = `bold ${10 * scale}px sans-serif`;
+      ctx.fillText("GEETA.MINI", width / 2, footerY + (20 * scale));
+
+      // Trigger Download
+      const link = document.createElement('a');
+      link.download = `geeta-verse-${currentFormat}.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    });
+  });
+</script>

@@ -4,50 +4,19 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  /* 1–2: Backgrounds */
-  --color-background: oklch(98% 0.018 35);
-  /* parchment */
-  --color-surface: oklch(96% 0.02 35);
-  /* verse cards */
+  --color-background: oklch(98% 0.01 100);
+  --color-surface: oklch(96% 0.01 100);
 
-  /* 3–6: Text - Improved for better readability */
-  --color-text-primary: oklch(25% 0.02 30);
-  /* main reading text - darker for better contrast */
-  --color-text-secondary: oklch(45% 0.025 30);
-  /* commentary */
-  --color-text-muted: oklch(55% 0.02 30);
-  /* verse numbers/meta - more visible */
+  --color-text-primary: oklch(20% 0.01 260);
+  --color-text-secondary: oklch(40% 0.01 260);
+  --color-text-muted: oklch(60% 0.01 260);
 
-  /* 7–8: Brand - More vibrant saffron */
-  --color-primary: oklch(58% 0.15 35);
-  /* saffron-orange - more vibrant */
-  --color-primary-soft: oklch(85% 0.08 35);
-  /* soft highlight bg */
+  --color-primary: oklch(55% 0.10 70);   /* subtle saffron */
 
-  /* 9: Accent */
-  --color-accent: oklch(70% 0.12 45);
-  /* warm gold */
+  --color-border: oklch(90% 0.01 260);
 
-  /* 10: Borders */
-  --color-border: oklch(82% 0.02 35);
-
-  /* 11: Sanskrit emphasis */
-  --color-sanskrit: oklch(35% 0.12 25);
-  /* deeper sacred rose-brown */
-
-  /* 12–14: Semantics / Interaction */
-  --color-focus: oklch(58% 0.15 35);
-  /* same as primary */
-  --color-success: oklch(50% 0.15 150);
-  /* bookmarks - vibrant green */
-  --color-error: oklch(55% 0.15 25);
-  /* alerts - warm red */
-
-  /* 15: Brand Orange */
-  --color-orange: oklch(60% 0.18 40);
-  /* for buttons and highlights */
+  --color-sanskrit: oklch(30% 0.07 20);
 }
-
 body {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
@@ -109,4 +78,48 @@ a {
     padding-left: max(16px, env(safe-area-inset-left));
     padding-right: max(16px, env(safe-area-inset-right));
   }
+}
+
+/* Custom Modal Overrides for Premium Aesthetic */
+.jquery-modal {
+  z-index: 100 !important;
+}
+
+.modal {
+  max-width: 500px !important;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important;
+  border: 1px solid #f3f4f6 !important;
+}
+
+.modal a.close-modal {
+  top: 1.5rem !important;
+  right: 1.5rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  background-image: none !important;
+  text-indent: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 9999px !important;
+  color: #9ca3af !important;
+  background-color: #f3f4f6 !important;
+  transition: all 0.2s !important;
+}
+
+.modal a.close-modal:hover {
+  background-color: #e5e7eb !important;
+  color: #4b5563 !important;
+}
+
+.modal a.close-modal::before {
+  content: "×" !important;
+  font-size: 1.5rem !important;
+  line-height: 1 !important;
+  margin-top: -2px !important;
+}
+
+.blocker {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(4px) !important;
 }

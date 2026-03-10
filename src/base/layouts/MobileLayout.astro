@@ -4,39 +4,124 @@ type Props = {
   showBottomBar?: boolean;
 };
 
-import { TableOfContents, CircleEllipsis, Mail, BookMarked } from "@lucide/astro";
+import {
+  Menu,
+  X,
+  Mail,
+  BookMarked,
+  Info,
+  Languages
+} from "@lucide/astro";
 
-const { title = "Chapters", showBottomBar = true } = Astro.props;
+const { title = "Chapters" } = Astro.props;
 export const prerender = true;
 ---
 
-<div class="flex flex-col min-h-screen max-w-lg mx-auto bg-background">
-  <main class="flex-1">
+<div class="flex flex-col min-h-screen relative">
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo/Home Link -->
+        <a href="/" class="flex items-center gap-2 group">
+          <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-600 font-bold group-hover:bg-orange-200 transition-colors">
+            G
+          </div>
+          <span class="font-semibold text-gray-900 tracking-tight">Geeta Mini</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="/bookmarks" class={`text-sm font-medium transition-colors ${Astro.url.pathname === '/bookmarks' ? 'text-orange-600' : 'text-gray-500 hover:text-gray-900'}`}>Saved</a>
+          <a href="/about" class={`text-sm font-medium transition-colors ${Astro.url.pathname === '/about' ? 'text-orange-600' : 'text-gray-500 hover:text-gray-900'}`}>About</a>
+          <div class="w-px h-4 bg-gray-200"></div>
+          {Astro.url.pathname.includes('/') && Astro.url.pathname.split('/').length > 2 && (
+             <button id="navLangBtn" class="text-sm font-medium text-gray-500 hover:text-orange-600 flex items-center gap-1 transition-colors">
+              <Languages class="w-4 h-4" />
+              <span>Language</span>
+            </button>
+          )}
+          <a href="/geeta-mail" class="px-4 py-2 rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-orange-600 transition-colors">Geeta Mail</a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center gap-3 md:hidden">
+          {Astro.url.pathname.includes('/') && Astro.url.pathname.split('/').length > 2 && (
+            <button id="mobileNavLangBtn" class="text-gray-500 hover:text-orange-600 p-2">
+              <Languages class="w-5 h-5" />
+            </button>
+          )}
+          <button id="mobileMenuBtn" class="p-2 text-gray-600 hover:text-gray-900 focus:outline-none">
+            <Menu class="w-6 h-6" id="menuIcon" />
+            <X class="w-6 h-6 hidden" id="closeIcon" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Menu (Hidden by default) -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
+      <div class="px-4 pt-2 pb-4 space-y-1">
+        <a href="/" class="block px-3 py-3 text-base font-medium text-gray-900 hover:bg-gray-50 rounded-lg">Chapters</a>
+        <a href="/bookmarks" class="block px-3 py-3 text-base font-medium text-gray-900 hover:bg-gray-50 rounded-lg flex items-center justify-between">
+          <span>Saved Verses</span>
+          <BookMarked class="w-4 h-4 text-gray-400" />
+        </a>
+        <a href="/about" class="block px-3 py-3 text-base font-medium text-gray-900 hover:bg-gray-50 rounded-lg flex items-center justify-between">
+          <span>About Project</span>
+          <Info class="w-4 h-4 text-gray-400" />
+        </a>
+        <a href="/geeta-mail" class="block px-3 py-3 text-base font-medium text-orange-600 bg-orange-50 hover:bg-orange-100 rounded-lg flex items-center gap-2 mt-4">
+          <Mail class="w-4 h-4" />
+          <span>Geeta in Mail</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-7xl mx-auto w-full">
     <slot />
   </main>
-
-  {
-    showBottomBar && (
-      <footer class="border-t border-gray-100 bg-white">
-        <nav class="flex justify-around text-xs text-gray-600">
-          <a href="/" class="flex flex-col items-center gap-1 p-3">
-            <TableOfContents class="w-5 h-5" />
-            <p>Chapters</p>
-          </a>
-          <a href="/geeta-mail" class="flex flex-col items-center gap-1 p-3 text-orange-600">
-            <Mail class="w-5 h-5" />
-            <p>Mail</p>
-          </a>
-          <a href="/bookmarks" class="flex flex-col items-center gap-1 p-3">
-            <BookMarked class="w-5 h-5" />
-            <p>Saved</p>
-          </a>
-          <a href="/about" class="flex flex-col items-center gap-1 p-3">
-            <CircleEllipsis class="w-5 h-5" />
-            <p>About</p>
-          </a>
-        </nav>
-      </footer>
-    )
-  }
 </div>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+    const closeIcon = document.getElementById('closeIcon');
+
+    if (mobileMenuBtn && mobileMenu && menuIcon && closeIcon) {
+      mobileMenuBtn.addEventListener('click', () => {
+        const isExpanded = !mobileMenu.classList.contains('hidden');
+        
+        if (isExpanded) {
+          mobileMenu.classList.add('hidden');
+          menuIcon.classList.remove('hidden');
+          closeIcon.classList.add('hidden');
+        } else {
+          mobileMenu.classList.remove('hidden');
+          menuIcon.classList.add('hidden');
+          closeIcon.classList.remove('hidden');
+        }
+      });
+    }
+
+    // Handle language modal triggers if they exist
+    const navLangBtn = document.getElementById('navLangBtn');
+    const mobileNavLangBtn = document.getElementById('mobileNavLangBtn');
+    
+    const triggerModal = () => {
+      // @ts-ignore
+      if (window.$ && $('#languageModal').length) {
+         // @ts-ignore
+        $('#languageModal').modal({
+          fadeDuration: 200
+        });
+      }
+    };
+
+    navLangBtn?.addEventListener('click', triggerModal);
+    mobileNavLangBtn?.addEventListener('click', triggerModal);
+  });
+</script>

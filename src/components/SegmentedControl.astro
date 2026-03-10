@@ -1,0 +1,95 @@
+---
+interface Props {
+  options: { label: string; value: string | number; selected?: boolean }[];
+  id: string;
+}
+
+const { options, id } = Astro.props;
+---
+
+<div class="segmented-control-container-wrapper w-full overflow-hidden">
+  <div class="segmented-control-container p-1 bg-gray-100 rounded-xl flex w-full relative shadow-inner overflow-x-auto scrollbar-hide">
+    <!-- Sliding indicator -->
+    <div 
+      id={`${id}-indicator`}
+      class="absolute top-1 bottom-1 left-1 bg-white rounded-lg shadow-sm transition-all duration-300 ease-out z-0"
+    ></div>
+    
+    {options.map((option, index) => (
+      <button
+        type="button"
+        data-value={option.value}
+        data-id={id}
+        data-index={index}
+        data-total={options.length}
+        class={`segmented-button shrink-0 px-4 py-2 text-sm font-medium rounded-lg z-10 transition-colors duration-200 text-center whitespace-nowrap ${option.selected ? 'text-orange-600 active-segment' : 'text-gray-500 hover:text-gray-700'}`}
+      >
+        {option.label}
+      </button>
+    ))}
+  </div>
+</div>
+
+<style>
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>
+
+<script is:inline define:vars={{ id }}>
+  function updateIndicator(btn) {
+    const indicator = document.getElementById(`${id}-indicator`);
+    if (!indicator || !btn) return;
+    
+    // Position indicator based on button dimensions
+    indicator.style.width = `${btn.offsetWidth}px`;
+    indicator.style.left = `${btn.offsetLeft}px`;
+    
+    // Update text colors
+    const container = btn.parentElement;
+    const buttons = container.querySelectorAll('.segmented-button');
+    buttons.forEach(b => {
+      b.classList.remove('text-orange-600', 'active-segment');
+      b.classList.add('text-gray-500');
+    });
+    btn.classList.add('text-orange-600', 'active-segment');
+    btn.classList.remove('text-gray-500');
+
+    // Scroll button into view if necessary
+    btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
+
+  document.addEventListener("astro:page-load", () => {
+    const buttons = document.querySelectorAll(`.segmented-button[data-id="${id}"]`);
+    
+    // Find initially active button
+    let activeButton = null;
+    buttons.forEach(btn => {
+      if (btn.classList.contains('text-orange-600')) {
+        activeButton = btn;
+      }
+      
+      btn.addEventListener('click', () => {
+        updateIndicator(btn);
+        
+        // Dispatch custom event for parent to handle
+        const event = new CustomEvent(`${id}-change`, { 
+          detail: { value: btn.dataset.value } 
+        });
+        document.dispatchEvent(event);
+      });
+    });
+
+    // Initialize indicator position
+    if (activeButton) {
+      // Use a small timeout to ensure layout is ready for measurement
+      setTimeout(() => updateIndicator(activeButton), 50);
+    } else if (buttons.length > 0) {
+      setTimeout(() => updateIndicator(buttons[0]), 50);
+    }
+  });
+</script>

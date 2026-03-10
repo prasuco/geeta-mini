@@ -1,16 +1,16 @@
 ---
-import { getCollection } from "astro:content";
+import MailCTA from "../../components/MailCTA.astro";
+import { getCollection, getEntry } from "astro:content";
 
 import BaseHead from "../../base/BaseHead.astro";
 import MobileLayout from "../../base/layouts/MobileLayout.astro";
-import { getEntry } from "astro:content";
-import GotoButton from "../../base/GotoButton.astro";
+import SegmentedControl from "../../components/SegmentedControl.astro";
 import { padToThree } from "../../utils/padToThree";
-
 import SocialShare from "../../components/SocialShare.astro";
 import { Bookmark } from "@lucide/astro";
 
 export const prerender = true;
+
 export async function getStaticPaths() {
   const sloks = await getCollection("sloks");
 
@@ -23,8 +23,12 @@ export async function getStaticPaths() {
 
   return sortedSloks.map((item, index) => {
     const prevSlok = index > 0 ? sortedSloks[index - 1] : null;
-    const nextSlok =
-      index < sortedSloks.length - 1 ? sortedSloks[index + 1] : null;
+    let nextSlok = null;
+    if (index === sortedSloks.length - 1) {
+      nextSlok = null;
+    } else {
+      nextSlok = sortedSloks[index + 1];
+    }
 
     return {
       params: {
@@ -51,6 +55,7 @@ export async function getStaticPaths() {
 }
 
 const { slok, prevSlok, nextSlok } = Astro.props;
+
 const translations = (
   await getEntry(
     "translations",
@@ -64,6 +69,17 @@ const commentaries = (
     `${slok.data.chapter_number}/${slok.data.verse_number}`,
   )
 )?.data;
+
+const translationOptions = translations ? translations.map(function(t: any) {
+  return { label: t.authorName, value: t.author_id };
+}) : [];
+
+const commentaryOptions = commentaries ? commentaries.map(function(c: any) {
+  return { 
+    label: `${c.authorName}${c.lang ? ` (${c.lang})` : ''}`, 
+    value: c.author_id 
+  };
+}) : [];
 ---
 
 <BaseHead
@@ -90,24 +106,19 @@ const commentaries = (
       </nav>
 
       <!-- Verse Header -->
-      <header class="text-center space-y-2">
-        <div class="flex justify-between">
-          <GotoButton
-            transition_name={`chapter-${slok.data.chapter_number}`}
-            name="Go to Chapter"
-            href={`/${slok.data.chapter_number}`}
-          />
-
+      <header class="text-center space-y-2 relative">
+        <div class="absolute right-0 top-0">
           <button
             id="bookmarkBtn"
             data-chapter={slok.data.chapter_number}
             data-verse={slok.data.verse_number}
-            class="hover:bg-accent/50 rounded-full p-3"
+            class="hover:bg-orange-50 rounded-full p-3 transition-colors"
             aria-label="Bookmark this verse"
           >
-            <Bookmark class="fill-primary stroke-0" />
+            <Bookmark class="scale-110 bookmark-icon" />
           </button>
         </div>
+        
         <h2
           transition:name={`slok-name-${slok.id}`}
           class="text-sm tracking-widest uppercase"
@@ -115,28 +126,28 @@ const commentaries = (
         >
           Bhagavad Gita
         </h2>
-        <h1 class="text-3xl font-semibold text-primary">
+        <h1 class="text-3xl font-bold text-primary">
           {slok.data.chapter_number}.{slok.data.verse_number}
         </h1>
       </header>
 
       <!-- Sanskrit -->
-      <section class="text-center space-y-4">
+      <section class="text-center space-y-6 py-4 bg-orange-50/30 rounded-3xl">
         {
           slok.data.text.includes("\n") ? (
             <p
-              class="text-xl md:text-2xl leading-relaxed font-medium text-sanskrit"
+              class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit px-4"
               set:html={slok.data.text.split("\n\n").join("<br/>")}
             />
           ) : (
             <p
-              class="text-xl md:text-2xl leading-relaxed font-medium text-sanskrit"
+              class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit px-4"
               set:html={slok.data.text.replace("।", " । <br/>")}
             />
           )
         }
         <p
-          class="text-base italic leading-loose"
+          class="text-base italic leading-loose opacity-80"
           style="color: var(--color-text-muted)"
           set:html={slok.data.transliteration
             .normalize("NFKD")
@@ -144,56 +155,48 @@ const commentaries = (
             .join("<br/>")}
         />
       </section>
-      <section class="flex flex-col items-center gap-2">
-        <span class="text-xs" style="color: var(--color-text-muted)"
-          >Listen to Verse {slok.data.chapter_number}.{
-            slok.data.verse_number
-          }</span
-        >
+
+      <!-- Audio Section -->
+      <section class="flex flex-col items-center gap-4 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm">
+        <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">
+          Listen to Recitation
+        </span>
         <audio
           controls
-          class="w-full max-w-md h-10 rounded"
+          class="w-full max-w-md h-10"
           src={`https://gita-audio.jkyog.org/audio/sanskrit/gita_audios/${padToThree(slok.data.chapter_number)}_${padToThree(slok.data.verse_number)}.mp3`}
         ></audio>
       </section>
 
       <!-- Divider -->
-      <div class="flex items-center gap-4">
-        <span class="flex-1 h-px bg-border"></span>
-        <span
-          class="text-xs tracking-widest"
-          style="color: var(--color-text-muted)">◆</span
-        >
-        <span class="flex-1 h-px bg-border"></span>
+      <div class="flex items-center gap-4 opacity-20">
+        <span class="flex-1 h-px bg-primary"></span>
+        <span class="text-primary text-lg">❦</span>
+        <span class="flex-1 h-px bg-primary"></span>
       </div>
 
-      <!-- Synonyms -->
-      <section class="space-y-3">
-        <h3 class="text-lg font-semibold text-primary text-center">
+      <!-- Word Meanings -->
+      <section class="space-y-6">
+        <h3 class="text-xl font-bold text-primary text-center">
           Word Meanings
         </h3>
 
-        <div
-          class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default"
-        >
-          <table class="w-full text-sm text-left rtl:text-right text-body">
-            <thead class="bg-neutral-secondary-soft border-b border-default">
+        <div class="overflow-hidden border border-gray-100 rounded-2xl shadow-sm bg-white">
+          <table class="w-full text-sm text-left">
+            <thead class="bg-gray-50 border-b border-gray-100">
               <tr>
-                <th scope="col" class="px-6 py-3 font-medium"> Word </th>
-                <th scope="col" class="px-6 py-3 font-medium"> Meaning </th>
+                <th scope="col" class="px-6 py-4 font-bold text-gray-900"> Word </th>
+                <th scope="col" class="px-6 py-4 font-bold text-gray-900"> Meaning </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="divide-y divide-gray-50">
               {
                 slok.data.word_meanings?.split(";").map((m) => (
-                  <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
-                    <th
-                      scope="row"
-                      class="px-6 py-4 font-medium text-heading whitespace-nowrap"
-                    >
+                  <tr class="hover:bg-orange-50/30 transition-colors">
+                    <th scope="row" class="px-6 py-4 font-semibold text-orange-700 whitespace-nowrap">
                       {m.split("—")[0]}
                     </th>
-                    <td class="px-6 py-4"> {m.split("—")[1]}</td>
+                    <td class="px-6 py-4 text-gray-600"> {m.split("—")[1]}</td>
                   </tr>
                 ))
               }
@@ -201,33 +204,25 @@ const commentaries = (
           </table>
         </div>
       </section>
+
       <!-- Translation -->
       {
         translations && translations.length > 0 && (
-          <section class="space-y-4">
-            <h3 class="text-lg font-semibold text-primary text-center">
+          <section class="space-y-6">
+            <h3 class="text-xl font-bold text-primary text-center">
               Translation
             </h3>
 
-            <div class="max-w-sm mx-auto">
-              <select
-                id="translationSelector"
-                class="w-full rounded border bg-surface px-3 py-2 text-sm focus:ring-2 focus:ring-primary/40"
-              >
-                {translations.map((t, i) => (
-                  <option selected={i === 0} value={t.author_id}>
-                    {t.authorName}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <SegmentedControl id="translation" options={translationOptions} />
 
-            <p
-              id="translationPara"
-              class="text-base leading-loose text-justify"
-              style="color: var(--color-text-primary)"
-              set:html={translations[0].description}
-            />
+            <div class="p-8 bg-white border border-gray-100 rounded-3xl shadow-sm relative overflow-hidden">
+               <div class="absolute top-0 left-0 w-1 h-full bg-orange-400"></div>
+               <p
+                id="translationPara"
+                class="text-lg leading-relaxed text-gray-700"
+                set:html={translations[0].description}
+              />
+            </div>
           </section>
         )
       }
@@ -235,30 +230,20 @@ const commentaries = (
       <!-- Commentary -->
       {
         commentaries && commentaries.length > 0 && (
-          <section class="space-y-4">
-            <h3 class="text-lg font-semibold text-primary text-center">
+          <section class="space-y-6">
+            <h3 class="text-xl font-bold text-primary text-center">
               Commentary
             </h3>
 
-            <div class="max-w-sm mx-auto">
-              <select
-                id="commentarySelector"
-                class="w-full rounded border bg-surface px-3 py-2 text-sm focus:ring-2 focus:ring-primary/40"
-              >
-                {commentaries.map((c, i) => (
-                  <option selected={i === 0} value={c.author_id}>
-                    {c.authorName} {c.lang && `(${c.lang})`}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <SegmentedControl id="commentary" options={commentaryOptions} />
 
-            <p
-              id="commentaryPara"
-              class="text-base leading-loose text-justify"
-              style="color: var(--color-text-primary)"
-              set:html={commentaries[0].description}
-            />
+            <div class="p-8 bg-gray-50/50 rounded-3xl border border-dashed border-gray-200">
+              <p
+                id="commentaryPara"
+                class="text-lg leading-relaxed text-gray-700"
+                set:html={commentaries[0].description}
+              />
+            </div>
           </section>
         )
       }
@@ -297,7 +282,43 @@ const commentaries = (
         }
       </nav>
     </article>
-    <SocialShare />
+    
+    <!-- CTA Section -->
+    <div class="max-w-3xl mx-auto px-4 pb-8">
+      <MailCTA />
+    </div>
+
+    <SocialShare chapter={slok.data.chapter_number} verse={slok.data.verse_number} />
+
+    <!-- Language / Author Selection Modal -->
+    <!-- Language / Author Selection Modal -->
+    <div id="languageModal" class="modal max-w-lg w-full">
+      <div class="mb-6">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Reading Preferences</h3>
+        <p class="text-gray-500 text-sm">Select your preferred translation for a tailored reading experience.</p>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Translation</label>
+          <div class="grid gap-2 max-h-48 overflow-y-auto p-1">
+            {translationOptions.map(option => (
+              <label class="flex items-center p-3 border rounded-xl hover:bg-orange-50 cursor-pointer transition-colors group">
+                <input type="radio" name="modal-translation" value={option.value} class="w-4 h-4 text-orange-600 focus:ring-orange-500 border-gray-300" />
+                <span class="ml-3 text-sm font-medium text-gray-900 group-hover:text-orange-700">{option.label}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 flex gap-3">
+        <button id="savePreferencesBtn" class="flex-1 bg-gray-900 hover:bg-orange-600 text-white font-medium py-3 px-4 rounded-xl transition-colors">
+          Save Preferences
+        </button>
+      </div>
+    </div>
+
   </MobileLayout>
 </BaseHead>
 
@@ -314,9 +335,7 @@ const commentaries = (
 
 <script>
   document.addEventListener("astro:page-load", () => {
-    const translationSelector = document.getElementById("translationSelector");
     const translationPara = document.getElementById("translationPara");
-    const commentarySelector = document.getElementById("commentarySelector");
     const commentaryPara = document.getElementById("commentaryPara");
 
     const translations = JSON.parse(
@@ -327,34 +346,25 @@ const commentaries = (
       document.getElementById("commentaries-data")?.textContent || "[]",
     );
 
-    translationSelector?.addEventListener("change", (e) => {
-      // @ts-ignore
-      const authorId = Number(e.target.value);
-
-      // @ts-ignore
-      const translation = translations.find((t) => t.author_id === authorId);
-
+    document.addEventListener("translation-change", (e: any) => {
+      const authorId = Number(e.detail.value);
+      const translation = translations.find((t: any) => t.author_id === authorId);
       if (translation && translationPara) {
         translationPara.innerHTML = translation.description;
       }
     });
 
-    commentarySelector?.addEventListener("change", (e) => {
-      // @ts-ignore
-      const authorId = Number(e.target.value);
-
-      // @ts-ignore
-      const commentary = commentaries.find((c) => c.author_id === authorId);
-
+    document.addEventListener("commentary-change", (e: any) => {
+      const authorId = Number(e.detail.value);
+      const commentary = commentaries.find((c: any) => c.author_id === authorId);
       if (commentary && commentaryPara) {
         commentaryPara.innerHTML = commentary.description;
       }
     });
 
-    // Bookmark functionality
+    // Bookmark functionality (enhanced for instant feedback)
     const bookmarkBtn = document.getElementById("bookmarkBtn");
-    const bookmarkIcon = bookmarkBtn?.querySelector(".bookmark-icon");
-
+    
     function getBookmarks() {
       try {
         return JSON.parse(localStorage.getItem("bookmarkedVerses") || "[]");
@@ -364,49 +374,127 @@ const commentaries = (
     }
 
     function isBookmarked(chapter: number, verse: number) {
-      const bookmarks = getBookmarks();
-      return bookmarks.some(
-        (b: any) => b.chapter === chapter && b.verse === verse,
-      );
+      return getBookmarks().some((b: any) => b.chapter === chapter && b.verse === verse);
     }
 
     function updateBookmarkIcon(chapter: number, verse: number) {
-      if (!bookmarkIcon) return;
+      if (!bookmarkBtn) return;
+      const icon = bookmarkBtn.querySelector('svg');
       if (isBookmarked(chapter, verse)) {
-        bookmarkIcon.setAttribute("fill", "currentColor");
+        icon?.classList.add('fill-orange-600', 'text-orange-600');
+        icon?.classList.remove('text-gray-400');
       } else {
-        bookmarkIcon.removeAttribute("fill");
+        icon?.classList.remove('fill-orange-600', 'text-orange-600');
+        icon?.classList.add('text-gray-400');
       }
     }
 
     if (bookmarkBtn) {
       const chapter = parseInt(bookmarkBtn.dataset.chapter || "0");
       const verse = parseInt(bookmarkBtn.dataset.verse || "0");
-
-      // Update icon on load
       updateBookmarkIcon(chapter, verse);
 
       bookmarkBtn.addEventListener("click", () => {
-        const bookmarks = getBookmarks();
+        let bookmarks = getBookmarks();
         const key = `${chapter}.${verse}`;
 
         if (isBookmarked(chapter, verse)) {
-          // Remove bookmark
-          const newBookmarks = bookmarks.filter(
-            (b: any) => !(b.chapter === chapter && b.verse === verse),
-          );
-          localStorage.setItem(
-            "bookmarkedVerses",
-            JSON.stringify(newBookmarks),
-          );
-          updateBookmarkIcon(chapter, verse);
+          bookmarks = bookmarks.filter((b: any) => !(b.chapter === chapter && b.verse === verse));
         } else {
-          // Add bookmark
           bookmarks.push({ chapter, verse, key });
-          localStorage.setItem("bookmarkedVerses", JSON.stringify(bookmarks));
-          updateBookmarkIcon(chapter, verse);
+        }
+        
+        localStorage.setItem("bookmarkedVerses", JSON.stringify(bookmarks));
+        updateBookmarkIcon(chapter, verse);
+      });
+    }
+
+    // --- Language Modal Logic ---
+    const PREF_KEY = 'preferredTranslationId';
+    const saveBtn = document.getElementById('savePreferencesBtn');
+    const translationControls = document.querySelectorAll('#translation input[type="radio"]');
+    
+    // Check if user has a preference, if not show modal
+    const savedPref = localStorage.getItem(PREF_KEY);
+    
+    if (!savedPref) {
+      // Small timeout to ensure DOM and jQuery are fully ready
+      setTimeout(() => {
+        // @ts-ignore
+        if (window.$ && $('#languageModal').length) {
+          // @ts-ignore
+          $('#languageModal').modal({
+            fadeDuration: 200
+          });
+          
+          // Set a default preference instantly so it doesn't forcefully pop up again on the next page 
+          // if they dismiss it via the [X] or clicking outside without explicitly pressing "Save".
+          const firstRadio: any = document.querySelector('input[name="modal-translation"]');
+          if (firstRadio && !localStorage.getItem(PREF_KEY)) {
+             localStorage.setItem(PREF_KEY, firstRadio.value);
+             syncControlsToPreference(parseInt(firstRadio.value));
+          }
+        }
+      }, 500);
+    } else {
+      // Apply saved preference if it exists
+      const numericPref = parseInt(savedPref);
+      syncControlsToPreference(numericPref);
+    }
+
+    function syncControlsToPreference(authorId: number) {
+      // 1. Update the actual Segmented Control UI
+      translationControls.forEach((input: any) => {
+        if (parseInt(input.value) === authorId) {
+          input.checked = true;
+          // Manually trigger the event since changing .checked via JS doesn't fire 'change'
+          input.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+      });
+
+      // 2. Pre-fill the modal radio buttons so it reflects current state when opened later
+      const modalRadios = document.querySelectorAll('input[name="modal-translation"]');
+      modalRadios.forEach((radio: any) => {
+        if (parseInt(radio.value) === authorId) {
+          radio.checked = true;
         }
       });
     }
+
+    // Handle Save Button in Modal
+    if (saveBtn) {
+      saveBtn.addEventListener('click', () => {
+        const selectedRadio: any = document.querySelector('input[name="modal-translation"]:checked');
+        
+        if (selectedRadio) {
+          const authorId = parseInt(selectedRadio.value);
+          // Save to local storage
+          localStorage.setItem(PREF_KEY, authorId.toString());
+          
+          // Sync the main UI
+          syncControlsToPreference(authorId);
+          
+          // Close the modal
+          // @ts-ignore
+          if (window.$) $.modal.close();
+        } else {
+           // Optionally show an alert if they try to save without selecting
+           alert("Please select a translation preference first.");
+        }
+      });
+    }
+
+    // Optional: Keep localStorage updated if user manually switches using the Segmented Control instead of the modal
+    document.addEventListener("translation-change", (e: any) => {
+      const authorId = Number(e.detail.value);
+      localStorage.setItem(PREF_KEY, authorId.toString());
+      
+      // Update modal radios to match the new selection
+      const modalRadios = document.querySelectorAll('input[name="modal-translation"]');
+      modalRadios.forEach((radio: any) => {
+        radio.checked = (parseInt(radio.value) === authorId);
+      });
+    });
+
   });
 </script>

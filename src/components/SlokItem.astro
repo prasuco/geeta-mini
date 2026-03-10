@@ -7,11 +7,11 @@ type Props = {
 
 const { slok } = Astro.props;
 
-const translations = (await getCollection("translations")).find(
-  (t) => t.id === `${slok.data.chapter_number}/${slok.data.verse_number}`,
+const translation = (await getCollection("translations")).find(
+  (t) => t.id === `${slok.data.chapter_number}/${slok.data.verse_number}`
 );
 
-const previewText = translations?.data.find((t) => t.author_id == 16)?.description || "";
+const previewText = translation?.data.find((t: any) => t.author_id == 16)?.description || "";
 const truncatedPreview = previewText.length > 80 ? previewText.substring(0, 80) + "..." : previewText;
 export const prerender = true;
 ---

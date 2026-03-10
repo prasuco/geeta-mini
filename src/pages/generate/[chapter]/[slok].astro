@@ -1,0 +1,52 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import BaseHead from "../../../base/BaseHead.astro";
+import MobileLayout from "../../../base/layouts/MobileLayout.astro";
+import GeneratorSidebar from "../../../components/GeneratorSidebar.astro";
+import GeneratorPreview from "../../../components/GeneratorPreview.astro";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const sloks = await getCollection("sloks");
+  return sloks.map((item) => ({
+    params: {
+      chapter: item.data.chapter_number.toString(),
+      slok: item.data.verse_number.toString(),
+    },
+    props: { slok: item },
+  }));
+}
+
+const { slok } = Astro.props;
+
+// Fetch a default translation (Swami Ramsukhdas or first available)
+const translations = (
+  await getEntry(
+    "translations",
+    `${slok.data.chapter_number}/${slok.data.verse_number}`,
+  )
+)?.data;
+
+const defaultTranslation = translations?.[0]?.description || "";
+---
+
+<BaseHead title={`Post Generator - Chapter ${slok.data.chapter_number}.${slok.data.verse_number}`} description="Create a beautiful social media post for this Geeta verse.">
+  <MobileLayout>
+    <div class="min-h-[calc(100vh-64px)] bg-gray-50 flex flex-col md:flex-row">
+      <!-- Main Content / Canvas Overlay -->
+      <main class="flex-1 p-4 md:p-8 flex items-center justify-center overflow-auto max-h-[70vh] md:max-h-none">
+        <GeneratorPreview 
+          sanskrit={slok.data.text} 
+          translation={defaultTranslation}
+          reference={`Chapter ${slok.data.chapter_number}.${slok.data.verse_number}`}
+        />
+      </main>
+
+      <!-- Sidebar Controls -->
+      <aside class="w-full md:w-80 bg-white border-t md:border-t-0 md:border-l border-gray-200 overflow-y-auto">
+        <GeneratorSidebar />
+      </aside>
+    </div>
+  </MobileLayout>
+</BaseHead>
