@@ -77,6 +77,12 @@ export const prerender = true;
     </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#EA580C" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Geeta Mini" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <title>{title}</title>
 
     <meta name="description" content={description} />
@@ -115,6 +121,14 @@ export const prerender = true;
     <link rel="stylesheet" href="/css/jquery.modal.css" />
 
     <ClientRouter />
+
+    <script is:inline>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch(() => {});
+        });
+      }
+    </script>
   </head>
   <body data-umami-auto-track data-umami-auto-track-all-clicks="true">
     <slot />

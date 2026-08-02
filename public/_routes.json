@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/purchase_success"],
+  "exclude": []
+}
