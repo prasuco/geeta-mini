@@ -1,0 +1,92 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+import MailCTA from "../components/MailCTA.astro";
+
+const chapters = await getCollection("chapters");
+const sortedChapters = chapters.sort(
+  (a, b) => a.data.chapter_number - b.data.chapter_number,
+);
+export const prerender = true;
+---
+
+<BaseHead
+  title="Bhagavad Gita Chapter Summaries (All 18 Chapters) | Geeta.Prasuco.com"
+  description="Read concise summaries of all 18 chapters of the Bhagavad Gita online. Each chapter explained in plain English with the full text, Sanskrit, and meanings available free."
+>
+  <MobileLayout>
+    <article class="max-w-3xl mx-auto px-4 py-8 space-y-8">
+      <header class="space-y-3">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 font-serif">
+          Bhagavad Gita Chapter Summaries
+        </h1>
+        <p class="text-lg text-gray-500 leading-relaxed">
+          All 18 chapters of the Bhagavad Gita, each summarized in plain
+          English. Read the summary to understand a chapter at a glance, then
+          open any chapter for the complete Sanskrit text with word meanings,
+          translations, and commentary — free, online.
+        </p>
+      </header>
+
+      <section class="space-y-6">
+        {
+          sortedChapters.map((chapter) => (
+            <div
+              class="p-5 md:p-6 bg-white border border-gray-100 rounded-2xl space-y-3"
+            >
+              <a
+                href={`/${chapter.data.chapter_number}`}
+                class="block"
+              >
+                <h2 class="text-lg font-bold text-orange-700 hover:text-orange-600">
+                  Chapter {chapter.data.chapter_number}: {chapter.data.name_meaning}
+                  <span class="text-gray-400 font-normal">
+                    {" "}— {chapter.data.name_translation}
+                  </span>
+                </h2>
+              </a>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                {chapter.data.chapter_summary}
+              </p>
+              <div class="flex items-center justify-between pt-2">
+                <span class="text-xs text-gray-400">
+                  {chapter.data.verses_count} verses
+                </span>
+                <a
+                  href={`/${chapter.data.chapter_number}`}
+                  class="text-sm font-medium text-orange-600 hover:underline"
+                >
+                  Read full chapter →
+                </a>
+              </div>
+            </div>
+          ))
+        }
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          How to use these summaries
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          Each chapter summary covers the central teaching, the key characters,
+          and how the dialogue between Arjuna and Krishna advances. Use them as
+          a study guide, a refresher before reading a chapter in full, or as a
+          starting point for a{" "}
+          <a href="/bhagavad-gita-app" class="text-orange-600 hover:underline">complete Gita reading plan</a>.
+        </p>
+        <p class="text-gray-500 leading-relaxed">
+          Want a verse-a-day instead?{" "}
+          <a href="/geeta-mail" class="text-orange-600 hover:underline">Geeta in Mail</a>{" "}
+          delivers one practical teaching from the Gita to your inbox every
+          morning.
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <MailCTA />
+      </div>
+    </article>
+  </MobileLayout>
+</BaseHead>

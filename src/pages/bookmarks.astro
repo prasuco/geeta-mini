@@ -11,10 +11,27 @@ export const prerender = true;
 >
   <MobileLayout>
     <div class="p-4">
-      <h1 class="text-2xl font-semibold mb-4">Saved Verses</h1>
+      <h1 class="text-2xl font-semibold mb-2">Saved Verses</h1>
+      <p class="text-gray-500 text-sm mb-6 leading-relaxed">
+        Your bookmarked Bhagavad Gita verses appear here for quick reference.
+        Tap the bookmark icon on any verse page to save it — bookmarks are
+        stored privately in your browser, so you can build a personal
+        collection of the teachings that matter most to you.
+      </p>
+      <div class="space-y-2 text-sm text-gray-400 mb-6">
+        <p class="flex items-center gap-2"><span class="text-orange-600">1.</span> Open any verse, e.g. <a href="/2/47" class="text-orange-600 hover:underline">Chapter 2, Verse 47</a></p>
+        <p class="flex items-center gap-2"><span class="text-orange-600">2.</span> Tap the bookmark icon in the top-right corner</p>
+        <p class="flex items-center gap-2"><span class="text-orange-600">3.</span> Come back here anytime to review your collection</p>
+      </div>
       <div id="bookmarksList" class="space-y-2">
         <p class="text-gray-500 text-center py-8">Loading your saved verses...</p>
       </div>
+      <p class="text-sm text-gray-400 mt-6">
+        New to the Gita? Browse all 700 verses from the{" "}
+        <a href="/" class="text-orange-600 hover:underline">home page</a> or get
+        a daily teaching in your inbox with{" "}
+        <a href="/geeta-mail" class="text-orange-600 hover:underline">Geeta in Mail</a>.
+      </p>
     </div>
   </MobileLayout>
 </BaseHead>

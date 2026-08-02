@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://geeta.prasuco.com/sitemap-index.xml
+Sitemap: https://geeta.prasuco.com/sitemap.xml

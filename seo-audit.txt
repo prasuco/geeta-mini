@@ -1,0 +1,142 @@
+--- PAGE 1 ---
+SEO AUDIT
+geeta.prasuco.com
+Completed 2 August 2026 · 23 pages crawled
+SEO SCORE
+76
+/100
+Critical
+0
+Warnings
+5
+Notices
+1
+The verdict
+Y our content is invisible to search engines until JavaScript runs, which means most of your pages might 
+as well not exist for Google. That single issue is costing you every search that describes exactly what 
+you offer: a Bhagavad Gita reader with Sanskrit and English, a daily email subscription, a study 
+platform.
+Srimadgita.com and holy-bhagavad-gita.org own those searches right now. Someone looking for 'best 
+bhagavad gita app' or 'bhagavad gita email course' lands on them every time, because you have no 
+page for those queries and the ones you do have can't be read.
+Fix the rendering problem first; it's an afternoon of work and it will let Google see the site you already 
+built. Then publish a page for each of those missing searches, starting with the ones that mention your 
+features directly. That advantage disappears the moment you publish too, which is the useful thing 
+about this particular gap.
+What to fix (5)
+WARNING    TECHNICAL
+1. Your page content only appears after JavaScript runs
+We fetched these pages the way a crawler does and got an almost empty shell. Google does render 
+JavaScript, but it does so on a second pass that can lag by days or weeks, and it drops pages that are slow 
+or error out. Anything that matters for ranking, your headings and body copy, is invisible on the first pass.
+Fix: Check it yourself: open the page, view source, and search for a sentence you can see on screen. If it isn't in 
+the source, Google's first pass doesn't see it either. Server-render or pre-render the pages you want ranked. In 
+Next.js that means a server component or static generation; most frameworks have an equivalent.
+https://geeta.prasuco.com/bookmarks/
+WARNING    ON_PAGE
+2. 19 pages have no H1 heading
+The H1 is the strongest on-page signal of what a page is about. Without one, search engines are guessing 
+at the primary topic.
+Fix: Add a single H1 stating what the page covers.
+https://geeta.prasuco.com/about/
+https://geeta.prasuco.com/1/
+https://geeta.prasuco.com/2/
+TheSEOSaaS SEO audit · geeta.prasuco.com
+theseosaas.com
+--- PAGE 2 ---
+https://geeta.prasuco.com/3/
+https://geeta.prasuco.com/4/
++ 5 more
+WARNING    ON_PAGE
+3. 1 title is too short to be useful
+Y ou're leaving space unused in the one line buyers read before deciding whether to click. A fuller title can 
+carry both what the page covers and who it's for.
+Fix: Expand titles to 30–60 characters.
+https://geeta.prasuco.com/geeta-mail/
+WARNING    TECHNICAL
+4. We couldn't find a sitemap
+A sitemap tells Google which pages exist and when they changed. Without one, new pages you publish can 
+take far longer to get indexed — which directly delays the payoff from any content you create.
+Fix: Publish /sitemap.xml and reference it from robots.txt.
+https://geeta.prasuco.com/
+WARNING    CONTENT
+5. 4 pages are very light on content
+With under 300 words there isn't much for Google to understand or rank, and buyers comparing options have 
+little to read before deciding.
+Fix: Expand with the problems you solve, who it's for, and the outcomes customers get.
+https://geeta.prasuco.com/
+https://geeta.prasuco.com/about/
+https://geeta.prasuco.com/geeta-mail/
+https://geeta.prasuco.com/$%7Bt.chapter%7D/$%7Bt.verse%7D
+Who's ahead of you
+srimadgita.com
+srimadgita.com
+Best page: Meditation vs Prayer: Bhagavad Gita's Approach
+holy-bhagavad-gita.org
+holy-bhagavad-gita.org
+Best page: Bhagavad Gita, The Song of God – Swami Mukundananda
+grahgita.in
+grahgita.in
+Keywords you don't cover
+best bhagavad gita app   TRANSACTIONAL
+Someone searching for a 'best app' is actively comparing tools and will sign up to the one that feels most 
+complete. Y ou have the content (Sanskrit, English, Nepali, summaries) but no page that frames it as a app-like 
+reader.
+bhagavad gita daily email subscription   TRANSACTIONAL
+This is the exact thing you offer (daily email). A person typing this already knows they want a recurring email, not a 
+one-off PDF . A landing page for this subscription would convert immediately.
+bhagavad gita reader with sanskrit and english   COMMERCIAL
+Specifies the two core features (reader, Sanskrit+English) that set you apart from simple text sites. The query is a 
+feature checklist, and a page that matches it exactly will outrank generic Gita pages.
+TheSEOSaaS SEO audit · geeta.prasuco.com
+theseosaas.com
+--- PAGE 3 ---
+bhagavad gita nepali translation app   TRANSACTIONAL
+Nepali is a clear differentiator that none of your listed competitors target prominently. A dedicated Nepali 
+translation page/app could capture an underserved audience looking for exactly this.
+bhagavad gita chapter summaries online   COMMERCIAL
+Y ou have chapter summaries. Someone searching for 'online' summaries wants them in a digital, accessible 
+format, not in a book. A page presenting these summaries as a web resource would capture this.
+srimadgita.com alternative   TRANSACTIONAL
+Direct competitor comparison. Anyone searching for an alternative to srimadgita.com is already using that site and 
+dissatisfied. A single page titled 'Srimadgita.com Alternative' is a low-effort, high-conversion asset.
+holy-bhagavad-gita.org vs   TRANSACTIONAL
+Same logic as above, but for holy-bhagavad-gita.org. The 'vs' search often indicates a user holding two tabs open 
+trying to decide. A page that honestly compares you to them will capture that decision.
+bhagavad gita study platform   COMMERCIAL
+The word 'platform' implies a service, not just a static website. It signals that the user wants a tool to study, which 
+matches your offering of reader, summaries, and daily emails.
+bhagavad gita with meaning subscription   TRANSACTIONAL
+Includes 'subscription', indicating willingness to pay for recurring access. A page that clearly explains the 
+subscription (daily email, meaning) will convert people who are pre-sold on the model.
+bhagavad gita email course   TRANSACTIONAL
+An 'email course' implies a structured program, which is a highly attractive format for spiritual study. This is a direct 
+match for your daily email teaching, just packaged differently. A landing page for this course can capture sign-ups.
+What to publish
+1. Meditation vs Prayer: What the Bhagavad Gita Actually Says
+Srimadgita.com is ranking for 'Meditation vs Prayer: Bhagavad Gita's Approach' and pulling in users comparing 
+these spiritual practices. Y ou have no equivalent page, so anyone searching for how the Gita distinguishes 
+meditation from prayer leaves your site for theirs. This post directly takes that traffic by offering your own take on 
+the topic, backed by your original Sanskrit and translation features.
+Meditation vs Prayer: Bhagavad Gita's Approach · Bhagavad Gita meditation techniques · prayer in Bhagavad Gita
+2. Bhagavad Gita Chapter Summaries: A Complete Guide to All 18 Chapters
+'Bhagavad Gita chapter summaries online' is a commercial search with clear intent to study the text. No page on 
+your site targets this, while competitors are capturing users who want a structured overview before diving into 
+verses. This post serves as a hub, linking to each chapter's full content and your daily email course, turning 
+researchers into subscribers.
+Bhagavad Gita chapter summaries online · Bhagavad Gita chapter 2 summary · Bhagavad Gita summary by chapter
+3. Why a Daily Bhagavad Gita Email Can Change Your Morning
+'Bhagavad Gita daily email subscription' is a transactional query from people ready to sign up. Y ou offer a daily 
+teaching but have no dedicated page explaining what they'll receive, how it works, or why it's worth their inbox. 
+This post sells the email course by previewing the daily insights and tying them to your platform's Sanskrit and 
+meaning tools, converting curious visitors into subscribers.
+Bhagavad Gita daily email subscription · bhagavad gita email course · daily bhagavad gita wisdom
+This is the free view. 1 more findings, 0 more keyword gaps and 6 more content ideas are in the full report.
+TheSEOSaaS SEO audit · geeta.prasuco.com
+theseosaas.com
+--- PAGE 4 ---
+1 of 3
+--- PAGE 5 ---
+2 of 3
+--- PAGE 6 ---
+3 of 3

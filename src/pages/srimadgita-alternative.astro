@@ -1,0 +1,91 @@
+---
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+import MailCTA from "../components/MailCTA.astro";
+export const prerender = true;
+---
+
+<BaseHead
+  title="Srimadgita.com Alternative — Free Online Bhagavad Gita Reader | Geeta.Prasuco.com"
+  description="Looking for a srimadgita.com alternative? Geeta Mini is a free, fast, modern Bhagavad Gita reader with Sanskrit, English translations, commentaries, bookmarks, and audio — no sign-up needed."
+>
+  <MobileLayout>
+    <article class="max-w-3xl mx-auto px-4 py-8 space-y-8">
+      <header class="space-y-3">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 font-serif">
+          A modern alternative to srimadgita.com
+        </h1>
+        <p class="text-lg text-gray-500 leading-relaxed">
+          If you've been reading the Gita on srimadgita.com and want a faster,
+          cleaner experience — or one that goes deeper with word meanings and
+          bookmarks — Geeta Mini is built for you. The complete Gita is free,
+          with no account required.
+        </p>
+      </header>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          What Geeta Mini offers
+        </h2>
+        <div class="overflow-hidden rounded-2xl border border-gray-100">
+          <table class="w-full text-sm text-left">
+            <thead class="bg-gray-50 border-b border-gray-100">
+              <tr>
+                <th scope="col" class="px-4 py-3 font-bold text-gray-900">Feature</th>
+                <th scope="col" class="px-4 py-3 font-bold text-gray-900">Geeta Mini</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-50 bg-white">
+              <tr><td class="px-4 py-3 text-gray-600">All 700 verses, 18 chapters</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Sanskrit (Devanagari) + transliteration</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Multiple English translations</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Word-by-word meanings</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Nepali translations</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Commentaries by renowned scholars</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Sanskrit audio recitation</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Bookmarks &amp; quick search</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Shareable verse images</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Daily email teaching option</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+              <tr><td class="px-4 py-3 text-gray-600">Free, no sign-up, no ads</td><td class="px-4 py-3 text-orange-700 font-medium">✓</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-gray-400 leading-relaxed">
+          We respect the work of every Gita publisher and translation — this
+          reader simply offers a different way to study the same timeless text.
+          Comparison based on features we offer on this site.
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          Start reading in under a minute
+        </h2>
+        <ol class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="bg-orange-500 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 font-bold">1</span>
+            <p class="text-gray-600">Open any chapter — e.g. <a href="/2" class="text-orange-600 hover:underline">Chapter 2</a>, home of the famous teaching on duty (<a href="/2/47" class="text-orange-600 hover:underline">2.47</a>).</p>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="bg-orange-500 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 font-bold">2</span>
+            <p class="text-gray-600">Tap any verse for Sanskrit, word meanings, translations, and commentary.</p>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="bg-orange-500 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 font-bold">3</span>
+            <p class="text-gray-600">Bookmark favourites or use search to jump straight to a teaching.</p>
+          </li>
+        </ol>
+        <p class="text-gray-500">
+          Prefer reading the Gita as a{" "}
+          <a href="/bhagavad-gita-chapter-summaries" class="text-orange-600 hover:underline">chapter-by-chapter study guide</a>{" "}
+          or getting a{" "}
+          <a href="/geeta-mail" class="text-orange-600 hover:underline">daily teaching by email</a>? Both are free.
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <MailCTA />
+      </div>
+    </article>
+  </MobileLayout>
+</BaseHead>
