@@ -185,7 +185,7 @@ export const prerender = true;
       searchResults.innerHTML = results
         .map(
           (r) => `
-        <a href="/${r.chapter}/${r.verse}" class="block px-3 py-2 hover:bg-orange-50 border-b last:border-b-0">
+        <a href="/${r.chapter}/${r.verse}/" class="block px-3 py-2 hover:bg-orange-50 border-b last:border-b-0">
           <span class="font-medium text-sm">${r.chapter}.${r.verse}</span>
           <span class="text-xs text-gray-500 ml-2">${r.text.substring(0, 40)}...</span>
         </a>

@@ -85,6 +85,8 @@ const commentaryOptions = commentaries ? commentaries.map(function(c: any) {
 <BaseHead
   description={`Read Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} in Sanskrit with English meaning. Understand the verse's message and its spiritual significance as explained by Lord Krishna.`}
   title={`Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} - Slokas with meaning`}
+  chapter={slok.data.chapter_number}
+  verse={slok.data.verse_number}
 >
   <MobileLayout>
     <article class="max-w-3xl mx-auto px-4 py-6 space-y-10">

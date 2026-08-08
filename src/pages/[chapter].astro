@@ -30,6 +30,7 @@ const sortedSloks = sloks.sort(
 <BaseHead
   description={`${chapter.data.chapter_summary.substring(0, 40)} |  Read all sloks of Chapter ${chapter.data.chapter_number} with meaning and explanation`}
   title={`Bhagavad Gita Chapter ${chapter.data.chapter_number} - ${chapter.data.name_meaning}  | ${chapter.data.name}  | Full Sloks with Meaning`}
+  chapter={chapter.data.chapter_number}
 >
   <MobileLayout showBottomBar={false}>
     <StackHeader title={chapter.data.name_meaning} href="/" />

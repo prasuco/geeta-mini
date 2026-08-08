@@ -1,0 +1,198 @@
+---
+import { getEntry } from "astro:content";
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+import MailCTA from "../components/MailCTA.astro";
+
+export const prerender = true;
+
+const v247 = await getEntry("translations", "2/47");
+const v1866 = await getEntry("translations", "18/66");
+const v635 = await getEntry("translations", "6/35");
+
+const hindi247 = (v247?.data ?? []).find((t: any) => t.lang === "hindi");
+const hindi1866 = (v1866?.data ?? []).find((t: any) => t.lang === "hindi");
+const hindi635 = (v635?.data ?? []).find((t: any) => t.lang === "hindi");
+---
+
+<BaseHead
+  title="भगवद गीता हिंदी में पढ़ें — हर श्लोक का हिंदी अर्थ | Geeta.Prasuco.com"
+  description="भगवद गीता हिंदी में मुफ्त पढ़ें। सभी 18 अध्यायों के 700 श्लोक, संस्कृत मूल, शब्दार्थ और सरल हिंदी अनुवाद। ऑनलाइन गीता सार, अध्याय सारांश और हिंदी व्याख्या के साथ।"
+>
+  <MobileLayout>
+    <article class="max-w-3xl mx-auto px-4 py-8 space-y-10">
+      <header class="space-y-4">
+        <p class="text-sm font-medium text-orange-600 uppercase tracking-wider">
+          भगवद गीता · हिंदी में पढ़ें
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 font-serif leading-tight">
+          भगवद गीता हिंदी में पढ़ें
+        </h1>
+        <p class="text-lg text-gray-500 leading-relaxed">
+          भगवद गीता के सभी 18 अध्याय और 700 श्लोक यहाँ हिंदी में उपलब्ध हैं —
+          संस्कृत मूल, शब्दार्थ, और स्वामी रामसुखदास जैसे विद्वानों का सरल
+          हिंदी अनुवाद, सब एक ही पृष्ठ पर।
+        </p>
+      </header>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          हर श्लोक का हिंदी अर्थ, मुफ्त में
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          हर श्लोक के पृष्ठ पर आपको मिलता है:
+        </p>
+        <ul class="space-y-2 text-gray-500 leading-relaxed">
+          <li>· मूल संस्कृत श्लोक और उसका देवनागरी में उच्चारण</li>
+          <li>· प्रत्येक शब्द का अर्थ (शब्दार्थ)</li>
+          <li>
+            · स्वामी रामसुखदास जी सहित कई विद्वानों के हिंदी अनुवाद,
+            जिन्हें एक क्लिक में बदला जा सकता है
+          </li>
+        </ul>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-gray-600 leading-relaxed whitespace-pre-line">
+            {hindi247?.description}
+          </p>
+          <p class="text-xs text-gray-400">
+            — स्वामी रामसुखदास जी,{" "}
+            <a
+              href="/2/47/"
+              class="text-orange-600 hover:underline"
+            >
+              श्लोक 2.47 पूरा पढ़ें →
+            </a>
+          </p>
+        </blockquote>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          गीता का अंतिम संदेश — 18.66
+        </h2>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-gray-600 leading-relaxed whitespace-pre-line">
+            {hindi1866?.description}
+          </p>
+          <p class="text-xs text-gray-400">
+            — स्वामी रामसुखदास जी,{" "}
+            <a
+              href="/18/66/"
+              class="text-orange-600 hover:underline"
+            >
+              श्लोक 18.66 पूरा पढ़ें →
+            </a>
+          </p>
+        </blockquote>
+        <p class="text-gray-500 leading-relaxed">
+          यह श्लोक गीता का सार है: सब कुछ छोड़कर ईश्वर की शरण में चले जाओ,
+          और वह तुम्हें सब पापों से मुक्त कर देगा।
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          मन को वश में करने का उपाय — 6.35
+        </h2>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-gray-600 leading-relaxed whitespace-pre-line">
+            {hindi635?.description}
+          </p>
+          <p class="text-xs text-gray-400">
+            — स्वामी रामसुखदास जी,{" "}
+            <a
+              href="/6/35/"
+              class="text-orange-600 hover:underline"
+            >
+              श्लोक 6.35 पूरा पढ़ें →
+            </a>
+          </p>
+        </blockquote>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          किसी भी अध्याय से शुरू करें
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          18 अध्यायों में से किसी भी एक को चुनकर पढ़ना शुरू करें। हर अध्याय
+          पृष्ठ पर सारांश और सभी श्लोकों की सूची है।
+        </p>
+        <ul class="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+          <li>
+            <a href="/1/" class="text-orange-600 hover:underline">अध्याय 1 · अर्जुनविषाद</a>
+          </li>
+          <li>
+            <a href="/2/" class="text-orange-600 hover:underline">अध्याय 2 · सांख्ययोग</a>
+          </li>
+          <li>
+            <a href="/3/" class="text-orange-600 hover:underline">अध्याय 3 · कर्मयोग</a>
+          </li>
+          <li>
+            <a href="/4/" class="text-orange-600 hover:underline">अध्याय 4 · ज्ञानयोग</a>
+          </li>
+          <li>
+            <a href="/5/" class="text-orange-600 hover:underline">अध्याय 5 · कर्मसंन्यासयोग</a>
+          </li>
+          <li>
+            <a href="/6/" class="text-orange-600 hover:underline">अध्याय 6 · ध्यानयोग</a>
+          </li>
+          <li>
+            <a href="/7/" class="text-orange-600 hover:underline">अध्याय 7 · ज्ञानविज्ञानयोग</a>
+          </li>
+          <li>
+            <a href="/8/" class="text-orange-600 hover:underline">अध्याय 8 · अक्षरब्रह्मयोग</a>
+          </li>
+          <li>
+            <a href="/9/" class="text-orange-600 hover:underline">अध्याय 9 · राजविद्यायोग</a>
+          </li>
+          <li>
+            <a href="/10/" class="text-orange-600 hover:underline">अध्याय 10 · विभूतियोग</a>
+          </li>
+          <li>
+            <a href="/11/" class="text-orange-600 hover:underline">अध्याय 11 · विश्वरूपदर्शन</a>
+          </li>
+          <li>
+            <a href="/12/" class="text-orange-600 hover:underline">अध्याय 12 · भक्तियोग</a>
+          </li>
+          <li>
+            <a href="/13/" class="text-orange-600 hover:underline">अध्याय 13 · क्षेत्रक्षेत्रज्ञविभाग</a>
+          </li>
+          <li>
+            <a href="/14/" class="text-orange-600 hover:underline">अध्याय 14 · गुणत्रयविभाग</a>
+          </li>
+          <li>
+            <a href="/15/" class="text-orange-600 hover:underline">अध्याय 15 · पुरुषोत्तमयोग</a>
+          </li>
+          <li>
+            <a href="/16/" class="text-orange-600 hover:underline">अध्याय 16 · दैवासुरसम्पद्विभाग</a>
+          </li>
+          <li>
+            <a href="/17/" class="text-orange-600 hover:underline">अध्याय 17 · श्रद्धात्रयविभाग</a>
+          </li>
+          <li>
+            <a href="/18/" class="text-orange-600 hover:underline">अध्याय 18 · मोक्षसंन्यासयोग</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          गीता को रोज़ पढ़ने का सबसे आसान तरीका
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          रोज़ सुबह एक श्लोक आपके इनबॉक्स में — संस्कृत, हिंदी अर्थ और एक
+          छोटा सा व्यावहारिक संदेश के साथ।
+          <a href="/geeta-mail/" class="text-orange-600 hover:underline">
+            मुफ्त सदस्यता लें
+          </a>
+          .
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <MailCTA />
+      </div>
+    </article>
+  </MobileLayout>
+</BaseHead>

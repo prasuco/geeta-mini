@@ -1,0 +1,166 @@
+---
+import { getEntry } from "astro:content";
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+import MailCTA from "../components/MailCTA.astro";
+
+export const prerender = true;
+
+const v247 = await getEntry("sloks", "2/47");
+const v135 = await getEntry("sloks", "1/35");
+---
+
+<BaseHead
+  title="Daily Bhagavad Gita Email — One Verse Every Morning | Geeta.Prasuco.com"
+  description="A free daily Bhagavad Gita email subscription: one short, practical teaching in your inbox every morning, explained in simple words and connected to real-life problems. No spam, unsubscribe anytime."
+>
+  <MobileLayout>
+    <article class="max-w-3xl mx-auto px-4 py-8 space-y-10">
+      <header class="space-y-4">
+        <p class="text-sm font-medium text-orange-600 uppercase tracking-wider">
+          Geeta in Mail · Free daily email
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 font-serif leading-tight">
+          A Daily Bhagavad Gita Email, Written for a Modern Morning
+        </h1>
+        <p class="text-lg text-gray-500 leading-relaxed">
+          One verse. One short, practical teaching. In your inbox every morning.
+          A daily Gita email subscription for people who want more clarity and
+          less chaos — without reading a book cover to cover.
+        </p>
+      </header>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          What you get, every morning
+        </h2>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3 p-4 bg-orange-50/40 rounded-2xl">
+            <span class="text-orange-600 font-bold mt-0.5">✓</span>
+            <div>
+              <strong>One verse in Sanskrit and English</strong>
+              <p class="text-sm text-gray-500 mt-0.5">
+                The original verse with a faithful, plain-English translation.
+              </p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3 p-4 bg-orange-50/40 rounded-2xl">
+            <span class="text-orange-600 font-bold mt-0.5">✓</span>
+            <div>
+              <strong>A 1-minute teaching</strong>
+              <p class="text-sm text-gray-500 mt-0.5">
+                The verse unpacked simply and tied to a real-life problem —
+                stress, decision-making, confusion, duty.
+              </p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3 p-4 bg-orange-50/40 rounded-2xl">
+            <span class="text-orange-600 font-bold mt-0.5">✓</span>
+            <div>
+              <strong>No clutter, no spam</strong>
+              <p class="text-sm text-gray-500 mt-0.5">
+                A short read that fits your morning, not another marketing
+                newsletter. Unsubscribe anytime.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          A taste of what arrives each day
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          Here is the style of the daily teaching — the most quoted verse in
+          the Gita, on doing your duty without clinging to the result:
+        </p>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit">
+            {v247?.data.text.replaceAll("\n", " ")}
+          </p>
+          <p class="text-sm italic text-gray-500 leading-loose">
+            {v247?.data.transliteration.replaceAll("\n", " ")}
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            "You have a right to your actions, but never to the fruits of your
+            actions. Don't let results be your motive, and don't be attached to
+            inaction."
+          </p>
+          <a
+            href="/2/47/"
+            class="inline-block text-sm font-medium text-orange-600 hover:underline"
+          >
+            Read the full verse with word meanings →
+          </a>
+        </blockquote>
+        <p class="text-gray-500 leading-relaxed">
+          In your inbox this becomes a few sentences: do the work in front of
+          you with full effort, let go of the outcome, and you free yourself
+          from anxiety. That's the whole teaching, delivered daily.
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          Why a daily email, not another app
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          Apps compete for your attention. Email meets you where you already
+          are. A daily verse works because it's:
+        </p>
+        <ul class="space-y-2 text-gray-500 leading-relaxed">
+          <li>
+            · <strong>Consistent</strong> — the same short habit every morning
+            builds momentum over weeks.
+          </li>
+          <li>
+            · <strong>Practical</strong> — each teaching is connected to an
+            everyday problem, not abstract philosophy.
+          </li>
+          <li>
+            · <strong>Deep, slowly</strong> — the Gita is meant to be digested
+            one verse at a time, not skimmed in an evening.
+          </li>
+        </ul>
+        <p class="text-gray-500 leading-relaxed">
+          When a verse resonates, you can open it on Geeta Mini and explore the
+          original Sanskrit, word-by-word meanings, and multiple commentaries:
+          <a href="/2/47/" class="text-orange-600 hover:underline">2.47</a>,{" "}
+          <a href="/6/35/" class="text-orange-600 hover:underline">6.35</a>,{" "}
+          <a href="/12/6/" class="text-orange-600 hover:underline">12.6</a>.
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          How the subscription works
+        </h2>
+        <ol class="space-y-3 list-decimal list-inside text-gray-500 leading-relaxed">
+          <li>
+            Enter your email on the{" "}
+            <a href="/geeta-mail/" class="text-orange-600 hover:underline">
+              Geeta in Mail page
+            </a>
+            .
+          </li>
+          <li>
+            Confirm your subscription (double opt-in, so your inbox stays clean).
+          </li>
+          <li>
+            Receive one teaching every morning. Read it in a minute, carry it
+            through the day.
+          </li>
+        </ol>
+        <p class="text-gray-500 leading-relaxed">
+          It's free, built by a small independent project, and you can leave at
+          any time with one click.
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <MailCTA />
+      </div>
+    </article>
+  </MobileLayout>
+</BaseHead>

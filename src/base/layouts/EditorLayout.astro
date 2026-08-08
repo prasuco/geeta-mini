@@ -1,0 +1,45 @@
+---
+import BaseHead from "../../base/BaseHead.astro";
+import { ChevronLeft } from "@lucide/astro";
+import "@fontsource/tiro-devanagari-sanskrit/devanagari-400.css";
+import "@fontsource/tiro-devanagari-sanskrit/latin-400.css";
+import "@fontsource/yatra-one/400.css";
+import "@fontsource/noto-sans-devanagari/devanagari-500.css";
+import "@fontsource/eb-garamond/latin-400.css";
+import "@fontsource/eb-garamond/latin-400-italic.css";
+
+type Props = {
+  title: string;
+  description?: string;
+  robots?: string;
+};
+
+const { title, description, robots = "noindex,follow" } = Astro.props;
+---
+
+<BaseHead title={title} description={description} robots={robots}>
+  <div class="min-h-dvh bg-[#0d0f14] flex flex-col">
+    <header
+      class="sticky top-0 z-40 flex items-center justify-between px-4 py-3 bg-[#0d0f14]/90 backdrop-blur-md border-b border-white/10 shrink-0"
+    >
+      <a
+        href="javascript:history.back()"
+        class="flex items-center gap-1 text-sm font-medium text-white/70 hover:text-white transition-colors"
+      >
+        <ChevronLeft class="w-4 h-4" />
+        Back
+      </a>
+      <div class="flex items-center gap-2">
+        <span class="text-lg leading-none text-orange-400">ॐ</span>
+        <span class="text-sm font-semibold text-white/80 tracking-tight">
+          Gita Quote Maker
+        </span>
+      </div>
+      <span class="text-xs text-white/40 hidden sm:block">geeta.prasuco.com</span>
+      <span class="text-xs text-white/40 sm:hidden w-0"></span>
+    </header>
+    <main class="flex-1 flex flex-col min-h-0">
+      <slot />
+    </main>
+  </div>
+</BaseHead>

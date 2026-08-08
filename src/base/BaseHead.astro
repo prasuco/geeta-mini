@@ -7,6 +7,7 @@ type Props = {
   description?: string;
   chapter?: number;
   verse?: number;
+  robots?: string;
 };
 
 // import "@fontsource-variable/inter";
@@ -16,14 +17,20 @@ const {
   title,
   chapter,
   verse,
+  robots,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const ogImage = chapter && verse 
-  ? `/og/${chapter}/${verse}.webp`
-  : chapter 
-    ? `/og/${chapter}.webp`
-    : `/og.png`;
+const rawPathname = Astro.url.pathname;
+const pathname =
+  rawPathname.length > 1 && !rawPathname.endsWith("/")
+    ? `${rawPathname}/`
+    : rawPathname;
+const canonicalURL = new URL(pathname, Astro.site);
+const ogImage = chapter && verse
+  ? new URL(`/og/${chapter}/${verse}.webp`, Astro.site).href
+  : chapter
+    ? new URL(`/og/${chapter}.webp`, Astro.site).href
+    : new URL(`/og.png`, Astro.site).href;
 
 const schema = chapter && verse ? {
   "@context": "https://schema.org",
@@ -59,7 +66,7 @@ const schema = chapter && verse ? {
   "url": canonicalURL.href,
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "/?q={search_term_string}",
+    "target": new URL("/?q={search_term_string}", Astro.site).href,
     "query-input": "required name=search_term_string"
   }
 };
@@ -86,6 +93,7 @@ export const prerender = true;
     <title>{title}</title>
 
     <meta name="description" content={description} />
+    {robots && <meta name="robots" content={robots} />}
     <link rel="canonical" href={canonicalURL.href} />
     <link rel="sitemap" href="/sitemap.xml" />
 
@@ -121,8 +129,15 @@ export const prerender = true;
     <link rel="stylesheet" href="/css/jquery.modal.css" />
 
     <!-- Ads: site-level loaders -->
-    <script is:inline src="https://pl30713632.effectivecpmnetwork.com/72/12/f6/7212f6253c66ba5025f3039b96db0e17.js"></script>
-    <script is:inline src="https://pl30713635.effectivecpmnetwork.com/42/ed/cc/42edcc3dad303ac9ab7eaab7bdeda04c.js"></script>
+
+
+     {
+      process.env.NODE_ENV === "production" && (
+      
+        <script is:inline src="https://pl30713632.effectivecpmnetwork.com/72/12/f6/7212f6253c66ba5025f3039b96db0e17.js"></script>
+        <script is:inline src="https://pl30713635.effectivecpmnetwork.com/42/ed/cc/42edcc3dad303ac9ab7eaab7bdeda04c.js"></script>
+      )
+    }
 
     <ClientRouter />
 
@@ -139,6 +154,14 @@ export const prerender = true;
 
     <!-- In-content ad unit -->
     <div id="container-2c7f01448830b9b735e860eae53f833a"></div>
-    <script async="async" data-cfasync="false" is:inline src="https://pl30713633.effectivecpmnetwork.com/2c7f01448830b9b735e860eae53f833a/invoke.js"></script>
+
+
+     {
+      process.env.NODE_ENV === "production" && (
+      
+        <script async="async" data-cfasync="false" is:inline src="https://pl30713633.effectivecpmnetwork.com/2c7f01448830b9b735e860eae53f833a/invoke.js"></script>
+
+      )
+    }
   </body>
 </html>

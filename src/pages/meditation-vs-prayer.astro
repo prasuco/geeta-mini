@@ -1,0 +1,232 @@
+---
+import { getEntry } from "astro:content";
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+import MailCTA from "../components/MailCTA.astro";
+
+export const prerender = true;
+
+const v635 = await getEntry("sloks", "6/35");
+const v647 = await getEntry("sloks", "6/47");
+const v126 = await getEntry("sloks", "12/6");
+const v1866 = await getEntry("sloks", "18/66");
+---
+
+<BaseHead
+  title="Meditation vs Prayer: What the Bhagavad Gita Actually Says"
+  description="Does the Bhagavad Gita teach meditation or prayer? Read Krishna's actual teaching on dhyana (meditation) vs bhakti (devotion), with the original Sanskrit verses and their meaning."
+>
+  <MobileLayout>
+    <article class="max-w-3xl mx-auto px-4 py-8 space-y-10">
+      <header class="space-y-4">
+        <p class="text-sm font-medium text-orange-600 uppercase tracking-wider">
+          Bhagavad Gita · Chapter 6 (Dhyana Yoga) &amp; Chapter 12 (Bhakti Yoga)
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 font-serif leading-tight">
+          Meditation vs Prayer: What the Bhagavad Gita Actually Says
+        </h1>
+        <p class="text-lg text-gray-500 leading-relaxed">
+          The Gita is often called a manual for both meditation and devotion.
+          But Krishna draws a clear line between them — and the answer depends
+          on where you are in your practice. Here is what the original Sanskrit
+          actually teaches.
+        </p>
+      </header>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          The short answer
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          Meditation (dhyana) is the discipline that trains the restless mind;
+          prayer and devotion (bhakti) are what meditation is ultimately for.
+          Krishna doesn't ask you to choose one — he describes meditation as the
+          path, and devotion as the goal. Both are means to the same end:
+          a steady mind fixed on the Supreme.
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          The mind is the real obstacle
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          When Arjuna asks how anyone could control the restless mind, Krishna's
+          reply is the Gita's core teaching on meditation:
+        </p>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit">
+            {v635?.data.text.replaceAll("\n", " ")}
+          </p>
+          <p class="text-sm italic text-gray-500 leading-loose">
+            {v635?.data.transliteration.replaceAll("\n", " ")}
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            "The mind is indeed restless and hard to control. But by practice
+            (abhyasa) and detachment (vairagya), it can be tamed."
+            — Bhagavad Gita 6.35
+          </p>
+          <a
+            href="/6/35/"
+            class="inline-block text-sm font-medium text-orange-600 hover:underline"
+          >
+            Read the full verse with word meanings →
+          </a>
+        </blockquote>
+        <p class="text-gray-500 leading-relaxed">
+          This is meditation in the Gita's sense: not emptying the head, but
+          steadying it. The two tools Krishna names are{" "}
+          <strong>practice</strong> (returning the mind again and again) and{" "}
+          <strong>detachment</strong> (not being dragged by whatever arises).
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          Where prayer fits in
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          Krishna then crowns the chapter of meditation with a surprising
+          verse — the highest meditator is not the one with the strongest
+          concentration, but the one who meditates with faith and devotion:
+        </p>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit">
+            {v647?.data.text.replaceAll("\n", " ")}
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            "Of all yogis, the one who worships Me with inner devotion and faith
+            is the most perfectly united with Me."
+            — Bhagavad Gita 6.47
+          </p>
+          <a
+            href="/6/47/"
+            class="inline-block text-sm font-medium text-orange-600 hover:underline"
+          >
+            Read the full verse →
+          </a>
+        </blockquote>
+        <p class="text-gray-500 leading-relaxed">
+          In the same way, Chapter 12 — Bhakti Yoga — opens by comparing
+          those who meditate on the formless with those who devote themselves in
+          love. Krishna's practical advice for most people is the devotional
+          route:
+        </p>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit">
+            {v126?.data.text.replaceAll("\n", " ")}
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            "Those who dedicate all actions to Me and meditate on Me with
+            undivided devotion — I swiftly deliver them from the ocean of
+            repeated birth and death."
+            — Bhagavad Gita 12.6
+          </p>
+          <a
+            href="/12/6/"
+            class="inline-block text-sm font-medium text-orange-600 hover:underline"
+          >
+            Read the full verse →
+          </a>
+        </blockquote>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          A practical way to combine them
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          The Gita's own answer is a rhythm, not a either/or:
+        </p>
+        <ol class="space-y-3 list-decimal list-inside text-gray-500 leading-relaxed">
+          <li>
+            <strong>Practice daily</strong> — even a few minutes of steadying
+            the mind (Gita 6.35), the way the{" "}
+            <a href="/6/" class="text-orange-600 hover:underline">sixth chapter</a>{" "}
+            describes.
+          </li>
+          <li>
+            <strong>Pray with all actions</strong> — offer your work rather than
+            only your words (Chapter 12). This is devotion you can do while
+            doing anything else.
+          </li>
+          <li>
+            <strong>End with surrender</strong> — the famous final verse of the
+            Gita:
+          </li>
+        </ol>
+        <blockquote class="bg-orange-50/40 rounded-2xl p-6 space-y-3">
+          <p class="text-2xl md:text-3xl leading-relaxed font-medium text-sanskrit">
+            {v1866?.data.text.replaceAll("\n", " ")}
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            "Abandon all varieties of duty and surrender to Me alone. I will
+            free you from all sins — do not grieve."
+            — Bhagavad Gita 18.66
+          </p>
+          <a
+            href="/18/66/"
+            class="inline-block text-sm font-medium text-orange-600 hover:underline"
+          >
+            Read the full verse →
+          </a>
+        </blockquote>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-gray-900 font-serif">
+          Study these verses deeply
+        </h2>
+        <p class="text-gray-500 leading-relaxed">
+          Read each verse with the original Sanskrit, word-by-word meanings,
+          multiple translations and commentaries:
+        </p>
+        <ul class="space-y-2 text-gray-500">
+          <li>
+            ·{" "}
+            <a href="/6/35/" class="text-orange-600 hover:underline">
+              Bhagavad Gita 6.35
+            </a>{" "}
+            — how to tame the restless mind
+          </li>
+          <li>
+            ·{" "}
+            <a href="/6/47/" class="text-orange-600 hover:underline">
+              Bhagavad Gita 6.47
+            </a>{" "}
+            — the highest meditator
+          </li>
+          <li>
+            ·{" "}
+            <a href="/12/6/" class="text-orange-600 hover:underline">
+              Bhagavad Gita 12.6
+            </a>{" "}
+            — meditation merged with devotion
+          </li>
+          <li>
+            ·{" "}
+            <a href="/18/66/" class="text-orange-600 hover:underline">
+              Bhagavad Gita 18.66
+            </a>{" "}
+            — the closing call to surrender
+          </li>
+        </ul>
+        <p class="text-gray-500 leading-relaxed">
+          Or study the full chapters:{" "}
+          <a href="/6/" class="text-orange-600 hover:underline">
+            Chapter 6 — Dhyana Yoga (Path of Meditation)
+          </a>{" "}
+          and{" "}
+          <a href="/12/" class="text-orange-600 hover:underline">
+            Chapter 12 — Bhakti Yoga (The Yoga of Devotion)
+          </a>
+          .
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <MailCTA />
+      </div>
+    </article>
+  </MobileLayout>
+</BaseHead>

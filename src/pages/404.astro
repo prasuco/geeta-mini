@@ -1,0 +1,47 @@
+---
+import BaseHead from "../base/BaseHead.astro";
+import MobileLayout from "../base/layouts/MobileLayout.astro";
+
+export const prerender = true;
+---
+
+<BaseHead
+  title="Page Not Found | Geeta.Prasuco.com"
+  description="The Bhagavad Gita page you're looking for doesn't exist. Browse all 18 chapters, 700 verses with Sanskrit, meanings and commentary."
+  robots="noindex"
+>
+  <MobileLayout>
+    <div class="min-h-[60vh] flex flex-col items-center justify-center px-6 text-center">
+      <span class="text-7xl mb-6" aria-hidden="true">🕉</span>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 font-serif mb-3">
+        This page has been lost
+      </h1>
+      <p class="text-gray-500 text-lg max-w-md leading-relaxed mb-8">
+        The verse or page you were looking for doesn't exist. The Gita's wisdom
+        is still here — start with a chapter below.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <a
+          href="/"
+          class="px-6 py-3 rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-orange-600 transition-colors"
+        >
+          Browse all chapters
+        </a>
+        <a
+          href="/geeta-mail"
+          class="px-6 py-3 rounded-full bg-orange-50 text-orange-600 text-sm font-medium hover:bg-orange-100 transition-colors"
+        >
+          Get a daily Gita teaching
+        </a>
+      </div>
+      <p class="mt-8 text-sm text-gray-400">
+        Popular verses:{" "}
+        <a href="/2/47/" class="text-orange-600 hover:underline">2.47</a>
+        {" · "}
+        <a href="/18/66/" class="text-orange-600 hover:underline">18.66</a>
+        {" · "}
+        <a href="/3/35/" class="text-orange-600 hover:underline">3.35</a>
+      </p>
+    </div>
+  </MobileLayout>
+</BaseHead>

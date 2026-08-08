@@ -1,8 +1,7 @@
 ---
 import { getCollection, getEntry } from "astro:content";
-import BaseHead from "../../../base/BaseHead.astro";
-import MobileLayout from "../../../base/layouts/MobileLayout.astro";
-import Generator from "../../../components/Generator";
+import EditorLayout from "../../../base/layouts/EditorLayout.astro";
+import Editor from "../../../components/generator/Editor";
 
 export const prerender = true;
 
@@ -26,16 +25,27 @@ const translations = (
   )
 )?.data;
 
-const defaultTranslation = translations?.[0]?.description || "";
+const translationOptions = (translations || [])
+  .filter((t) => t.description)
+  .map((t, i) => ({
+    id: t.author_id ?? i,
+    label: t.lang === "hindi" ? "हिन्दी" : "English",
+    description: t.description,
+  }));
+
+const defaultTranslation = translationOptions[0]?.description || "";
+const title = `Bhagavad Gita ${slok.data.chapter_number}.${slok.data.verse_number} — Make a Quote Image`;
 ---
 
-<BaseHead title={`Post Generator - Chapter ${slok.data.chapter_number}.${slok.data.verse_number}`} description="Create a beautiful social media post for this Geeta verse.">
-  <MobileLayout>
-    <Generator 
+<EditorLayout
+  title={title}
+  description="Design a beautiful shareable social media image for this Bhagavad Gita verse — custom format, colors, fonts, and photo backgrounds."
+>
+  <Editor
     client:load
-      sanskrit={slok.data.text} 
-      translation={defaultTranslation}
-      reference={`Chapter ${slok.data.chapter_number}.${slok.data.verse_number}`}
-    />
-  </MobileLayout>
-</BaseHead>
+    sanskrit={slok.data.text}
+    translation={defaultTranslation}
+    reference={`${slok.data.chapter_number}.${slok.data.verse_number}`}
+    translationOptions={translationOptions}
+  />
+</EditorLayout>

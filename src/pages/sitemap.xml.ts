@@ -6,7 +6,8 @@ const site = "https://geeta.prasuco.com";
 export const prerender = true;
 
 function url(loc: string, priority?: string): string {
-  return `<url><loc>${site}${loc}</loc>${priority ? `<priority>${priority}</priority>` : ""}</url>`;
+  const normalized = loc !== "/" && !loc.endsWith("/") ? `${loc}/` : loc;
+  return `<url><loc>${site}${normalized}</loc>${priority ? `<priority>${priority}</priority>` : ""}</url>`;
 }
 
 export const GET: APIRoute = async () => {
@@ -21,6 +22,9 @@ export const GET: APIRoute = async () => {
     ["/bhagavad-gita-app", "0.7"],
     ["/bhagavad-gita-chapter-summaries", "0.7"],
     ["/srimadgita-alternative", "0.5"],
+    ["/meditation-vs-prayer", "0.7"],
+    ["/daily-bhagavad-gita-email", "0.7"],
+    ["/bhagavad-gita-in-hindi", "0.7"],
   ];
 
   const chapterUrls = chapters

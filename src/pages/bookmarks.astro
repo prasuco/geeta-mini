@@ -60,7 +60,7 @@ export const prerender = true;
     }
 
     bookmarksList.innerHTML = bookmarks.map((b: any) => `
-      <a href="/${b.chapter}/${b.verse}" class="block p-4 bg-white border rounded-lg hover:bg-orange-50 transition">
+      <a href="/${b.chapter}/${b.verse}/" class="block p-4 bg-white border rounded-lg hover:bg-orange-50 transition">
         <div class="flex items-center justify-between">
           <span class="font-semibold">Chapter ${b.chapter}, Verse ${b.verse}</span>
           <button class="delete-bookmark text-red-400 hover:text-red-600" data-key="${b.key}">
